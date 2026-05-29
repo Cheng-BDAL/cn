@@ -1,4 +1,4 @@
----
+﻿---
 layout: archive  # 选择一个适合的布局，如 'page' 或者 'default'
 permalink: /students/
 title: ""
@@ -355,7 +355,7 @@ author_profile: true  # 可选，视需要是否显示作者信息
     <td>
       <img src="https://cheng-bdal.github.io//images/头像/郑浩.jpg" alt="郑皓"><br>
       郑皓<br>
-      2025届硕士<br>
+      2026届硕士<br>
       山东大学，数学学院本科<br>
       2023103362 at ruc dot edu dot cn
     </td>
