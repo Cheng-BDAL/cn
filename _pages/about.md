@@ -44,7 +44,7 @@ Hi大家好，我是孟澄，现在是中国人民大学（RUC）统计与大数
 
 - （2026年5月）恭喜孟澄参与的项目《构建全员新型书院体系，打造“三跨三交三学”未来人才培养新生态》获得北京市高等教育教学成果奖二等奖！[链接](https://mp.weixin.qq.com/s/tblNY71IJZHax3ybNhkG0A)
 
-- （2026年4月）恭喜王涛、杜承朔、欧阳夏雪、林俊一，4位同学荣获全国工业统计学教学研究会青年统计学家协会暨首届“茆诗松统计教育博士生论坛”travel award！[链接](https://mp.weixin.qq.com/s?__biz=MzI0NTE1MDk4Mg==&mid=2247493720&idx=1&sn=33806c9917daa341d2b28715e7154461)
+- （2026年4月）恭喜王涛、杜承朔、欧阳夏雪、林俊一，4位同学荣获全国工业统计学教学研究会青年统计学家协会暨首届“茆诗松统计教育博士生论坛”Travel Award！[链接](https://mp.weixin.qq.com/s?__biz=MzI0NTE1MDk4Mg==&mid=2247493720&idx=1&sn=33806c9917daa341d2b28715e7154461)
 
 - （2026年3月）恭喜薛敦耀等的论文《Core-elements Subsampling for Alternating Least Squares》被JCGS接受！这是组里第10篇研究院1B类期刊！[链接](https://mp.weixin.qq.com/s?__biz=MzI0NTE1MDk4Mg==&mid=2247493684&idx=1&sn=2890bbd35e47576683e9019d532ff71d&chksm=e8c4425f7136d1bed9b4acf814b19ef8179428e79e09fa51e30af3cdfa9842fd2b54290b4c16&mpshare=1&scene=1&srcid=0414OajaNWC2FQBekHecF670&sharer_shareinfo=bcb12df34a4a3d6bd935ea3dc2d09229&sharer_shareinfo_first=bcb12df34a4a3d6bd935ea3dc2d09229#rd)
 
@@ -54,7 +54,7 @@ Hi大家好，我是孟澄，现在是中国人民大学（RUC）统计与大数
 
 - （2026年1月）恭喜欧阳夏雪等的论文《Sparsification Techniques for Large-scale Optimal Transport Problems》被WIREs Computational Statistics接受，并被知名统计公众号“统计之都”宣传报道！[链接](https://mp.weixin.qq.com/s/f_F0dMu3QbU_GCBHDJIv4A)
 
-- （2026年1月） 恭喜林俊一、薛敦耀等的论文《An Efficient SE(p)- Invariant Transport Metric Driven by Polar Transport Discrepancy-based Representation》被ICLR接受，并被知名AI公众号“机器之心”宣传报道！[链接](https://mp.weixin.qq.com/s/JMUyM_UScUCKwxmcGBlTAQ)
+- （2026年1月） 恭喜林俊一、薛敦耀等的论文《An Efficient SE(p)-Invariant Transport Metric Driven by Polar Transport Discrepancy-Based Representation》被ICLR接受，并被知名AI公众号“机器之心”宣传报道！[链接](https://mp.weixin.qq.com/s/JMUyM_UScUCKwxmcGBlTAQ)
 
 - （2026年1月） 孟澄荣获2025年华为公司中央研究院优秀技术合作项目奖！
 

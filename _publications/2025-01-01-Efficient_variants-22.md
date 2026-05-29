@@ -1,5 +1,5 @@
 ---
-title: "Efficient variants of wasserstein distance in hyperbolic space via space-filling curve projection"
+title: "Efficient Variants of Wasserstein Distance in Hyperbolic Space via Space-Filling Curve Projection"
 collection: publications
 category: manuscripts
 permalink: 'https://ieeexplore.ieee.org/document/10973297'

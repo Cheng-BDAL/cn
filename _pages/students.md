@@ -1,4 +1,4 @@
-﻿---
+---
 layout: archive  # 选择一个适合的布局，如 'page' 或者 'default'
 permalink: /students/
 title: ""

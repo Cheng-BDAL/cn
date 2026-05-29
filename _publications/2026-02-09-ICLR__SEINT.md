@@ -1,5 +1,5 @@
 ---
-title: "An Efficient SE(p)- Invariant Transport Metric Driven by Polar Transport Discrepancy-based Representation"
+title: "An Efficient SE(p)-Invariant Transport Metric Driven by Polar Transport Discrepancy-Based Representation"
 collection: publications
 category: manuscripts
 permalink: https://cheng-bdal.github.io/files/ICLR_SEINT.pdf
