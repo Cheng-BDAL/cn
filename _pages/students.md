@@ -1,4 +1,4 @@
-﻿---
+---
 layout: archive  # 选择一个适合的布局，如 'page' 或者 'default'
 permalink: /students/
 title: ""
@@ -62,7 +62,7 @@ author_profile: true  # 可选，视需要是否显示作者信息
         </td>
     <td>
           <img src="https://cheng-bdal.github.io//images/头像/欧阳夏雪.jpg" alt="Xiaxue Ouyang"><br>
-          欧阳夏雪<br>
+          欧阳夏雪<a href="https://xiaxueouyang2001.github.io/">Github</a><br>
           2023级博士 <br>
           合作导师：何珂俊副教授<br>
           武汉大学，数学与统计学院本科<br>
@@ -373,5 +373,6 @@ author_profile: true  # 可选，视需要是否显示作者信息
 - 魏夕童（硕士，2022届，美团）
 - 林殿钧（硕士，2022届，宾夕法尼亚州立大学博士生）
 - 王鑫（硕士，2022届，华盛顿大学博士生）
+
 
 

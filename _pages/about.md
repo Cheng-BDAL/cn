@@ -40,6 +40,8 @@ Hi大家好，我是孟澄，现在是中国人民大学（RUC）统计与大数
 
 最新动态
 =====
+- （2026年5月）恭喜林俊一等的论文《Sparsification Subsampling for Partial Least Squares Regression》被 Journal of Computational and Graphical Statistics 接受！这是组里第11篇研究院1B类期刊！
+
 - （2026年5月）恭喜康欣来、薛敦耀、王政博、杜承朔等的论文《Breaking the Echo Chamber: A Dynamic Ensemble Pruning Perspective on MoE》被ICML接受，并被知名机器学习公众号“机器之心”宣传报道！[链接](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651034543&idx=2&sn=8c0a91d51644de87618d0cdd9585429d)
 
 - （2026年5月）恭喜孟澄参与的项目《构建全员新型书院体系，打造“三跨三交三学”未来人才培养新生态》获得北京市高等教育教学成果奖二等奖！[链接](https://mp.weixin.qq.com/s/tblNY71IJZHax3ybNhkG0A)
@@ -48,7 +50,7 @@ Hi大家好，我是孟澄，现在是中国人民大学（RUC）统计与大数
 
 - （2026年3月）恭喜薛敦耀等的论文《Core-elements Subsampling for Alternating Least Squares》被JCGS接受！这是组里第10篇研究院1B类期刊！[链接](https://mp.weixin.qq.com/s?__biz=MzI0NTE1MDk4Mg==&mid=2247493684&idx=1&sn=2890bbd35e47576683e9019d532ff71d&chksm=e8c4425f7136d1bed9b4acf814b19ef8179428e79e09fa51e30af3cdfa9842fd2b54290b4c16&mpshare=1&scene=1&srcid=0414OajaNWC2FQBekHecF670&sharer_shareinfo=bcb12df34a4a3d6bd935ea3dc2d09229&sharer_shareinfo_first=bcb12df34a4a3d6bd935ea3dc2d09229#rd)
 
-- （2026年3月）祝贺薛敦耀入选2025-2026学年中国人民大学“拔尖创新人才培育资助计划”！[链接](https://grs.ruc.edu.cn/info/1033/3326.htm)
+- （2026年3月）祝贺薛敦耀入选2025-2026学年中国人民大学“拔尖创新人才培育资助计划”！
 
 - （2026年3月）祝贺朱珺和孟澄参与的“析锂在线检测”难题荣获华为“难题揭榜”第131期火花奖！[链接](https://mp.weixin.qq.com/s/aECgm4y8pQs_ImBtHJ-7Pw)
 
@@ -118,3 +120,4 @@ Hi大家好，我是孟澄，现在是中国人民大学（RUC）统计与大数
 - （2024年10月）祝贺李梦雨荣获中国工业与应用数学学会第22届年会优秀墙报奖! [链接](https://mp.weixin.qq.com/s/ffKNLItqx5vv-P0r3Yd2QQ)
 
 - （2024年9月）BDAL-RUC主页正式上线！主页维护：杜承朔，向智鹏。 
+
