@@ -40,6 +40,8 @@ Hi大家好，我是孟澄，现在是中国人民大学（RUC）统计与大数
 
 最新动态
 =====
+- （2026年6月）祝贺黄君烈主持申报的“求索育研”项目获批立项！[链接](https://mp.weixin.qq.com/s/RctY4tEAfXxE1zw6Io4I-g)
+
 - （2026年6月）祝贺王涛、黄君烈、薛敦耀、杜承朔申请的项目立项为2026年度统计与大数据研究院研究生科学研究基金项目（全院8位）！
 
 - （2026年5月）恭喜林俊一等的论文《Sparsification Subsampling for Partial Least Squares Regression》被 Journal of Computational and Graphical Statistics 接受！这是组里第11篇研究院1B类期刊！
