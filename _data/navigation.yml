@@ -26,6 +26,9 @@ main:
   - title: "简历"
     url: /cv/
 
+  - title: "招生说明"
+    url: /admissions/
+
   - title: "合影"
     url: /photos/
 

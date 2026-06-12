@@ -44,7 +44,7 @@ Hi大家好，我是孟澄，现在是中国人民大学（RUC）统计与大数
 
 - （2026年6月）祝贺王涛、黄君烈、薛敦耀、杜承朔申请的项目立项为2026年度统计与大数据研究院研究生科学研究基金项目（全院8位）！
 
-- （2026年5月）恭喜林俊一等的论文《Sparsification Subsampling for Partial Least Squares Regression》被 Journal of Computational and Graphical Statistics 接受！这是组里第11篇研究院1B类期刊！
+- （2026年5月）恭喜林俊一等的论文《Sparsification Subsampling for Partial Least Squares Regression》被 Journal of Computational and Graphical Statistics 接受！这是组里第11篇研究院1B类期刊！[链接](https://mp.weixin.qq.com/s?__biz=MzI0NTE1MDk4Mg==&mid=2247493940&idx=1&sn=3f41517b696d31773e31a21693ad8c35&chksm=e8f6112b10b60af59a6e06b2b853b016819e8df11bd3e59f74027f2f0f3b6a7008093539b5aa&mpshare=1&scene=1&srcid=0612HIgIPk4SNGTgunx3oLYC&sharer_shareinfo=9485eab15d920ade4b142f3ec70593ac&sharer_shareinfo_first=9485eab15d920ade4b142f3ec70593ac#rd)
 
 - （2026年5月）恭喜康欣来、薛敦耀、王政博、杜承朔等的论文《Breaking the Echo Chamber: A Dynamic Ensemble Pruning Perspective on MoE》被ICML接受，并被知名机器学习公众号“机器之心”宣传报道！[链接](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651034543&idx=2&sn=8c0a91d51644de87618d0cdd9585429d)
 
