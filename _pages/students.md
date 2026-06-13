@@ -39,7 +39,7 @@ author_profile: true  # 可选，视需要是否显示作者信息
   </tr>
   <tr>
     <td><img src="https://cheng-bdal.github.io//images/头像/林俊一.jpg" alt="Junyi Lin"><br>林俊一<a href="https://junyilin559.github.io/">Github</a><br>2024级博士<br>合作导师：何珂俊副教授<br>南开大学，统计与数据科学学院本科<br>junyilin at ruc dot edu dot cn</td>
-    <td><img src="https://cheng-bdal.github.io//images/头像/王沛泽.jpg" alt="Peize Wang"><br>王培泽<br>2024级博士<br>厦门大学，统计学院本科<br>wpz2024 at ruc dot edu dot cn</td>
+    <td><img src="https://cheng-bdal.github.io//images/头像/王培泽.jpg" alt="Peize Wang"><br>王培泽<br>2024级博士<br>厦门大学，统计学院本科<br>wpz2024 at ruc dot edu dot cn</td>
     <td><img src="https://cheng-bdal.github.io//images/头像/薛敦耀.jpg" alt="Dunyao Xue"><br>薛敦耀<a href="https://sapphirexdy.github.io/">Github</a><br>2024级博士<br>合作导师：代文林副教授<br>兰州大学，萃英学院本科<br>xuedunyao1202 at ruc dot edu dot cn</td>
   </tr>
   <tr>
