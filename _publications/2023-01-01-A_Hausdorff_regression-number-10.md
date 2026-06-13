@@ -1,5 +1,5 @@
 ---
-title: "A Hausdorff regression paradigm for interval privacy"
+title: "A Hausdorff Regression Paradigm for Interval Privacy"
 collection: publications
 category: manuscripts
 permalink: 'https://ieeexplore.ieee.org/abstract/document/10365205'

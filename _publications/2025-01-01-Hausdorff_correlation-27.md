@@ -1,5 +1,5 @@
 ---
-title: "Hausdorff correlation for interval-valued random objects"
+title: "Hausdorff Correlation for Interval-Valued Random Objects"
 collection: publications
 category: manuscripts
 permalink: https://link.springer.com/article/10.1007/s11222-025-10743-2

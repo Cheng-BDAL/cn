@@ -1,5 +1,5 @@
 ---
-title: "Efficient approximation of Gromov-Wasserstein distance using importance sparsification"
+title: "Efficient Approximation of Gromov-Wasserstein Distance Using Importance Sparsification"
 collection: publications
 category: manuscripts
 permalink: 'https://www.tandfonline.com/doi/full/10.1080/10618600.2023.2165500'

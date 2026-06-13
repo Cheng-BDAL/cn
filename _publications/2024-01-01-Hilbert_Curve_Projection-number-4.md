@@ -1,5 +1,5 @@
 ---
-title: "Hilbert curve projection distance for distribution comparison"
+title: "Hilbert Curve Projection Distance for Distribution Comparison"
 collection: publications
 category: manuscripts
 permalink: 'https://ieeexplore.ieee.org/abstract/document/10428036/'

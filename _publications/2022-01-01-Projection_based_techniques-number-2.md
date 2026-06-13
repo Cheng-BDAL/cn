@@ -1,5 +1,5 @@
 ---
-title: "Projection‐based techniques for high‐dimensional optimal transport problems"
+title: "Projection‐Based Techniques for High‐Dimensional Optimal Transport Problems"
 collection: publications
 category: manuscripts
 permalink: 'https://wires.onlinelibrary.wiley.com/doi/abs/10.1002/wics.1587'

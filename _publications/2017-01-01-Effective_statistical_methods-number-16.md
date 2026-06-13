@@ -1,5 +1,5 @@
 ---
-title: "Effective statistical methods for big data analytics"
+title: "Effective Statistical Methods for Big Data Analytics"
 collection: publications
 category: manuscripts
 permalink: 'https://www.igi-global.com/chapter/effective-statistical-methods-for-big-data-analytics/181110'

@@ -1,5 +1,5 @@
 ---
-title: "Scalable model-free feature screening via sliced-Wasserstein dependency"
+title: "Scalable Model-Free Feature Screening via Sliced-Wasserstein Dependency"
 collection: publications
 category: manuscripts
 permalink: 'https://www.tandfonline.com/doi/full/10.1080/10618600.2023.2183213'

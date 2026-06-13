@@ -1,5 +1,5 @@
 ---
-title: "LowCon: A design-based subsampling approach in a misspecified linear model"
+title: "LowCon: A Design-Based Subsampling Approach in a Misspecified Linear Model"
 collection: publications
 category: manuscripts
 permalink: 'https://www.tandfonline.com/doi/full/10.1080/10618600.2020.1844215'

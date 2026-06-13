@@ -1,5 +1,5 @@
 ---
-title: "Core-elements for large-scale least squares estimation"
+title: "Core-Elements for Large-Scale Least Squares Estimation"
 collection: publications
 category: manuscripts
 permalink: 'https://arxiv.org/html/2206.10240v4'

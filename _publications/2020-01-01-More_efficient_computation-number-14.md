@@ -1,5 +1,5 @@
 ---
-title: "More efficient computation of smoothing splines via space-filling basis selection"
+title: "More Efficient Computation of Smoothing Splines via Space-Filling Basis Selection"
 collection: publications
 category: manuscripts
 permalink: 'https://academic.oup.com/biomet/article-abstract/107/3/723/5831923'

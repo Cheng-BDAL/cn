@@ -1,5 +1,5 @@
 ---
-title: "Sufficient dimension reduction for classification using principal optimal transport direction"
+title: "Sufficient Dimension Reduction for Classification Using Principal Optimal Transport Direction"
 collection: publications
 category: conferences
 permalink: 'https://proceedings.neurips.cc/paper/2020/hash/29586cb449c90e249f1f09a0a4ee245a-Abstract.html'

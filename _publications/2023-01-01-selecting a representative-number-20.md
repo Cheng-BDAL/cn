@@ -1,5 +1,5 @@
 ---
-title: "An optimal transport approach for selecting a representative subsample with application in efficient kernel density estimation"
+title: "An Optimal Transport Approach for Selecting a Representative Subsample with Application in Efficient Kernel Density Estimation"
 collection: publications
 category: manuscripts
 permalink: 'https://www.tandfonline.com/doi/abs/10.1080/10618600.2022.2084404'

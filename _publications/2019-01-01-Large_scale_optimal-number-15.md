@@ -1,5 +1,5 @@
 ---
-title: "Large-scale optimal transport map estimation using projection pursuit"
+title: "Large-Scale Optimal Transport Map Estimation Using Projection Pursuit"
 collection: publications
 category: conferences
 permalink: 'https://proceedings.neurips.cc/paper/2019/hash/4bbbe6cb5982b9110413c40f3cce680b-Abstract.html'

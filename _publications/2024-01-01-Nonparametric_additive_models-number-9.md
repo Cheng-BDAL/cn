@@ -1,5 +1,5 @@
 ---
-title: "Nonparametric additive models for billion observations"
+title: "Nonparametric Additive Models for Billion Observations"
 collection: publications
 category: manuscripts
 permalink: 'https://www.tandfonline.com/doi/full/10.1080/10618600.2024.2319684'

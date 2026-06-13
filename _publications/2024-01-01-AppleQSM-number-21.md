@@ -1,5 +1,5 @@
 ---
-title: "AppleQSM: geometry-based 3D characterization of apple tree architecture in orchards"
+title: "AppleQSM: Geometry-Based 3D Characterization of Apple Tree Architecture in Orchards"
 collection: publications
 category: manuscripts
 permalink: 'https://spj.science.org/doi/full/10.34133/plantphenomics.0179'
