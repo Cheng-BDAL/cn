@@ -6,6 +6,9 @@ author_profile: true
 ---
 
 <style>
+.archive .page__title {
+  display: none;
+}
 .archive p {
   line-height: 1.75;
   margin-bottom: 1rem;
