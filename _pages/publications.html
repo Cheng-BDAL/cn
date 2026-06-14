@@ -84,18 +84,14 @@ author_profile: true
   .research-line-card--random_objects { border-left-color: #a15c38; }
   .research-line-card--alignment { border-left-color: #2f6b3f; }
   .research-line-card--applications_ai { border-left-color: #a07a18; }
-  .featured-work {
-    margin: 0.9rem 0 1.6rem;
-    padding: 0.85rem 0.95rem;
-    border: 1px solid #e5e0da;
-    border-radius: 8px;
-    background: #fff;
+  .research-highlights {
+    margin-top: 0.7rem;
   }
-  .featured-work strong {
-    display: block;
-    margin-bottom: 0.5rem;
+  .research-highlights strong {
+    display: inline-block;
+    margin: 0 0.45rem 0.35rem 0;
   }
-  .featured-work span {
+  .research-highlights span {
     display: inline-block;
     margin: 0 0.35rem 0.35rem 0;
     padding: 0.16rem 0.48rem;
@@ -213,6 +209,15 @@ author_profile: true
 <section class="research-hero">
   <h1>BDAL-RUC 科研主线</h1>
   <p>我们围绕大规模统计计算、最优传输几何、空间填充曲线、随机对象、跨域软对齐以及工业与 AI 系统中的统计方法展开研究，目标是在理论可解释性和真实计算效率之间建立可复用的方法框架。</p>
+  <div class="research-highlights">
+    <strong>代表性工作</strong>
+    <span>SparSink</span>
+    <span>HCPD / Hyperbolic SFC</span>
+    <span>POTD / KPOTD / SSP-Ensemble</span>
+    <span>Core-Elements</span>
+    <span>SEINT</span>
+    <span>MP-MoE</span>
+  </div>
 </section>
 
 <p class="publication-note">下划线作者代表 BDAL-RUC 团队成员，* 代表通讯作者。</p>
@@ -254,17 +259,7 @@ author_profile: true
   </a>
 </div>
 
-<div class="featured-work">
-  <strong>代表性工作</strong>
-  <span>SparSink</span>
-  <span>HCPD / Hyperbolic SFC</span>
-  <span>POTD / KPOTD / SSP-Ensemble</span>
-  <span>Core-Elements</span>
-  <span>SEINT</span>
-  <span>MP-MoE</span>
-</div>
-
-{% assign research_lines = "subsampling|hilbert|optimal_transport|random_objects|alignment|applications_ai" | split: "|" %}
+{% assign research_lines = "subsampling|hilbert|optimal_transport|random_objects|alignment|applications_ai|review|related" | split: "|" %}
 
 {% for line in research_lines %}
   {% assign line_publications = publications | where: "research_line", line %}
@@ -288,6 +283,12 @@ author_profile: true
       {% when "applications_ai" %}
         {% assign line_title = "工业与 AI 系统中的统计方法" %}
         {% assign line_intro = "这一主线面向真实应用场景，把统计计算、几何建模和功能单元选择转化为可部署算法。" %}
+      {% when "review" %}
+        {% assign line_title = "背景综述" %}
+        {% assign line_intro = "这些论文作为研究背景入口，帮助读者理解大规模子抽样、投影最优传输和最优传输稀疏化的技术谱系。" %}
+      {% when "related" %}
+        {% assign line_title = "相关论文与应用合作" %}
+        {% assign line_intro = "这些工作与团队研究、应用合作或统计学习场景相关，但不强行归入核心科研主线。" %}
     {% endcase %}
 
     <h2 id="line-{{ line }}" class="publication-line">{{ line_title }}</h2>

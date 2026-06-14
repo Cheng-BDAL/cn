@@ -6,7 +6,7 @@ permalink: 'https://www.igi-global.com/article/modern-subsampling-methods-for-la
 excerpt: '<u>Tao Li</u>, <u>Cheng Meng<sup>*</sup></u>'
 date: 2021-01-01
 venue: 'International Journal of Cyber-Physical Systems'
-research_line: "subsampling"
+research_line: "review"
 research_tags: ["Subsampling", "Review"]
 paperurl: 'https://cheng-bdal.github.io/files/Modern Subsampling Methods.pdf'
 ---
