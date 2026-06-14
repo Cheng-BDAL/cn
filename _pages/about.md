@@ -48,6 +48,41 @@ Hi大家好，我是孟澄，现在是中国人民大学（RUC）统计与大数
     font-size: 0.9rem;
   }
 
+  .news-list {
+    display: grid;
+    gap: 0.75rem;
+    margin: 0.2rem 0 1rem;
+  }
+  .news-card {
+    padding: 0.75rem 0.85rem;
+    border: 1px solid #e7e0da;
+    border-left: 3px solid #8b1e2d;
+    border-radius: 6px;
+    background: #fbfaf8;
+  }
+  .news-card p {
+    margin: 0.35rem 0 0;
+  }
+  .news-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    align-items: center;
+    font-size: 0.75rem;
+    letter-spacing: 0;
+  }
+  .news-date {
+    color: #555;
+    font-weight: 700;
+  }
+  .news-tag {
+    padding: 0.08rem 0.38rem;
+    border-radius: 999px;
+    background: #f0e8e1;
+    color: #8b1e2d;
+    font-weight: 700;
+  }
+
   .news-more {
     margin-top: 0.75rem;
   }
@@ -81,25 +116,48 @@ Hi大家好，我是孟澄，现在是中国人民大学（RUC）统计与大数
 最新动态
 =====
 
-- （2026年6月）祝贺朱珺等的论文《SSP-Ensemble: A Sufficient Subspace Projection Ensemble for Multiclass Classification》和王培泽等的论文《KPOTD: Kernel Principal Optimal Transport Directions for Nonlinear Sufficient Dimension Reduction》被第一届统计顶会STAI-X接受！
-
-- （2026年6月）祝贺黄君烈主持的《基于统计学的高精度故障预警算法研究》项目获批中国人民大学明理书院“求索育研”项目立项！[链接](https://mp.weixin.qq.com/s/RctY4tEAfXxE1zw6Io4I-g)
-
-- （2026年6月）祝贺王涛、黄君烈、薛敦耀、杜承朔申请的项目立项为2026年度统计与大数据研究院研究生科学研究基金项目（全院8位）！
-
-- （2026年5月）恭喜林俊一等的论文《Sparsification Subsampling for Partial Least Squares Regression》被 Journal of Computational and Graphical Statistics 接受！这是组里第11篇研究院1B类期刊！[链接](https://mp.weixin.qq.com/s?__biz=MzI0NTE1MDk4Mg==&mid=2247493940&idx=1&sn=3f41517b696d31773e31a21693ad8c35&chksm=e8f6112b10b60af59a6e06b2b853b016819e8df11bd3e59f74027f2f0f3b6a7008093539b5aa&mpshare=1&scene=1&srcid=0612HIgIPk4SNGTgunx3oLYC&sharer_shareinfo=9485eab15d920ade4b142f3ec70593ac&sharer_shareinfo_first=9485eab15d920ade4b142f3ec70593ac#rd)
-
-- （2026年5月）恭喜康欣来、薛敦耀、王政博、杜承朔等的论文《Breaking the Echo Chamber: A Dynamic Ensemble Pruning Perspective on MoE》被ICML接受，并被知名机器学习公众号“机器之心”宣传报道！[链接](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651034543&idx=2&sn=8c0a91d51644de87618d0cdd9585429d)
-
-- （2026年5月）恭喜孟澄参与的项目《构建全员新型书院体系，打造“三跨三交三学”未来人才培养新生态》获得北京市高等教育教学成果奖二等奖！[链接](https://mp.weixin.qq.com/s/tblNY71IJZHax3ybNhkG0A)
-
-- （2026年4月）恭喜王涛、杜承朔、欧阳夏雪、林俊一，4位同学荣获全国工业统计学教学研究会青年统计学家协会暨首届“茆诗松统计教育博士生论坛”Travel Award！[链接](https://mp.weixin.qq.com/s?__biz=MzI0NTE1MDk4Mg==&mid=2247493720&idx=1&sn=33806c9917daa341d2b28715e7154461)
-
-- （2026年3月）恭喜薛敦耀等的论文《Core-elements Subsampling for Alternating Least Squares》被JCGS接受！这是组里第10篇研究院1B类期刊！[链接](https://mp.weixin.qq.com/s?__biz=MzI0NTE1MDk4Mg==&mid=2247493684&idx=1&sn=2890bbd35e47576683e9019d532ff71d&chksm=e8c4425f7136d1bed9b4acf814b19ef8179428e79e09fa51e30af3cdfa9842fd2b54290b4c16&mpshare=1&scene=1&srcid=0414OajaNWC2FQBekHecF670&sharer_shareinfo=bcb12df34a4a3d6bd935ea3dc2d09229&sharer_shareinfo_first=bcb12df34a4a3d6bd935ea3dc2d09229#rd)
-
-- （2026年3月）祝贺薛敦耀入选2025-2026学年中国人民大学“拔尖创新人才培育资助计划”！
-
-- （2026年3月）祝贺朱珺和孟澄参与的“析锂在线检测”难题荣获华为“难题揭榜”第131期火花奖！[链接](https://mp.weixin.qq.com/s/aECgm4y8pQs_ImBtHJ-7Pw)
+<div class="news-list">
+  <article class="news-card">
+    <div class="news-meta"><span class="news-date">2026年6月</span><span class="news-tag">会议录用</span></div>
+    <p><strong>BDAL-RUC 两篇工作将亮相 STAI-X。</strong> 祝贺朱珺等的论文《SSP-Ensemble: A Sufficient Subspace Projection Ensemble for Multiclass Classification》和王培泽等的论文《KPOTD: Kernel Principal Optimal Transport Directions for Nonlinear Sufficient Dimension Reduction》被第一届统计顶会 STAI-X 接受！</p>
+  </article>
+  <article class="news-card">
+    <div class="news-meta"><span class="news-date">2026年6月</span><span class="news-tag">项目立项</span></div>
+    <p><strong>明理书院“求索育研”项目再添新题。</strong> 祝贺黄君烈主持的《基于统计学的高精度故障预警算法研究》项目获批中国人民大学明理书院“求索育研”项目立项！<a href="https://mp.weixin.qq.com/s/RctY4tEAfXxE1zw6Io4I-g">链接</a></p>
+  </article>
+  <article class="news-card">
+    <div class="news-meta"><span class="news-date">2026年6月</span><span class="news-tag">科研基金</span></div>
+    <p><strong>四项学生科研项目获得研究院支持。</strong> 祝贺王涛、黄君烈、薛敦耀、杜承朔申请的项目立项为 2026 年度统计与大数据研究院研究生科学研究基金项目（全院 8 位）！</p>
+  </article>
+  <article class="news-card">
+    <div class="news-meta"><span class="news-date">2026年5月</span><span class="news-tag">期刊论文</span></div>
+    <p><strong>组里 JCGS 论文列表继续刷新。</strong> 恭喜林俊一等的论文《Sparsification Subsampling for Partial Least Squares Regression》被 Journal of Computational and Graphical Statistics 接受！这是组里第 11 篇研究院 1B 类期刊！<a href="https://mp.weixin.qq.com/s?__biz=MzI0NTE1MDk4Mg==&mid=2247493940&idx=1&sn=3f41517b696d31773e31a21693ad8c35&chksm=e8f6112b10b60af59a6e06b2b853b016819e8df11bd3e59f74027f2f0f3b6a7008093539b5aa&mpshare=1&scene=1&srcid=0612HIgIPk4SNGTgunx3oLYC&sharer_shareinfo=9485eab15d920ade4b142f3ec70593ac&sharer_shareinfo_first=9485eab15d920ade4b142f3ec70593ac#rd">链接</a></p>
+  </article>
+  <article class="news-card">
+    <div class="news-meta"><span class="news-date">2026年5月</span><span class="news-tag">会议录用</span></div>
+    <p><strong>关于 MoE 的新工作被 ICML 2026 接受。</strong> 恭喜康欣来、薛敦耀、王政博、杜承朔等的论文《Breaking the Echo Chamber: A Dynamic Ensemble Pruning Perspective on MoE》被 ICML 接受，并被知名机器学习公众号“机器之心”宣传报道！<a href="https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651034543&idx=2&sn=8c0a91d51644de87618d0cdd9585429d">链接</a></p>
+  </article>
+  <article class="news-card">
+    <div class="news-meta"><span class="news-date">2026年5月</span><span class="news-tag">教学成果</span></div>
+    <p><strong>人才培养项目获得北京市级认可。</strong> 恭喜孟澄参与的项目《构建全员新型书院体系，打造“三跨三交三学”未来人才培养新生态》获得北京市高等教育教学成果奖二等奖！<a href="https://mp.weixin.qq.com/s/tblNY71IJZHax3ybNhkG0A">链接</a></p>
+  </article>
+  <article class="news-card">
+    <div class="news-meta"><span class="news-date">2026年4月</span><span class="news-tag">学生荣誉</span></div>
+    <p><strong>四位同学在博士生论坛中获奖。</strong> 恭喜王涛、杜承朔、欧阳夏雪、林俊一荣获全国工业统计学教学研究会青年统计学家协会暨首届“茆诗松统计教育博士生论坛”Travel Award！<a href="https://mp.weixin.qq.com/s?__biz=MzI0NTE1MDk4Mg==&mid=2247493720&idx=1&sn=33806c9917daa341d2b28715e7154461">链接</a></p>
+  </article>
+  <article class="news-card">
+    <div class="news-meta"><span class="news-date">2026年3月</span><span class="news-tag">期刊论文</span></div>
+    <p><strong>Core-elements subsampling 工作被 JCGS 接受。</strong> 恭喜薛敦耀等的论文《Core-elements Subsampling for Alternating Least Squares》被 JCGS 接受！这是组里第 10 篇研究院 1B 类期刊！<a href="https://mp.weixin.qq.com/s?__biz=MzI0NTE1MDk4Mg==&mid=2247493684&idx=1&sn=2890bbd35e47576683e9019d532ff71d&chksm=e8c4425f7136d1bed9b4acf814b19ef8179428e79e09fa51e30af3cdfa9842fd2b54290b4c16&mpshare=1&scene=1&srcid=0414OajaNWC2FQBekHecF670&sharer_shareinfo=bcb12df34a4a3d6bd935ea3dc2d09229&sharer_shareinfo_first=bcb12df34a4a3d6bd935ea3dc2d09229#rd">链接</a></p>
+  </article>
+  <article class="news-card">
+    <div class="news-meta"><span class="news-date">2026年3月</span><span class="news-tag">人才计划</span></div>
+    <p><strong>薛敦耀入选学校拔尖创新人才培育资助计划。</strong> 祝贺薛敦耀入选 2025-2026 学年中国人民大学“拔尖创新人才培育资助计划”！</p>
+  </article>
+  <article class="news-card">
+    <div class="news-meta"><span class="news-date">2026年3月</span><span class="news-tag">产业合作</span></div>
+    <p><strong>团队再次获得华为“火花奖”。</strong> 祝贺朱珺和孟澄参与的“析锂在线检测”难题荣获华为“难题揭榜”第 131 期火花奖！<a href="https://mp.weixin.qq.com/s/aECgm4y8pQs_ImBtHJ-7Pw">链接</a></p>
+  </article>
+</div>
 
 <details class="news-more" markdown="1">
   <summary>更多动态</summary>
