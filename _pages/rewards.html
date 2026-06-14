@@ -27,6 +27,20 @@ author_profile: true
     display: grid;
     gap: 0.75rem;
   }
+  .award-year-heading {
+    margin: 0.95rem 0 -0.2rem;
+    padding-top: 0.4rem;
+    border-top: 1px solid #eee2dc;
+    color: #8b1e2d;
+    font-size: 0.92rem;
+    font-weight: 700;
+    line-height: 1.35;
+  }
+  .award-year-heading:first-child {
+    margin-top: 0;
+    padding-top: 0;
+    border-top: 0;
+  }
   .award-card {
     border: 1px solid #e6e0dc;
     border-left: 4px solid #8b1e2d;
@@ -257,6 +271,7 @@ author_profile: true
 
 <h2 class="awards-section-title">完整列表</h2>
 <div class="awards-grid">
+  {% assign current_award_year = "" %}
   {% for post in sorted_rewards %}
     {% if post.title contains "火花" %}
       {% assign award_tag = "产业合作" %}
@@ -283,6 +298,10 @@ author_profile: true
       {% assign award_tag_class = "award-tag--media" %}
       {% assign award_year = post.date | date: "%Y" %}
     {% endif %}
+    {% unless award_year == current_award_year %}
+      <h3 class="award-year-heading">{{ award_year }}</h3>
+      {% assign current_award_year = award_year %}
+    {% endunless %}
     <article class="award-card">
       <div class="award-meta">
         <span class="award-tag {{ award_tag_class }}">{{ award_tag }}</span>
