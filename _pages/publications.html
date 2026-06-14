@@ -50,8 +50,9 @@ author_profile: true
     margin: 1rem 0 1.4rem;
   }
   .research-line-card {
+    position: relative;
     display: block;
-    padding: 0.9rem 1rem;
+    padding: 0.9rem 4rem 1rem 1rem;
     border: 1px solid #e5e0da;
     border-left: 4px solid #8b1e2d;
     border-radius: 8px;
@@ -74,10 +75,33 @@ author_profile: true
     font-size: 0.86rem;
     line-height: 1.5;
   }
+  .research-line-icon {
+    position: absolute;
+    top: 0.85rem;
+    right: 0.85rem;
+    width: 2.35rem;
+    height: 2.35rem;
+    color: #8b1e2d;
+    opacity: 0.78;
+  }
+  .research-line-icon svg {
+    display: block;
+    width: 100%;
+    height: 100%;
+    fill: none;
+    stroke: currentColor;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 1.7;
+  }
   .research-line-card--hilbert { border-left-color: #2f6f73; }
   .research-line-card--optimal_transport { border-left-color: #6d5a9c; }
   .research-line-card--random_objects { border-left-color: #a15c38; }
   .research-line-card--applications_ai { border-left-color: #a07a18; }
+  .research-line-card--hilbert .research-line-icon { color: #2f6f73; }
+  .research-line-card--optimal_transport .research-line-icon { color: #6d5a9c; }
+  .research-line-card--random_objects .research-line-icon { color: #a15c38; }
+  .research-line-card--applications_ai .research-line-icon { color: #a07a18; }
   .research-highlights {
     margin-top: 0.7rem;
   }
@@ -210,6 +234,13 @@ author_profile: true
     .research-map {
       grid-template-columns: 1fr;
     }
+    .research-line-card {
+      padding-right: 3.65rem;
+    }
+    .research-line-icon {
+      width: 2.05rem;
+      height: 2.05rem;
+    }
     .research-snapshot {
       grid-template-columns: repeat(2, minmax(0, 1fr));
     }
@@ -245,22 +276,27 @@ author_profile: true
 
 <div class="research-map">
   <a class="research-line-card research-line-card--subsampling" href="#line-subsampling">
+    <span class="research-line-icon" aria-hidden="true"><svg viewBox="0 0 48 48"><circle cx="12" cy="12" r="2.5"/><circle cx="24" cy="12" r="2.5"/><circle cx="36" cy="12" r="2.5"/><circle cx="12" cy="24" r="2.5"/><circle cx="24" cy="24" r="4"/><circle cx="36" cy="24" r="2.5"/><circle cx="12" cy="36" r="2.5"/><circle cx="24" cy="36" r="2.5"/><circle cx="36" cy="36" r="4"/><path d="M24 24L36 36M12 24h12M24 12v12"/></svg></span>
     <h2>大规模子抽样与稀疏化</h2>
     <p>从样本级抽样到元素级、算子级和交互级稀疏化。</p>
   </a>
   <a class="research-line-card research-line-card--hilbert" href="#line-hilbert">
+    <span class="research-line-icon" aria-hidden="true"><svg viewBox="0 0 48 48"><path d="M8 40V26h10v-8H8V8h32v10H28v12h12v10H18V30"/><path d="M18 30h10"/></svg></span>
     <h2>空间填充曲线与 Hilbert 方法</h2>
     <p>用低维排序、质量坐标和原空间计价连接效率与几何。</p>
   </a>
   <a class="research-line-card research-line-card--optimal_transport" href="#line-optimal_transport">
+    <span class="research-line-icon" aria-hidden="true"><svg viewBox="0 0 48 48"><circle cx="10" cy="14" r="2.5"/><circle cx="12" cy="30" r="2.5"/><circle cx="19" cy="22" r="2.5"/><circle cx="35" cy="13" r="2.5"/><circle cx="38" cy="29" r="2.5"/><circle cx="29" cy="36" r="2.5"/><path d="M19 22c6-8 9-9 16-9"/><path d="M19 22c8 2 13 4 19 7"/><path d="M12 30c6 5 10 7 17 6"/><path d="M33 10l2 3-3 2M35 26l3 3-4 2M26 34l3 2-2 4"/></svg></span>
     <h2>最优传输几何、降维与软对齐</h2>
     <p>把 OT 作为几何代理、判别方向和跨域软对应的统一工具。</p>
   </a>
   <a class="research-line-card research-line-card--random_objects" href="#line-random_objects">
+    <span class="research-line-icon" aria-hidden="true"><svg viewBox="0 0 48 48"><path d="M8 34c4-11 8-18 13-18 4 0 6 6 9 11 3 6 6 8 10 1"/><path d="M8 40h32"/><path d="M12 30c5-4 9-5 13-3 4 1 7 4 12 3"/><ellipse cx="24" cy="24" rx="14" ry="8"/></svg></span>
     <h2>随机对象、分布型回归与几何统计</h2>
     <p>面向区间、分布和 Wasserstein 对象的建模、相关性和预测。</p>
   </a>
   <a class="research-line-card research-line-card--applications_ai" href="#line-applications_ai">
+    <span class="research-line-icon" aria-hidden="true"><svg viewBox="0 0 48 48"><rect x="13" y="13" width="22" height="22" rx="3"/><path d="M18 8v5M24 8v5M30 8v5M18 35v5M24 35v5M30 35v5M8 18h5M8 24h5M8 30h5M35 18h5M35 24h5M35 30h5"/><circle cx="21" cy="22" r="2"/><circle cx="28" cy="18" r="2"/><circle cx="28" cy="29" r="2"/><path d="M22.5 21l4-2M22.5 23l4 5"/></svg></span>
     <h2>工业与 AI 系统中的统计方法</h2>
     <p>把统计结构转化为图像、农业、深度学习和 MoE 系统中的可用算法。</p>
   </a>
