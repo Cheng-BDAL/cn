@@ -243,6 +243,11 @@
     white-space: nowrap;
   }
 
+  .author__desktop {
+    white-space: normal;
+    overflow-wrap: anywhere;
+  }
+
   a {
     display: block;
     margin-bottom: 5px;
