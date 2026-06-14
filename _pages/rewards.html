@@ -7,8 +7,93 @@ author_profile: true
 
 {% include base_path %}
 
-{% assign sorted_rewards = site.rewards | sort: "order" | reverse %}
-{% for post in sorted_rewards %}
-  {% include archive-single.html %}
-{% endfor %}
+<style>
+  .awards-intro {
+    margin-bottom: 1.1rem;
+    color: #4f4f4f;
+    line-height: 1.55;
+  }
+  .awards-grid {
+    display: grid;
+    gap: 0.75rem;
+  }
+  .award-card {
+    border: 1px solid #e6e0dc;
+    border-left: 4px solid #8b1e2d;
+    border-radius: 6px;
+    padding: 0.85rem 1rem;
+    background: #fff;
+  }
+  .award-card h2 {
+    margin: 0.35rem 0 0.45rem;
+    font-size: 1rem;
+    line-height: 1.35;
+  }
+  .award-card h2 a {
+    color: inherit;
+    text-decoration: none;
+  }
+  .award-card h2 a:hover {
+    color: #8b1e2d;
+  }
+  .award-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    align-items: center;
+    font-size: 0.72rem;
+    letter-spacing: 0;
+  }
+  .award-tag {
+    border-radius: 999px;
+    background: #f5eeee;
+    color: #8b1e2d;
+    padding: 0.18rem 0.5rem;
+    font-weight: 700;
+  }
+  .award-link {
+    display: inline-block;
+    margin-top: 0.25rem;
+    font-size: 0.85rem;
+    font-weight: 600;
+  }
+</style>
 
+<p class="awards-intro">
+  BDAL-RUC 团队成员在学术会议、奖学金、产业挑战和人才培养项目中持续获得认可。
+</p>
+
+{% assign sorted_rewards = site.rewards | sort: "order" | reverse %}
+
+<div class="awards-grid">
+  {% for post in sorted_rewards %}
+    {% if post.title contains "华为" or post.title contains "火花" %}
+      {% assign award_tag = "产业合作" %}
+    {% elsif post.title contains "团队" %}
+      {% assign award_tag = "团队荣誉" %}
+    {% elsif post.title contains "奖学金" or post.title contains "人才托举" or post.title contains "拔尖创新" %}
+      {% assign award_tag = "奖学金 / 人才项目" %}
+    {% elsif post.title contains "Travel" or post.title contains "墙报" or post.title contains "论文奖" or post.title contains "演讲" %}
+      {% assign award_tag = "学术会议" %}
+    {% else %}
+      {% assign award_tag = "个人荣誉" %}
+    {% endif %}
+    <article class="award-card">
+      <div class="award-meta">
+        <span class="award-tag">{{ award_tag }}</span>
+      </div>
+      <h2>
+        {% if post.permalink %}
+          <a href="{{ post.permalink }}" target="_blank">{{ post.title }}</a>
+        {% else %}
+          <a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a>
+        {% endif %}
+      </h2>
+      {% if post.permalink %}
+        <a class="award-link" href="{{ post.permalink }}" target="_blank">查看详情</a>
+      {% else %}
+        <a class="award-link" href="{{ base_path }}{{ post.url }}">查看详情</a>
+      {% endif %}
+    </article>
+  {% endfor %}
+</div>
