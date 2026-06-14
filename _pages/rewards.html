@@ -46,10 +46,28 @@ author_profile: true
   }
   .award-tag {
     border-radius: 999px;
-    background: #f5eeee;
-    color: #8b1e2d;
     padding: 0.18rem 0.5rem;
     font-weight: 700;
+  }
+  .award-tag--papers {
+    background: #f7e6e6;
+    color: #9b1c24;
+  }
+  .award-tag--awards {
+    background: #f6edcf;
+    color: #7a5400;
+  }
+  .award-tag--projects {
+    background: #e4f1e8;
+    color: #1f6b3a;
+  }
+  .award-tag--team {
+    background: #e4edf7;
+    color: #24527a;
+  }
+  .award-tag--media {
+    background: #e8ecef;
+    color: #4a5964;
   }
   .award-link {
     display: inline-block;
@@ -82,18 +100,23 @@ author_profile: true
   {% for post in sorted_rewards %}
     {% if post.title contains "华为" or post.title contains "火花" %}
       {% assign award_tag = "产业合作" %}
+      {% assign award_tag_class = "award-tag--projects" %}
     {% elsif post.title contains "团队" %}
       {% assign award_tag = "团队荣誉" %}
+      {% assign award_tag_class = "award-tag--team" %}
     {% elsif post.title contains "奖学金" or post.title contains "人才托举" or post.title contains "拔尖创新" %}
       {% assign award_tag = "奖学金 / 人才项目" %}
+      {% assign award_tag_class = "award-tag--awards" %}
     {% elsif post.title contains "Travel" or post.title contains "墙报" or post.title contains "论文奖" or post.title contains "演讲" %}
       {% assign award_tag = "学术会议" %}
+      {% assign award_tag_class = "award-tag--papers" %}
     {% else %}
       {% assign award_tag = "个人荣誉" %}
+      {% assign award_tag_class = "award-tag--media" %}
     {% endif %}
     <article class="award-card">
       <div class="award-meta">
-        <span class="award-tag">{{ award_tag }}</span>
+        <span class="award-tag {{ award_tag_class }}">{{ award_tag }}</span>
       </div>
       <h2>
         {% if post.permalink %}
