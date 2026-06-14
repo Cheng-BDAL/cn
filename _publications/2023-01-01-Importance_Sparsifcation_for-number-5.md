@@ -3,7 +3,7 @@ title: "Importance Sparsification for Sinkhorn Algorithm"
 collection: publications
 category: manuscripts
 permalink: 'https://www.jmlr.org/papers/v24/22-1311.html'
-excerpt: '<u>Mengyu Li</u>, Jun Yu, <u>Tao Li</u>, and <u>Cheng Meng<sup>*</sup></u>'
+excerpt: '<u><a href="https://mengyu8042.github.io/">Mengyu Li</a></u>, Jun Yu, <u><a href="https://github.com/sherlockLitao">Tao Li</a></u>, and <u>Cheng Meng<sup>*</sup></u>'
 date: 2023-01-01
 venue: 'JMLR（人大核心A类，人大理工核心A类）'
 research_line: "subsampling"

@@ -3,7 +3,7 @@ title: "AppleQSM: Geometry-Based 3D Characterization of Apple Tree Architecture 
 collection: publications
 category: manuscripts
 permalink: 'https://spj.science.org/doi/full/10.34133/plantphenomics.0179'
-excerpt: 'Tian Qiu, <u>Tao Wang</u>, Tao Han, Kaspar Kuehn, Lailiang Cheng, <u>Cheng Meng</u>, Xiangtao Xu, Kenong Xu, and Jiang Yu<sup>*</sup>'
+excerpt: 'Tian Qiu, <u><a href="https://taowang0105.github.io/">Tao Wang</a></u>, Tao Han, Kaspar Kuehn, Lailiang Cheng, <u>Cheng Meng</u>, Xiangtao Xu, Kenong Xu, and Jiang Yu<sup>*</sup>'
 date: 2024-01-01
 venue: 'Plant Phenomics（中科院农林科学大类1区TOP）'
 research_line: "related"

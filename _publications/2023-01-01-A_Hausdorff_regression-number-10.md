@@ -3,7 +3,7 @@ title: "A Hausdorff Regression Paradigm for Interval Privacy"
 collection: publications
 category: manuscripts
 permalink: 'https://ieeexplore.ieee.org/abstract/document/10365205'
-excerpt: '<u>Xinlai Kang</u>, <u>Mengyu Li</u>, Xuqiang Chen, Fangyu Li, <u>Cheng Meng<sup>*</sup></u>'
+excerpt: '<u><a href="https://kxlkxl1999.github.io/">Xinlai Kang</a></u>, <u><a href="https://mengyu8042.github.io/">Mengyu Li</a></u>, Xuqiang Chen, Fangyu Li, <u>Cheng Meng<sup>*</sup></u>'
 date: 2023-01-01
 venue: 'IEEE SPL（人大理工核心B类）'
 research_line: "random_objects"
