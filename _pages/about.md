@@ -395,7 +395,7 @@ Hi，大家好，我是孟澄，目前在中国人民大学（RUC）统计与大
   </article>
   <article class="news-card">
     <div class="news-meta"><span class="news-date">2025年6月</span><span class="news-tag news-tag--awards">学生荣誉</span></div>
-    <p><span style="color: rgb(165, 16, 33);"><strong>李梦雨获得中国人民大学学生最高荣誉。</strong> 祝贺李梦雨获得“吴玉章奖学金”！“吴玉章奖学金”是我校学生最高荣誉，颁发给德智体美劳全面发展、最能体现学校人才培养目标的毕业年级学生，每年博士生仅四个名额！ <a href="https://mp.weixin.qq.com/s/zID17NSsC8q4sK_bimLOJQ">阅读全文 →</a></span></p>
+    <p><span class="news-emphasis--red"><strong>李梦雨获得中国人民大学学生最高荣誉。</strong> 祝贺李梦雨获得“吴玉章奖学金”！“吴玉章奖学金”是我校学生最高荣誉，颁发给德智体美劳全面发展、最能体现学校人才培养目标的毕业年级学生，每年博士生仅四个名额！ <a href="https://mp.weixin.qq.com/s/zID17NSsC8q4sK_bimLOJQ">阅读全文 →</a></span></p>
   </article>
   <article class="news-card">
     <div class="news-meta"><span class="news-date">2025年6月</span><span class="news-tag news-tag--papers">论文成果</span></div>
@@ -411,7 +411,7 @@ Hi，大家好，我是孟澄，目前在中国人民大学（RUC）统计与大
   </article>
   <article class="news-card">
     <div class="news-meta"><span class="news-date">2025年5月</span><span class="news-tag news-tag--media">媒体报道</span></div>
-    <p><span style="color:purple"><strong>孟澄作为清华毕业十年校友代表发言。</strong> 孟澄作为毕业十年校友代表受邀出席清华大学校党委书记邱勇主持的主题座谈会并发言，并被清华大学统计与数据科学系报道！ <a href="https://mp.weixin.qq.com/s/d8KrSRIqVNIQVdvBO0yjFw">活动报道 →</a> <a href="https://mp.weixin.qq.com/s/utOxnb63ZurO7jPo6NpkAg">院系报道 →</a></span></p>
+    <p><span class="news-emphasis--muted"><strong>孟澄作为清华毕业十年校友代表发言。</strong> 孟澄作为毕业十年校友代表受邀出席清华大学校党委书记邱勇主持的主题座谈会并发言，并被清华大学统计与数据科学系报道！ <a href="https://mp.weixin.qq.com/s/d8KrSRIqVNIQVdvBO0yjFw">活动报道 →</a> <a href="https://mp.weixin.qq.com/s/utOxnb63ZurO7jPo6NpkAg">院系报道 →</a></span></p>
   </article>
   <article class="news-card">
     <div class="news-meta"><span class="news-date">2025年4月</span><span class="news-tag news-tag--awards">学生荣誉</span></div>
@@ -432,7 +432,7 @@ Hi，大家好，我是孟澄，目前在中国人民大学（RUC）统计与大
 <div class="news-list">
   <article class="news-card">
     <div class="news-meta"><span class="news-date">2024年12月</span><span class="news-tag news-tag--awards">学生荣誉</span></div>
-    <p><span style="color: rgb(0, 71, 171);"><strong>李梦雨入选中国科协青年人才托举工程。</strong> 祝贺李梦雨入选2024年度中国科协青年人才托举工程博士生专项计划！托举学会为中国现场统计研究会。这是该计划的首届实施，全国约3000人入选。 <a href="https://mp.weixin.qq.com/s/rRtjWDszTF0U0GonVTHsRA">阅读全文 →</a></span></p>
+    <p><span class="news-emphasis--blue"><strong>李梦雨入选中国科协青年人才托举工程。</strong> 祝贺李梦雨入选2024年度中国科协青年人才托举工程博士生专项计划！托举学会为中国现场统计研究会。这是该计划的首届实施，全国约3000人入选。 <a href="https://mp.weixin.qq.com/s/rRtjWDszTF0U0GonVTHsRA">阅读全文 →</a></span></p>
   </article>
   <article class="news-card">
     <div class="news-meta"><span class="news-date">2024年11月</span><span class="news-tag news-tag--awards">学生荣誉</span></div>

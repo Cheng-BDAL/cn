@@ -79,11 +79,13 @@
 
   .highlight-grid span,
   .news-card a,
-  .news-more summary,
+  .news-more-toggle,
   .award-link,
   .publication-toolbar a,
   .publication-links a,
-  .publication-years summary {
+  .publication-years summary,
+  .publication-back a,
+  .student-jump a {
     border: 1px solid var(--bdal-border-strong) !important;
     border-radius: 999px !important;
     background: #fff !important;
@@ -97,11 +99,13 @@
 
   .highlight-grid a:hover span,
   .news-card a:hover,
-  .news-more summary:hover,
+  .news-more-toggle:hover,
   .award-link:hover,
   .publication-toolbar a:hover,
   .publication-links a:hover,
-  .publication-years summary:hover {
+  .publication-years summary:hover,
+  .publication-back a:hover,
+  .student-jump a:hover {
     border-color: #cfa5a5 !important;
     background: var(--bdal-red-soft) !important;
     text-decoration: none !important;
@@ -162,6 +166,18 @@
     color: var(--bdal-muted) !important;
   }
 
+  .news-emphasis--red {
+    color: var(--bdal-red);
+  }
+
+  .news-emphasis--blue {
+    color: #24527a;
+  }
+
+  .news-emphasis--muted {
+    color: var(--bdal-muted);
+  }
+
   @media (max-width: 720px) {
     .page__content > h1,
     .archive .page__title {
@@ -171,9 +187,12 @@
 
     .highlight-grid span,
     .news-card a,
+    .news-more-toggle,
     .award-link,
     .publication-toolbar a,
-    .publication-links a {
+    .publication-links a,
+    .publication-back a,
+    .student-jump a {
       max-width: 100%;
       white-space: normal;
     }
