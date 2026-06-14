@@ -172,11 +172,10 @@ Hi，大家好，我是孟澄，目前在中国人民大学（RUC）统计与大
   .news-more summary::marker {
     content: "";
   }
-  .news-year {
-    margin-top: 0.7rem;
-  }
-  .news-year summary {
-    font-size: 0.9rem;
+  .news-year-heading {
+    margin: 0.85rem 0 0.45rem;
+    color: #555;
+    font-size: 0.98rem;
   }
   @media (max-width: 720px) {
     .page__content > p:first-of-type img {
@@ -284,8 +283,7 @@ Hi，大家好，我是孟澄，目前在中国人民大学（RUC）统计与大
 <details class="news-more">
   <summary>展开更多动态</summary>
 
-<details class="news-year" open>
-  <summary>2026</summary>
+<h3 class="news-year-heading">2026</h3>
 
 <div class="news-list">
   <article class="news-card">
@@ -325,10 +323,8 @@ Hi，大家好，我是孟澄，目前在中国人民大学（RUC）统计与大
     <p><strong>五位同学入选 RUC 统计学子成长图鉴。</strong> 祝贺李梦雨、黄君烈、杜承朔、王涛、薛敦耀，五位同学荣登2025年RUC统计学子成长图鉴！ <a href="https://mp.weixin.qq.com/s/ZAW9in5xx4kh3uWEm1sinA">阅读全文 →</a></p>
 </article>
 </div>
-</details>
 
-<details class="news-year">
-  <summary>2025</summary>
+<h3 class="news-year-heading">2025</h3>
 
 <div class="news-list">
   <article class="news-card">
@@ -428,11 +424,8 @@ Hi，大家好，我是孟澄，目前在中国人民大学（RUC）统计与大
     <p><strong>双曲空间 Wasserstein 距离工作被 IEEE TNNLS 接受。</strong> 恭喜李涛、朱珺等的论文《Efficient Variants of Wasserstein Distance in Hyperbolic Space via Space-filling Curve Projection》被 IEEE TNNLS（IF: 10.2）接受！这是组里第三篇研究院 1A 类期刊！ <a href="https://mp.weixin.qq.com/s/1LUVaZowmOd9oIREQAScgA">阅读全文 →</a></p>
 </article>
 </div>
-</details>
-</details>
 
-<details class="news-year">
-  <summary>2024</summary>
+<h3 class="news-year-heading">2024</h3>
 
 <div class="news-list">
   <article class="news-card">
