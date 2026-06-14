@@ -20,18 +20,10 @@ Hi大家好，我是孟澄，现在是中国人民大学（RUC）统计与大数
 
 我很荣幸获得了2023年泛华统计学会Junior Researcher Award（全球五位），并带领团队斩获三次华为难题揭榜“火花奖”，被中国人民大学和华为官媒报道。我很荣幸作为中国大百科全书（第三版）统计学卷-数据科学分卷副主编，深度参与了本书的编写工作。我主持了国自科青年基金和多项华为项目。近年来，我们实验室主要聚焦于开发有理论保证的大数据快速算法，助力更多统计方法在各个工业交叉领域落地。
 
-<p class="about-keywords">研究关键词：大数据统计学 · 最优输运 · 人工智能 · 工业统计 · 华为合作 · 学生培养</p>
-
 代表性报道
 =====
 
 <style>
-  .about-keywords {
-    margin: 0.8rem 0 1.4rem;
-    color: #555;
-    font-size: 0.92rem;
-    font-weight: 600;
-  }
   .highlight-grid {
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
