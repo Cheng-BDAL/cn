@@ -177,9 +177,41 @@ author_profile: true
       padding-bottom: 0.25rem;
     }
     .award-feature table {
-      min-width: 620px;
+      min-width: 0;
       font-size: 0.72rem;
     }
+    .award-feature thead {
+      display: none;
+    }
+    .award-feature table,
+    .award-feature tbody,
+    .award-feature tr,
+    .award-feature td {
+      display: block;
+      width: 100%;
+    }
+    .award-feature tr {
+      margin-bottom: 0.65rem;
+      padding: 0.7rem 0.75rem;
+      border: 1px solid #e6e0dc;
+      border-radius: 6px;
+      background: #fff;
+    }
+    .award-feature td {
+      padding: 0.18rem 0;
+      border: 0;
+    }
+    .award-feature td::before {
+      display: block;
+      color: #8b1e2d;
+      font-size: 0.72rem;
+      font-weight: 700;
+    }
+    .award-feature td:nth-child(1)::before { content: "难题期数"; }
+    .award-feature td:nth-child(2)::before { content: "难题名称"; }
+    .award-feature td:nth-child(3)::before { content: "获奖类型"; }
+    .award-feature td:nth-child(4)::before { content: "火花奖期数"; }
+    .award-feature td:nth-child(5)::before { content: "解题核心成员"; }
   }
 </style>
 
@@ -214,9 +246,9 @@ author_profile: true
           {% endif %}
         </div>
         {% if post.title contains "火花" %}
-          <img class="featured-award-image" src="{{ base_path }}/images/火花奖.jpg" alt="华为火花奖奖牌">
+          <img loading="lazy" class="featured-award-image" src="{{ base_path }}/images/火花奖.jpg" alt="华为火花奖奖牌">
         {% elsif post.title contains "吴玉章" %}
-          <img class="featured-award-image" src="https://cheng-bdal.github.io//images/李梦雨-吴玉章.jpg" alt="李梦雨吴玉章奖学金">
+          <img loading="lazy" class="featured-award-image" src="https://cheng-bdal.github.io//images/李梦雨-吴玉章.jpg" alt="李梦雨吴玉章奖学金">
         {% endif %}
       </article>
     {% endif %}

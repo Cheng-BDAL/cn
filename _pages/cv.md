@@ -111,16 +111,16 @@ redirect_from:
     <h3>编审服务</h3>
     <p>中国大百科全书（第三版）统计学卷-数据科学分卷副主编。</p>
     <div class="cv-image-grid">
-      <img src="https://cheng-bdal.github.io//images/百科全书P1.png" alt="中国大百科全书页面1">
-      <img src="https://cheng-bdal.github.io//images/百科全书P2.png" alt="中国大百科全书页面2">
-      <img src="https://cheng-bdal.github.io//images/百科全书P3.png" alt="中国大百科全书页面3">
-      <img src="https://cheng-bdal.github.io//images/百科全书P4.png" alt="中国大百科全书页面4">
+      <img loading="lazy" src="https://cheng-bdal.github.io//images/百科全书P1.png" alt="中国大百科全书页面1">
+      <img loading="lazy" src="https://cheng-bdal.github.io//images/百科全书P2.png" alt="中国大百科全书页面2">
+      <img loading="lazy" src="https://cheng-bdal.github.io//images/百科全书P3.png" alt="中国大百科全书页面3">
+      <img loading="lazy" src="https://cheng-bdal.github.io//images/百科全书P4.png" alt="中国大百科全书页面4">
     </div>
   </div>
   <div class="cv-service-item">
     <h3>实验室指导</h3>
     <p>Stat2Spark 明理创新实验室指导教师。<a href="https://mp.weixin.qq.com/s/ci3yEQE8B6Om9nn7HDRXJA">链接</a></p>
-    <img class="cv-image-wide" src="https://cheng-bdal.github.io//images/明理创新实验室.png" alt="Stat2Spark 明理创新实验室">
+    <img loading="lazy" class="cv-image-wide" src="https://cheng-bdal.github.io//images/明理创新实验室.png" alt="Stat2Spark 明理创新实验室">
   </div>
   <div class="cv-service-item">
     <h3>学术评审</h3>
@@ -129,8 +129,8 @@ redirect_from:
   <div class="cv-service-item">
     <h3>招生与科普</h3>
     <p>2023-2025 年中国人民大学上海招生组成员。</p>
-    <img class="cv-image-wide" src="https://cheng-bdal.github.io//images/上海招生.jpg" alt="中国人民大学上海招生">
+    <img loading="lazy" class="cv-image-wide" src="https://cheng-bdal.github.io//images/上海招生.jpg" alt="中国人民大学上海招生">
     <p>2025 年代表中国人民大学江苏招生组，赴江苏省天一中学作科普报告。<a href="https://mp.weixin.qq.com/s/Rhzmvg_Trd_3_13nDxzjRg">链接</a></p>
-    <img class="cv-image-wide" src="https://cheng-bdal.github.io//images/江苏省招生.jpg" alt="中国人民大学江苏招生">
+    <img loading="lazy" class="cv-image-wide" src="https://cheng-bdal.github.io//images/江苏省招生.jpg" alt="中国人民大学江苏招生">
   </div>
 </div>

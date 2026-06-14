@@ -58,7 +58,7 @@ Hi，大家好，我是孟澄，目前在中国人民大学（RUC）统计与大
   }
   .highlight-grid img {
     width: 100%;
-    aspect-ratio: 16 / 9;
+    aspect-ratio: 4 / 3;
     object-fit: cover;
     border-radius: 6px;
   }
@@ -227,15 +227,15 @@ Hi，大家好，我是孟澄，目前在中国人民大学（RUC）统计与大
 
 <div class="highlight-grid">
   <a href="https://mp.weixin.qq.com/s/jtmVn6od7OL0Z7EPplROpQ">
-    <img src="https://cheng-bdal.github.io//images/赛道.jpg" alt="华为报道 BDAL-RUC 三获火花奖">
+    <img loading="lazy" src="https://cheng-bdal.github.io//images/赛道.jpg" alt="华为报道 BDAL-RUC 三获火花奖">
     <span>华为报道 BDAL-RUC 三获“火花奖” →</span>
   </a>
   <a href="https://mp.weixin.qq.com/s/bSx9Vl2pe-LEdYZdeyDGRQ">
-    <img src="https://cheng-bdal.github.io//images/新生讲话.jpg" alt="人大报道开学典礼教师代表发言">
+    <img loading="lazy" src="https://cheng-bdal.github.io//images/新生讲话.jpg" alt="人大报道开学典礼教师代表发言">
     <span>人大报道开学典礼教师代表发言 →</span>
   </a>
   <a href="https://mp.weixin.qq.com/s/OQwr1EvCYTcqG4Tm2Yl84Q">
-    <img src="https://cheng-bdal.github.io//images/清华校友.jpg" alt="清华校友总会报道校友成长故事">
+    <img loading="lazy" src="https://cheng-bdal.github.io//images/清华校友.jpg" alt="清华校友总会报道校友成长故事">
     <span>清华校友总会报道校友故事 →</span>
   </a>
 </div>
@@ -264,6 +264,12 @@ Hi，大家好，我是孟澄，目前在中国人民大学（RUC）统计与大
     <div class="news-meta"><span class="news-date">2026年5月</span><span class="news-tag news-tag--papers">论文成果</span></div>
     <p><strong>关于 MoE 的新工作被 ICML 2026 接受。</strong> 恭喜康欣来、薛敦耀、王政博、杜承朔等的论文《Breaking the Echo Chamber: A Dynamic Ensemble Pruning Perspective on MoE》被 ICML 接受，并被知名机器学习公众号“机器之心”宣传报道！ <a href="https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651034543&idx=2&sn=8c0a91d51644de87618d0cdd9585429d">阅读全文 →</a></p>
   </article>
+</div>
+
+<details class="news-more" markdown="1">
+  <summary>展开更多动态</summary>
+
+<div class="news-list">
   <article class="news-card">
     <div class="news-meta"><span class="news-date">2026年5月</span><span class="news-tag news-tag--projects">项目与合作</span></div>
     <p><strong>人才培养项目获得北京市级认可。</strong> 祝贺孟澄参与的项目《构建全员新型书院体系，打造“三跨三交三学”未来人才培养新生态》获得北京市高等教育教学成果奖二等奖！ <a href="https://mp.weixin.qq.com/s/tblNY71IJZHax3ybNhkG0A">阅读全文 →</a></p>
@@ -276,12 +282,6 @@ Hi，大家好，我是孟澄，目前在中国人民大学（RUC）统计与大
     <div class="news-meta"><span class="news-date">2026年3月</span><span class="news-tag news-tag--papers">论文成果</span></div>
     <p><strong>Core-elements subsampling 工作被 JCGS 接受。</strong> 恭喜薛敦耀等的论文《Core-elements Subsampling for Alternating Least Squares》被 JCGS 接受！这是组里第 10 篇研究院 1B 类期刊！ <a href="https://mp.weixin.qq.com/s?__biz=MzI0NTE1MDk4Mg==&mid=2247493684&idx=1&sn=2890bbd35e47576683e9019d532ff71d&chksm=e8c4425f7136d1bed9b4acf814b19ef8179428e79e09fa51e30af3cdfa9842fd2b54290b4c16&mpshare=1&scene=1&srcid=0414OajaNWC2FQBekHecF670&sharer_shareinfo=bcb12df34a4a3d6bd935ea3dc2d09229&sharer_shareinfo_first=bcb12df34a4a3d6bd935ea3dc2d09229#rd">阅读全文 →</a></p>
   </article>
-</div>
-
-<details class="news-more" markdown="1">
-  <summary>展开更多动态</summary>
-
-<div class="news-list">
   <article class="news-card">
     <div class="news-meta"><span class="news-date">2026年3月</span><span class="news-tag news-tag--awards">学生荣誉</span></div>
     <p><strong>薛敦耀入选学校拔尖创新人才培育资助计划。</strong> 祝贺薛敦耀入选 2025-2026 学年中国人民大学“拔尖创新人才培育资助计划”！</p>
