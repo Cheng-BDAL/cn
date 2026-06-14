@@ -22,11 +22,23 @@ Hi大家好，我是孟澄，现在是中国人民大学（RUC）统计与大数
 =====
 
 <style>
+  .page__content > h1 {
+    margin: 1.55rem 0 0.75rem;
+    padding-bottom: 0.35rem;
+    border-bottom: 1px solid #eadfd8;
+    font-size: 1.35rem;
+    line-height: 1.25;
+    letter-spacing: 0;
+  }
+  .page__content > h1:first-of-type {
+    margin-top: 1.1rem;
+  }
+
   .highlight-grid {
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 0.8rem;
-    margin-bottom: 1.5rem;
+    margin: 0.25rem 0 1.25rem;
   }
   .highlight-grid a {
     display: block;
@@ -34,9 +46,9 @@ Hi大家好，我是孟澄，现在是中国人民大学（RUC）统计与大数
     text-decoration: none;
   }
   .highlight-grid a:hover span {
-    color: #8b1e2d;
-    text-decoration: underline;
-    text-underline-offset: 0.18rem;
+    background: #f7e6e6;
+    border-color: #cfa5a5;
+    text-decoration: none;
   }
   .highlight-grid img {
     width: 100%;
@@ -45,15 +57,22 @@ Hi大家好，我是孟澄，现在是中国人民大学（RUC）统计与大数
     border-radius: 6px;
   }
   .highlight-grid span {
-    display: block;
+    display: inline-block;
     margin-top: 0.35rem;
-    font-size: 0.9rem;
+    padding: 0.12rem 0.48rem;
+    border: 1px solid #d8c8bf;
+    border-radius: 999px;
+    background: #fff;
+    color: #8b1e2d;
+    font-size: 0.78rem;
+    font-weight: 700;
+    line-height: 1.45;
   }
 
   .news-list {
     display: grid;
-    gap: 0.75rem;
-    margin: 0.2rem 0 1rem;
+    gap: 0.72rem;
+    margin: 0.25rem 0 1rem;
   }
   .news-card {
     padding: 0.75rem 0.85rem;
@@ -98,9 +117,11 @@ Hi大家好，我是孟澄，现在是中国人民大学（RUC）统计与大数
     font-weight: 700;
   }
   .news-tag {
-    padding: 0.08rem 0.38rem;
+    padding: 0.1rem 0.42rem;
     border-radius: 999px;
+    font-size: 0.72rem;
     font-weight: 700;
+    line-height: 1.35;
   }
   .news-tag--papers {
     background: #f7e6e6;
@@ -124,7 +145,7 @@ Hi大家好，我是孟澄，现在是中国人民大学（RUC）统计与大数
   }
 
   .news-more {
-    margin-top: 0.75rem;
+    margin-top: 0.8rem;
   }
   .news-more summary {
     display: inline-block;
