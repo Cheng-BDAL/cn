@@ -129,15 +129,15 @@ author_profile: true
 <div class="admission-grid">
   <div class="admission-panel">
     <h3>学生主导的高水平研究</h3>
-    <p>组内鼓励学生从问题提出、方法设计到论文写作深度参与；多数论文由学生担任一作或核心作者。</p>
+    <p>组内鼓励学生从真实问题出发，深度参与问题提出、方法设计和论文写作；多数论文由学生担任一作或核心作者。</p>
   </div>
   <div class="admission-panel">
-    <h3>面向前沿问题的训练</h3>
-    <p>研究方向覆盖统计学、最优输运、人工智能和工业数据问题，强调从真实问题中提炼可发表、可落地的研究课题。</p>
+    <h3>论文与产业合作平台</h3>
+    <p>组内已有 NeurIPS、ICML、ICLR、JMLR、Biometrika 等成果，并与华为等单位保持长期合作，可提供较强的实习、工作内推机会。</p>
   </div>
   <div class="admission-panel">
-    <h3>论文与合作平台</h3>
-    <p>组内已有 NeurIPS、ICML、ICLR、JMLR、Biometrika 等成果，并与华为等单位深入合作。</p>
+    <h3>成长支持与组内氛围</h3>
+    <p>博士生结合各类补贴、奖学金和助研支持，年收入可接近 10 万元；组内也重视学习之外的交流与团队氛围建设。</p>
   </div>
   <div class="admission-panel">
     <h3>清晰的发展出口</h3>
