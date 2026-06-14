@@ -17,7 +17,7 @@ order: 3
 | 终端BG硬工难题第六期 | 析锂在线检测 | 价值奖 | 第131期 | 詹纯、孟澄、樊龙龙、朱珺 |
 | 珠峰会战第七期 | 超宽chiplet交换芯片的DIE间交换加速比最小化 | 鼓励奖 | 第135期 | 董雨铮、黄君烈、白静言、孟澄 |
  
-![荣誉奖章](../images/火花奖.jpg){: style="width:400px; height:auto;" }
-![荣誉奖章](../images/压缩结项.jpg){: style="width:400px; height:auto;" }
+![荣誉奖章](../images/火花奖.jpg){: loading="lazy" style="width:400px; height:auto;" }
+![荣誉奖章](../images/压缩结项.jpg){: loading="lazy" style="width:400px; height:auto;" }
 
 

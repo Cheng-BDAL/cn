@@ -7,5 +7,5 @@ permalink: https://mp.weixin.qq.com/s/rRtjWDszTF0U0GonVTHsRA
 
 ---
 
-![荣誉证书](../images/李梦雨青托.png){: style="width:500px; height:auto;" }
+![荣誉证书](../images/李梦雨青托.png){: loading="lazy" style="width:500px; height:auto;" }
 
