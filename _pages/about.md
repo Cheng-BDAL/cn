@@ -159,7 +159,7 @@ Hi，大家好，我是孟澄，目前在中国人民大学（RUC）统计与大
   .news-more {
     margin-top: 0.8rem;
   }
-  .news-more summary {
+  .news-more-toggle {
     display: inline-block;
     padding: 0.38rem 0.72rem;
     border: 1px solid #d8c8bf;
@@ -167,10 +167,11 @@ Hi，大家好，我是孟澄，目前在中国人民大学（RUC）统计与大
     background: #fbfaf8;
     cursor: pointer;
     color: #8b1e2d;
+    font: inherit;
     font-weight: 600;
   }
-  .news-more summary::marker {
-    content: "";
+  .news-more-toggle:hover {
+    background: #f7e6e6;
   }
   .news-year-heading {
     margin: 0.85rem 0 0.45rem;
@@ -280,8 +281,9 @@ Hi，大家好，我是孟澄，目前在中国人民大学（RUC）统计与大
   </article>
 </div>
 
-<details class="news-more">
-  <summary>展开更多动态</summary>
+<div class="news-more">
+  <button type="button" class="news-more-toggle" onclick="var target=document.getElementById('more-news-list'); target.hidden=!target.hidden; this.textContent=target.hidden?'展开更多动态':'收起更多动态';">展开更多动态</button>
+  <div id="more-news-list" hidden>
 
 <h3 class="news-year-heading">2026</h3>
 
@@ -443,6 +445,7 @@ Hi，大家好，我是孟澄，目前在中国人民大学（RUC）统计与大
   <article class="news-card">
     <div class="news-meta"><span class="news-date">2024年10月</span><span class="news-tag news-tag--awards">学生荣誉</span></div>
     <p><strong>李梦雨获得 CSIAM 年会优秀墙报奖。</strong> 祝贺李梦雨荣获中国工业与应用数学学会第22届年会优秀墙报奖! <a href="https://mp.weixin.qq.com/s/ffKNLItqx5vv-P0r3Yd2QQ">阅读全文 →</a></p>
-  </article>
+</article>
 </div>
-</details>
+</div>
+</div>
