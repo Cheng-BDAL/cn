@@ -124,23 +124,23 @@ author_profile: true
 
 ---
 
-## 四、团队能提供什么
+## 四、在这里你可以获得什么
 
 <div class="admission-grid">
   <div class="admission-panel">
-    <h3>学生主导成果</h3>
-    <p>鼓励学生担任论文一作或核心作者；组内论文多数由学生主导完成。</p>
+    <h3>学生主导的高水平研究</h3>
+    <p>组内鼓励学生从问题提出、方法设计到论文写作深度参与；多数论文由学生担任一作或核心作者。</p>
+  </div>
+  <div class="admission-panel">
+    <h3>面向前沿问题的训练</h3>
+    <p>研究方向覆盖统计学、最优输运、人工智能和工业数据问题，强调从真实问题中提炼可发表、可落地的研究课题。</p>
   </div>
   <div class="admission-panel">
     <h3>论文与合作平台</h3>
-    <p>已有 NeurIPS、ICML、ICLR、JCGS、JMLR、Biometrika、Bioinformatics、Pattern Recognition、STAI-X 等成果，并与华为等单位深入合作。</p>
+    <p>组内已有 NeurIPS、ICML、ICLR、JMLR、Biometrika 等成果，并与华为等单位深入合作。</p>
   </div>
   <div class="admission-panel">
-    <h3>发展出口</h3>
+    <h3>清晰的发展出口</h3>
     <p>已毕业博士生均获得百万级别 offer；硕士生大多进入高水平博士项目或头部互联网、科技企业。</p>
-  </div>
-  <div class="admission-panel">
-    <h3>科研支持</h3>
-    <p>提供阶段性反馈、计算资源、项目与会议支持，并按规定提供助研支持。</p>
   </div>
 </div>
