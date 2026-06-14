@@ -13,6 +13,16 @@ author_profile: true
     color: #4f4f4f;
     line-height: 1.55;
   }
+  .awards-section-title {
+    margin: 1.25rem 0 0.6rem;
+    font-size: 1.05rem;
+  }
+  .featured-awards-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.75rem;
+    margin-bottom: 1.25rem;
+  }
   .awards-grid {
     display: grid;
     gap: 0.75rem;
@@ -36,6 +46,9 @@ author_profile: true
   .award-card h2 a:hover {
     color: #8b1e2d;
   }
+  .award-card--featured {
+    background: #fbfaf8;
+  }
   .award-meta {
     display: flex;
     flex-wrap: wrap;
@@ -47,6 +60,10 @@ author_profile: true
   .award-tag {
     border-radius: 999px;
     padding: 0.18rem 0.5rem;
+    font-weight: 700;
+  }
+  .award-year {
+    color: #666;
     font-weight: 700;
   }
   .award-tag--papers {
@@ -105,31 +122,80 @@ author_profile: true
     height: auto;
     margin: 0.25rem 0.5rem 0.25rem 0;
   }
+  @media (max-width: 720px) {
+    .featured-awards-grid {
+      grid-template-columns: 1fr;
+    }
+  }
 </style>
 
 {% assign sorted_rewards = site.rewards | sort: "order" | reverse %}
 
+<p class="awards-intro">记录 BDAL-RUC 团队在学生培养、学术会议、产业合作与团队建设中的代表性荣誉。</p>
+
+<h2 class="awards-section-title">重点荣誉</h2>
+<div class="featured-awards-grid">
+  {% for post in sorted_rewards %}
+    {% if post.title contains "华为" or post.title contains "火花" or post.title contains "吴玉章" %}
+      {% if post.title contains "华为" or post.title contains "火花" %}
+        {% assign award_tag = "产业合作" %}
+        {% assign award_tag_class = "award-tag--projects" %}
+        {% assign award_year = "多期" %}
+      {% elsif post.title contains "吴玉章" %}
+        {% assign award_tag = "学生荣誉" %}
+        {% assign award_tag_class = "award-tag--awards" %}
+        {% assign award_year = post.date | date: "%Y" %}
+      {% endif %}
+      <article class="award-card award-card--featured">
+        <div class="award-meta">
+          <span class="award-tag {{ award_tag_class }}">{{ award_tag }}</span>
+          <span class="award-year">{{ award_year }}</span>
+        </div>
+        <h2>
+          {% if post.permalink %}
+            <a href="{{ post.permalink }}" target="_blank">{{ post.title }}</a>
+          {% else %}
+            <a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a>
+          {% endif %}
+        </h2>
+        {% if post.permalink %}
+          <a class="award-link" href="{{ post.permalink }}" target="_blank">查看详情</a>
+        {% else %}
+          <a class="award-link" href="{{ base_path }}{{ post.url }}">查看详情</a>
+        {% endif %}
+      </article>
+    {% endif %}
+  {% endfor %}
+</div>
+
+<h2 class="awards-section-title">完整列表</h2>
 <div class="awards-grid">
   {% for post in sorted_rewards %}
     {% if post.title contains "华为" or post.title contains "火花" %}
       {% assign award_tag = "产业合作" %}
       {% assign award_tag_class = "award-tag--projects" %}
+      {% assign award_year = "多期" %}
     {% elsif post.title contains "团队" %}
       {% assign award_tag = "团队荣誉" %}
       {% assign award_tag_class = "award-tag--team" %}
+      {% assign award_year = post.date | date: "%Y" %}
     {% elsif post.title contains "奖学金" or post.title contains "人才托举" or post.title contains "拔尖创新" %}
-      {% assign award_tag = "奖学金 / 人才项目" %}
+      {% assign award_tag = "学生荣誉" %}
       {% assign award_tag_class = "award-tag--awards" %}
+      {% assign award_year = post.date | date: "%Y" %}
     {% elsif post.title contains "Travel" or post.title contains "墙报" or post.title contains "论文奖" or post.title contains "演讲" %}
       {% assign award_tag = "学术会议" %}
       {% assign award_tag_class = "award-tag--papers" %}
+      {% assign award_year = post.date | date: "%Y" %}
     {% else %}
       {% assign award_tag = "个人荣誉" %}
       {% assign award_tag_class = "award-tag--media" %}
+      {% assign award_year = post.date | date: "%Y" %}
     {% endif %}
     <article class="award-card">
       <div class="award-meta">
         <span class="award-tag {{ award_tag_class }}">{{ award_tag }}</span>
+        <span class="award-year">{{ award_year }}</span>
       </div>
       <h2>
         {% if post.permalink %}
