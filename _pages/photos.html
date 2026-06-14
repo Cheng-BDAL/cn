@@ -5,8 +5,30 @@ title: ""
 author_profile: true
 ---
 
+<style>
+  .photo-gallery {
+    display: grid;
+    gap: 0.85rem;
+    justify-items: center;
+  }
+  .photo-gallery img {
+    width: min(100%, 600px);
+    height: auto;
+    border-radius: 6px;
+  }
+  @media (max-width: 720px) {
+    .photo-gallery {
+      gap: 0.65rem;
+    }
+    .photo-gallery img {
+      width: 100%;
+      max-height: 72vh;
+      object-fit: contain;
+    }
+  }
+</style>
 
-<div style="text-align: center;">
+<div class="photo-gallery">
     
 <img src="https://cheng-bdal.github.io//images/合照6.jpg" alt="合照 6" width="600" height="400">
 

@@ -22,6 +22,12 @@ Hi大家好，我是孟澄，现在是中国人民大学（RUC）统计与大数
 =====
 
 <style>
+  .page__content > p:first-of-type img {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+  }
+
   .page__content > h1 {
     margin: 1.55rem 0 0.75rem;
     padding-bottom: 0.35rem;
@@ -161,6 +167,15 @@ Hi大家好，我是孟澄，现在是中国人民大学（RUC）统计与大数
     content: "";
   }
   @media (max-width: 720px) {
+    .page__content > p:first-of-type img {
+      max-height: 46vh;
+      object-fit: cover;
+      object-position: center;
+    }
+    .page__content > h1 {
+      margin: 1.2rem 0 0.55rem;
+      font-size: 1.18rem;
+    }
     .highlight-grid {
       grid-template-columns: 1fr;
       gap: 0.55rem;
@@ -187,6 +202,25 @@ Hi大家好，我是孟澄，现在是中国人民大学（RUC）统计与大数
     .highlight-grid a:hover span {
       background: transparent;
       border-color: transparent;
+    }
+    .news-list {
+      gap: 0.55rem;
+      margin-bottom: 0.75rem;
+    }
+    .news-card {
+      padding: 0.58rem 0.68rem;
+      border-radius: 5px;
+    }
+    .news-card p {
+      line-height: 1.52;
+    }
+    .news-meta {
+      gap: 0.32rem;
+      font-size: 0.7rem;
+    }
+    .news-tag {
+      padding: 0.08rem 0.34rem;
+      font-size: 0.68rem;
     }
   }
 </style>

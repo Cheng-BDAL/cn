@@ -263,3 +263,22 @@
     }
   }
 }
+
+@media screen and (max-width: 720px) {
+  .sidebar {
+    p,
+    li {
+      font-size: 0.82rem;
+      line-height: 1.42;
+      overflow-wrap: anywhere;
+    }
+  }
+
+  .author__avatar img {
+    max-width: 84px;
+  }
+
+  .author__content {
+    padding-right: 10px;
+  }
+}

@@ -52,6 +52,42 @@ author_profile: true  # 可选，视需要是否显示作者信息
     color: #777;
     font-size: 0.78rem;
   }
+  @media (max-width: 720px) {
+    table,
+    tbody,
+    tr,
+    td {
+      display: block;
+      width: 100%;
+    }
+    table {
+      border-spacing: 0;
+    }
+    tr {
+      margin: 0;
+    }
+    td {
+      margin: 0 0 0.8rem;
+      padding: 0.8rem 0.75rem;
+      border: 1px solid #e6e0dc !important;
+      border-radius: 6px;
+      background: #fff;
+      font-size: 0.82rem;
+    }
+    td:empty {
+      display: none;
+    }
+    table img {
+      width: min(100%, 180px);
+      height: 210px;
+    }
+    .student-name {
+      font-size: 0.95rem;
+    }
+    .student-email {
+      overflow-wrap: anywhere;
+    }
+  }
 </style>
 
 
