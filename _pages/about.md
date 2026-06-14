@@ -139,13 +139,6 @@ Hi大家好，我是孟澄，现在是中国人民大学（RUC）统计与大数
   .news-more summary::marker {
     content: "";
   }
-  .homepage-maintenance {
-    margin-top: 1rem;
-    padding-top: 0.7rem;
-    border-top: 1px solid #e7e0da;
-    color: #666;
-    font-size: 0.88rem;
-  }
   @media (max-width: 720px) {
     .highlight-grid {
       grid-template-columns: 1fr;
@@ -348,5 +341,3 @@ Hi大家好，我是孟澄，现在是中国人民大学（RUC）统计与大数
   </article>
 </div>
 </details>
-
-<p class="homepage-maintenance"><strong>主页上线与维护。</strong> BDAL-RUC 主页正式上线！主页维护：孟澄，杜承朔，向智鹏。</p>
