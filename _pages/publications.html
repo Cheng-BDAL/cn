@@ -1,17 +1,38 @@
 ---
 layout: archive
-title: "论文"
+title: "科研"
 permalink: /publications/
 author_profile: true
 ---
 
 <style>
+  .research-hero {
+    margin-bottom: 1.4rem;
+    padding: 1.1rem 1.15rem;
+    border: 1px solid #eadfd8;
+    border-left: 5px solid #8b1e2d;
+    border-radius: 8px;
+    background: #fbfaf8;
+  }
+  .research-hero h1 {
+    margin: 0 0 0.45rem;
+    font-size: 1.55rem;
+    line-height: 1.25;
+  }
+  .research-hero p {
+    margin: 0;
+    color: #4b5563;
+    line-height: 1.65;
+  }
   .publication-note {
-    margin-bottom: 1.25rem;
+    margin: 0.85rem 0 1rem;
     color: #4b5563;
   }
   .publication-toolbar {
-    margin-bottom: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 1.25rem;
   }
   .publication-toolbar a {
     display: inline-block;
@@ -22,22 +43,94 @@ author_profile: true
     text-decoration: none;
     font-size: 0.9rem;
   }
-  .publication-year {
-    margin: 1.75rem 0 0.75rem;
+  .research-map {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.75rem;
+    margin: 1rem 0 1.4rem;
+  }
+  .research-line-card {
+    display: block;
+    padding: 0.9rem 1rem;
+    border: 1px solid #e5e0da;
+    border-left: 4px solid #8b1e2d;
+    border-radius: 8px;
+    background: #fff;
+    color: inherit;
+    text-decoration: none;
+  }
+  .research-line-card:hover {
+    background: #fbfaf8;
+    text-decoration: none;
+  }
+  .research-line-card h2 {
+    margin: 0 0 0.3rem;
+    font-size: 1rem;
+    line-height: 1.35;
+  }
+  .research-line-card p {
+    margin: 0 0 0.45rem;
+    color: #4b5563;
+    font-size: 0.86rem;
+    line-height: 1.5;
+  }
+  .research-line-count {
+    color: #8b1e2d;
+    font-size: 0.78rem;
+    font-weight: 700;
+  }
+  .research-line-card--hilbert { border-left-color: #2f6f73; }
+  .research-line-card--optimal_transport { border-left-color: #6d5a9c; }
+  .research-line-card--random_objects { border-left-color: #a15c38; }
+  .research-line-card--alignment { border-left-color: #2f6b3f; }
+  .research-line-card--applications_ai { border-left-color: #a07a18; }
+  .featured-work {
+    margin: 0.9rem 0 1.6rem;
+    padding: 0.85rem 0.95rem;
+    border: 1px solid #e5e0da;
+    border-radius: 8px;
+    background: #fff;
+  }
+  .featured-work strong {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  .featured-work span {
+    display: inline-block;
+    margin: 0 0.35rem 0.35rem 0;
+    padding: 0.16rem 0.48rem;
+    border-radius: 999px;
+    background: #f3f4f6;
+    color: #374151;
+    font-size: 0.8rem;
+    font-weight: 700;
+  }
+  .publication-line {
+    margin: 1.7rem 0 0.75rem;
     padding-bottom: 0.35rem;
     border-bottom: 1px solid #e5e7eb;
-    font-size: 1.35rem;
+    font-size: 1.28rem;
+  }
+  .publication-line-intro {
+    margin: -0.25rem 0 0.8rem;
+    color: #4b5563;
+    line-height: 1.6;
+  }
+  .publication-year {
+    margin: 1.25rem 0 0.65rem;
+    font-size: 1.12rem;
   }
   .publication-card {
-    margin: 0 0 0.9rem;
-    padding: 0.95rem 1rem;
+    margin: 0 0 0.78rem;
+    padding: 0.88rem 0.95rem;
+    border: 1px solid #e5e0da;
     border-left: 4px solid #8b1e2d;
-    border-radius: 6px;
+    border-radius: 7px;
     background: #fafafa;
   }
   .publication-title {
     margin: 0 0 0.45rem;
-    font-size: 1.05rem;
+    font-size: 1.02rem;
     line-height: 1.35;
   }
   .publication-title a {
@@ -50,20 +143,25 @@ author_profile: true
   .publication-meta {
     margin: 0 0 0.45rem;
   }
-  .publication-badge {
+  .publication-badge, .publication-tag {
     display: inline-block;
-    margin-right: 0.35rem;
-    padding: 0.15rem 0.45rem;
+    margin: 0 0.3rem 0.28rem 0;
+    padding: 0.14rem 0.44rem;
     border-radius: 999px;
     background: #f3f4f6;
     color: #374151;
-    font-size: 0.78rem;
+    font-size: 0.76rem;
     line-height: 1.4;
+  }
+  .publication-line-badge {
+    background: #f7e6e6;
+    color: #8b1e2d;
+    font-weight: 700;
   }
   .publication-authors {
     margin: 0 0 0.55rem;
     color: #4b5563;
-    font-size: 0.92rem;
+    font-size: 0.9rem;
     line-height: 1.45;
   }
   .publication-authors p {
@@ -79,52 +177,183 @@ author_profile: true
     font-size: 0.82rem;
     text-decoration: none;
   }
+  .publication-years {
+    margin-top: 1.8rem;
+  }
+  .publication-years summary {
+    display: inline-block;
+    padding: 0.42rem 0.75rem;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    background: #fff;
+    color: #374151;
+    cursor: pointer;
+    font-weight: 700;
+  }
+  .publication-years summary::marker {
+    content: "";
+  }
+  @media (max-width: 720px) {
+    .research-map {
+      grid-template-columns: 1fr;
+    }
+  }
 </style>
-
-<p class="publication-note">下划线作者代表 BDAL-RUC 团队成员，* 代表通讯作者。</p>
-<div class="publication-toolbar">
-  <a href="https://scholar.google.com/citations?user=2WsrETAAAAAJ&hl=en">Google Scholar</a>
-</div>
 
 {% include base_path %}
 
 {% assign publications = site.publications | sort: "date" | reverse %}
-{% assign current_year = "" %}
+{% assign subsampling_count = publications | where: "research_line", "subsampling" %}
+{% assign hilbert_count = publications | where: "research_line", "hilbert" %}
+{% assign optimal_count = publications | where: "research_line", "optimal_transport" %}
+{% assign random_count = publications | where: "research_line", "random_objects" %}
+{% assign alignment_count = publications | where: "research_line", "alignment" %}
+{% assign application_count = publications | where: "research_line", "applications_ai" %}
 
-{% for post in publications %}
-  {% assign post_year = post.date | date: "%Y" %}
-  {% if post_year != current_year %}
-    {% assign current_year = post_year %}
-    <h2 class="publication-year">{{ current_year }}</h2>
+<section class="research-hero">
+  <h1>BDAL-RUC 科研主线</h1>
+  <p>我们围绕大规模统计计算、最优传输几何、空间填充曲线、随机对象、跨域软对齐以及工业与 AI 系统中的统计方法展开研究，目标是在理论可解释性和真实计算效率之间建立可复用的方法框架。</p>
+</section>
+
+<p class="publication-note">下划线作者代表 BDAL-RUC 团队成员，* 代表通讯作者。</p>
+<div class="publication-toolbar">
+  <a href="https://scholar.google.com/citations?user=2WsrETAAAAAJ&hl=en">Google Scholar</a>
+  <a href="#publication-years">按年份查看全部论文</a>
+</div>
+
+<div class="research-map">
+  <a class="research-line-card research-line-card--subsampling" href="#line-subsampling">
+    <h2>大规模子抽样与稀疏化</h2>
+    <p>从样本级抽样到元素级、算子级和交互级稀疏化。</p>
+    <span class="research-line-count">{{ subsampling_count.size }} 篇论文</span>
+  </a>
+  <a class="research-line-card research-line-card--hilbert" href="#line-hilbert">
+    <h2>空间填充曲线与 Hilbert 方法</h2>
+    <p>用低维排序、质量坐标和原空间计价连接效率与几何。</p>
+    <span class="research-line-count">{{ hilbert_count.size }} 篇论文</span>
+  </a>
+  <a class="research-line-card research-line-card--optimal_transport" href="#line-optimal_transport">
+    <h2>最优传输的几何与算法</h2>
+    <p>把 OT 作为结构代理、判别方向、投影和不变度量的工具。</p>
+    <span class="research-line-count">{{ optimal_count.size }} 篇论文</span>
+  </a>
+  <a class="research-line-card research-line-card--random_objects" href="#line-random_objects">
+    <h2>随机对象与分布型回归</h2>
+    <p>面向区间、分布和 Wasserstein 对象的建模与推断。</p>
+    <span class="research-line-count">{{ random_count.size }} 篇论文</span>
+  </a>
+  <a class="research-line-card research-line-card--alignment" href="#line-alignment">
+    <h2>跨域、无配对与软对齐</h2>
+    <p>用 OT plan 构造伪配对、软对应和下游结构估计。</p>
+    <span class="research-line-count">{{ alignment_count.size }} 篇论文</span>
+  </a>
+  <a class="research-line-card research-line-card--applications_ai" href="#line-applications_ai">
+    <h2>工业与 AI 系统中的统计方法</h2>
+    <p>把统计结构转化为图像、农业、深度学习和 MoE 系统中的可用算法。</p>
+    <span class="research-line-count">{{ application_count.size }} 篇论文</span>
+  </a>
+</div>
+
+<div class="featured-work">
+  <strong>代表性工作</strong>
+  <span>SparSink</span>
+  <span>HCPD / Hyperbolic SFC</span>
+  <span>POTD / KPOTD / SSP-Ensemble</span>
+  <span>Core-Elements</span>
+  <span>SEINT</span>
+  <span>MP-MoE</span>
+</div>
+
+{% assign research_lines = "subsampling|hilbert|optimal_transport|random_objects|alignment|applications_ai" | split: "|" %}
+
+{% for line in research_lines %}
+  {% assign line_publications = publications | where: "research_line", line %}
+  {% if line_publications.size > 0 %}
+    {% case line %}
+      {% when "subsampling" %}
+        {% assign line_title = "大规模子抽样与稀疏化" %}
+        {% assign line_intro = "这一主线关注如何在保持统计性质的同时降低大规模数据、矩阵和最优传输问题的计算成本。" %}
+      {% when "hilbert" %}
+        {% assign line_title = "空间填充曲线与 Hilbert 方法" %}
+        {% assign line_intro = "这一主线利用空间填充曲线的排序和局部性，为分布比较、基函数选择和高维几何计算提供轻量结构。" %}
+      {% when "optimal_transport" %}
+        {% assign line_title = "最优传输的几何与算法" %}
+        {% assign line_intro = "这一主线把最优传输视为几何代理，用于方向恢复、投影追踪、不变度量和高维结构学习。" %}
+      {% when "random_objects" %}
+        {% assign line_title = "随机对象与分布型回归" %}
+        {% assign line_intro = "这一主线处理区间、分布和 Wasserstein 对象等非欧式数据形式中的建模、相关性和预测问题。" %}
+      {% when "alignment" %}
+        {% assign line_title = "跨域、无配对与软对齐" %}
+        {% assign line_intro = "这一主线在缺少一一配对的多域数据中，用最优传输生成软对应并服务下游结构估计。" %}
+      {% when "applications_ai" %}
+        {% assign line_title = "工业与 AI 系统中的统计方法" %}
+        {% assign line_intro = "这一主线面向真实应用场景，把统计计算、几何建模和功能单元选择转化为可部署算法。" %}
+    {% endcase %}
+
+    <h2 id="line-{{ line }}" class="publication-line">{{ line_title }}</h2>
+    <p class="publication-line-intro">{{ line_intro }}</p>
+
+    {% for post in line_publications %}
+      <article class="publication-card">
+        <h3 class="publication-title">
+          <a href="{{ post.permalink }}" target="_blank">{{ post.title }}</a>
+        </h3>
+        <p class="publication-meta">
+          <span class="publication-badge publication-line-badge">{{ line_title }}</span>
+          {% if post.venue %}
+            <span class="publication-badge">{{ post.venue }}</span>
+          {% endif %}
+          {% if post.date %}
+            <span class="publication-badge">{{ post.date | date: "%Y" }}</span>
+          {% endif %}
+          {% for tag in post.research_tags %}
+            <span class="publication-tag">{{ tag }}</span>
+          {% endfor %}
+        </p>
+        {% if post.excerpt %}
+          <div class="publication-authors">{{ post.excerpt | markdownify }}</div>
+        {% endif %}
+        {% if post.paperurl or post.slidesurl %}
+          <div class="publication-links">
+            {% if post.paperurl %}
+              <a href="{{ post.paperurl }}">PDF</a>
+            {% endif %}
+            {% if post.slidesurl %}
+              <a href="{{ post.slidesurl }}">Slides</a>
+            {% endif %}
+          </div>
+        {% endif %}
+      </article>
+    {% endfor %}
   {% endif %}
-
-  <article class="publication-card">
-    <h3 class="publication-title">
-      <a href="{{ post.permalink }}" target="_blank">{{ post.title }}</a>
-    </h3>
-
-    <p class="publication-meta">
-      {% if post.venue %}
-        <span class="publication-badge">{{ post.venue }}</span>
-      {% endif %}
-      {% if post.date %}
-        <span class="publication-badge">{{ post.date | date: "%Y" }}</span>
-      {% endif %}
-    </p>
-
-    {% if post.excerpt %}
-      <div class="publication-authors">{{ post.excerpt | markdownify }}</div>
-    {% endif %}
-
-    {% if post.paperurl or post.slidesurl %}
-      <div class="publication-links">
-        {% if post.paperurl %}
-          <a href="{{ post.paperurl }}">PDF</a>
-        {% endif %}
-        {% if post.slidesurl %}
-          <a href="{{ post.slidesurl }}">Slides</a>
-        {% endif %}
-      </div>
-    {% endif %}
-  </article>
 {% endfor %}
+
+<details id="publication-years" class="publication-years">
+  <summary>按年份查看全部论文</summary>
+
+  {% assign current_year = "" %}
+  {% for post in publications %}
+    {% assign post_year = post.date | date: "%Y" %}
+    {% if post_year != current_year %}
+      {% assign current_year = post_year %}
+      <h2 class="publication-year">{{ current_year }}</h2>
+    {% endif %}
+
+    <article class="publication-card">
+      <h3 class="publication-title">
+        <a href="{{ post.permalink }}" target="_blank">{{ post.title }}</a>
+      </h3>
+      <p class="publication-meta">
+        {% if post.venue %}
+          <span class="publication-badge">{{ post.venue }}</span>
+        {% endif %}
+        {% if post.date %}
+          <span class="publication-badge">{{ post.date | date: "%Y" }}</span>
+        {% endif %}
+      </p>
+      {% if post.excerpt %}
+        <div class="publication-authors">{{ post.excerpt | markdownify }}</div>
+      {% endif %}
+    </article>
+  {% endfor %}
+</details>

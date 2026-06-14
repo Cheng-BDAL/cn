@@ -6,8 +6,9 @@ permalink: https://cheng-bdal.github.io/files/ICLR_SEINT.pdf
 excerpt: '<u>Junyi Lin</u>, <u>Dunyao Xue</u>, Jun Yu,  Hongteng Xu<sup>*</sup>, <u>Cheng Meng<sup>*</sup></u>'
 date: 2026-02-09
 venue: 'ICLR'
+research_line: "optimal_transport"
+research_tags: ["Invariant Metric", "Optimal Transport"]
 paperurl: 'https://cheng-bdal.github.io/files/ICLR_SEINT.pdf'
 #slidesurl: 'https://cheng-bdal.github.io/files/Sampling-Based Methods.pdf'
 
 ---
-

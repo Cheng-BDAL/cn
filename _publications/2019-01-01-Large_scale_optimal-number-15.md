@@ -6,6 +6,8 @@ permalink: 'https://proceedings.neurips.cc/paper/2019/hash/4bbbe6cb5982b9110413c
 excerpt: '<u>Cheng Meng</u>, Yuan Ke, Jingyi Zhang, Mengrui Zhang, Wenxuan Zhong, Ping Ma<sup>*</sup>'
 date: 2019-01-01
 venue: 'NeurIPS'
+research_line: "optimal_transport"
+research_tags: ["Optimal Transport", "Projection Pursuit"]
 paperurl: 'https://cheng-bdal.github.io/files/Large-scale optimal.pdf'
 #slidesurl: 'https://cheng-bdal.github.io/files/Large-scale optimal.pdf'
 ---
