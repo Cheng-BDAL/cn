@@ -71,6 +71,18 @@ redirect_from:
   }
 </style>
 
+工作经历
+======
+<div class="cv-timeline">
+  <div class="cv-entry">
+    <div class="cv-date">2020 - 至今</div>
+    <div>
+      <h3>准聘助理教授</h3>
+      <p>中国人民大学统计与大数据研究院</p>
+    </div>
+  </div>
+</div>
+
 教育背景
 ======
 <div class="cv-timeline">
@@ -88,18 +100,6 @@ redirect_from:
       <h3>数学学士</h3>
       <p>清华大学</p>
       <p>数学与应用数学系</p>
-    </div>
-  </div>
-</div>
-
-工作经历
-======
-<div class="cv-timeline">
-  <div class="cv-entry">
-    <div class="cv-date">2020 - 至今</div>
-    <div>
-      <h3>准聘助理教授</h3>
-      <p>中国人民大学统计与大数据研究院</p>
     </div>
   </div>
 </div>
