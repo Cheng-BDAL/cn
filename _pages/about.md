@@ -33,6 +33,11 @@ Hi大家好，我是孟澄，现在是中国人民大学（RUC）统计与大数
     color: inherit;
     text-decoration: none;
   }
+  .highlight-grid a:hover span {
+    color: #8b1e2d;
+    text-decoration: underline;
+    text-underline-offset: 0.18rem;
+  }
   .highlight-grid img {
     width: 100%;
     aspect-ratio: 4 / 3;
@@ -132,15 +137,15 @@ Hi大家好，我是孟澄，现在是中国人民大学（RUC）统计与大数
 <div class="highlight-grid">
   <a href="https://mp.weixin.qq.com/s/jtmVn6od7OL0Z7EPplROpQ">
     <img src="https://cheng-bdal.github.io//images/赛道.jpg" alt="华为报道 BDAL-RUC 三获火花奖">
-    <span>华为报道 BDAL-RUC 三获“火花奖”</span>
+    <span>华为报道 BDAL-RUC 三获“火花奖” →</span>
   </a>
   <a href="https://mp.weixin.qq.com/s/bSx9Vl2pe-LEdYZdeyDGRQ">
     <img src="https://cheng-bdal.github.io//images/新生讲话.jpg" alt="人大报道开学典礼教师代表发言">
-    <span>人大报道开学典礼教师代表发言</span>
+    <span>人大报道开学典礼教师代表发言 →</span>
   </a>
   <a href="https://mp.weixin.qq.com/s/OQwr1EvCYTcqG4Tm2Yl84Q">
     <img src="https://cheng-bdal.github.io//images/清华校友.jpg" alt="清华校友总会报道校友成长故事">
-    <span>清华校友总会报道校友故事</span>
+    <span>清华校友总会报道校友故事 →</span>
   </a>
 </div>
 
