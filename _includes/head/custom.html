@@ -24,6 +24,144 @@
 <meta name="theme-color" content="#ffffff">
 <link rel="stylesheet" href="{{ base_path }}/assets/css/academicons.css"/>
 
+<style>
+  :root {
+    --bdal-red: #8b1e2d;
+    --bdal-red-soft: #f7e6e6;
+    --bdal-border: #e6e0dc;
+    --bdal-border-strong: #d8c8bf;
+    --bdal-bg-soft: #fbfaf8;
+    --bdal-text: #30343a;
+    --bdal-muted: #5b636b;
+    --bdal-radius: 6px;
+  }
+
+  body {
+    color: var(--bdal-text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", "Noto Sans SC", "Helvetica Neue", Arial, sans-serif;
+    line-height: 1.58;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    letter-spacing: 0;
+  }
+
+  .page__content,
+  .archive {
+    line-height: 1.65;
+  }
+
+  .page__content > h1,
+  .archive .page__title {
+    margin: 1.55rem 0 0.75rem !important;
+    padding-bottom: 0.35rem;
+    border-bottom: 1px solid #eadfd8;
+    color: var(--bdal-text);
+    font-size: 1.35rem !important;
+    line-height: 1.25;
+  }
+
+  .page__content > h2,
+  .archive h2 {
+    color: var(--bdal-text);
+    font-size: 1.22rem;
+    line-height: 1.3;
+  }
+
+  .page__content p,
+  .page__content li,
+  .archive p,
+  .archive li {
+    overflow-wrap: break-word;
+  }
+
+  .highlight-grid span,
+  .news-card a,
+  .news-more summary,
+  .award-link,
+  .publication-toolbar a,
+  .publication-links a,
+  .publication-years summary {
+    border: 1px solid var(--bdal-border-strong) !important;
+    border-radius: 999px !important;
+    background: #fff !important;
+    color: var(--bdal-red) !important;
+    font-size: 0.78rem !important;
+    font-weight: 700;
+    line-height: 1.45;
+    text-decoration: none !important;
+    white-space: nowrap;
+  }
+
+  .highlight-grid a:hover span,
+  .news-card a:hover,
+  .news-more summary:hover,
+  .award-link:hover,
+  .publication-toolbar a:hover,
+  .publication-links a:hover,
+  .publication-years summary:hover {
+    border-color: #cfa5a5 !important;
+    background: var(--bdal-red-soft) !important;
+    text-decoration: none !important;
+  }
+
+  .news-card,
+  .award-card,
+  .admission-panel,
+  .research-line-card,
+  .publication-card,
+  .research-stat {
+    border-color: var(--bdal-border) !important;
+    border-radius: var(--bdal-radius) !important;
+  }
+
+  .news-card,
+  .award-card--featured,
+  .admission-notice,
+  .admission-process,
+  .research-hero {
+    background: var(--bdal-bg-soft) !important;
+  }
+
+  .news-card,
+  .admission-notice,
+  .admission-process,
+  .research-hero,
+  .publication-card {
+    border-left-color: var(--bdal-red) !important;
+  }
+
+  .news-meta,
+  .award-meta,
+  .publication-authors,
+  .publication-note,
+  .publication-line-intro,
+  .research-hero p,
+  .research-line-card p,
+  .research-stat span {
+    color: var(--bdal-muted) !important;
+  }
+
+  @media (max-width: 720px) {
+    .page__content > h1,
+    .archive .page__title {
+      margin: 1.2rem 0 0.55rem !important;
+      font-size: 1.18rem !important;
+    }
+
+    .highlight-grid span,
+    .news-card a,
+    .award-link,
+    .publication-toolbar a,
+    .publication-links a {
+      max-width: 100%;
+      white-space: normal;
+    }
+  }
+</style>
+
 
 <!-- Support for MatJax -->
 <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
