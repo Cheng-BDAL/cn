@@ -227,8 +227,8 @@ Hi，大家好，我是孟澄，目前在中国人民大学（RUC）统计与大
 
 <div class="highlight-grid">
   <a href="https://mp.weixin.qq.com/s/jtmVn6od7OL0Z7EPplROpQ">
-    <img loading="lazy" src="https://cheng-bdal.github.io//images/赛道.jpg" alt="华为报道 BDAL-RUC 三获火花奖">
-    <span>华为报道 BDAL-RUC 三获“火花奖” →</span>
+    <img loading="lazy" src="https://cheng-bdal.github.io//images/赛道.jpg" alt="华为报道孟澄三获火花奖">
+    <span>华为报道孟澄三获“火花奖” →</span>
   </a>
   <a href="https://mp.weixin.qq.com/s/bSx9Vl2pe-LEdYZdeyDGRQ">
     <img loading="lazy" src="https://cheng-bdal.github.io//images/新生讲话.jpg" alt="人大报道开学典礼教师代表发言">
@@ -262,7 +262,7 @@ Hi，大家好，我是孟澄，目前在中国人民大学（RUC）统计与大
   </article>
   <article class="news-card">
     <div class="news-meta"><span class="news-date">2026年5月</span><span class="news-tag news-tag--papers">论文成果</span></div>
-    <p><strong>关于 MoE 的新工作被 ICML 2026 接受。</strong> 恭喜康欣来、薛敦耀、王政博、杜承朔等的论文《Breaking the Echo Chamber: A Dynamic Ensemble Pruning Perspective on MoE》被 ICML 接受，并被知名机器学习公众号“机器之心”宣传报道！ <a href="https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651034543&idx=2&sn=8c0a91d51644de87618d0cdd9585429d">阅读全文 →</a></p>
+    <p><strong>关于MoE的改进工作被 ICML 2026 接受。</strong> 恭喜康欣来、薛敦耀、王政博、杜承朔等的论文《Breaking the Echo Chamber: A Dynamic Ensemble Pruning Perspective on MoE》被 ICML 接受，并被知名机器学习公众号“机器之心”宣传报道！ <a href="https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651034543&idx=2&sn=8c0a91d51644de87618d0cdd9585429d">阅读全文 →</a></p>
   </article>
 </div>
 
@@ -284,11 +284,11 @@ Hi，大家好，我是孟澄，目前在中国人民大学（RUC）统计与大
   </article>
   <article class="news-card">
     <div class="news-meta"><span class="news-date">2026年3月</span><span class="news-tag news-tag--awards">学生荣誉</span></div>
-    <p><strong>薛敦耀入选学校拔尖创新人才培育资助计划。</strong> 祝贺薛敦耀入选 2025-2026 学年中国人民大学“拔尖创新人才培育资助计划”！</p>
+    <p><strong>薛敦耀入选学校拔尖创新人才培育资助计划。</strong> 祝贺薛敦耀入选 2025-2026 学年中国人民大学“拔尖创新人才培育资助计划”（全院2位），这是继李梦雨之后团队成员第二次获此殊荣！</p>
   </article>
   <article class="news-card">
     <div class="news-meta"><span class="news-date">2026年3月</span><span class="news-tag news-tag--projects">项目与合作</span></div>
-    <p><strong>团队再次获得华为“火花奖”。</strong> 祝贺朱珺和孟澄参与的“析锂在线检测”难题荣获华为“难题揭榜”第 131 期火花奖！ <a href="https://mp.weixin.qq.com/s/aECgm4y8pQs_ImBtHJ-7Pw">阅读全文 →</a></p>
+    <p><strong>团队再次获得华为难题揭榜“火花奖”。</strong> 祝贺朱珺和孟澄参与的“析锂在线检测”难题荣获华为难题揭榜第 131 期“火花奖”！ <a href="https://mp.weixin.qq.com/s/aECgm4y8pQs_ImBtHJ-7Pw">阅读全文 →</a></p>
   </article>
   <article class="news-card">
     <div class="news-meta"><span class="news-date">2026年1月</span><span class="news-tag news-tag--papers">论文成果</span></div>
@@ -296,7 +296,7 @@ Hi，大家好，我是孟澄，目前在中国人民大学（RUC）统计与大
   </article>
   <article class="news-card">
     <div class="news-meta"><span class="news-date">2026年1月</span><span class="news-tag news-tag--papers">论文成果</span></div>
-    <p><strong>SE(p)-Invariant Transport Metric 工作被 ICLR 接受。</strong> 恭喜林俊一、薛敦耀等的论文《An Efficient SE(p)-Invariant Transport Metric Driven by Polar Transport Discrepancy-Based Representation》被 ICLR 接受，并被知名 AI 公众号“机器之心”宣传报道！ <a href="https://mp.weixin.qq.com/s/JMUyM_UScUCKwxmcGBlTAQ">阅读全文 →</a></p>
+    <p><strong>刚体不变性度量工作被 ICLR 接受。</strong> 恭喜林俊一、薛敦耀等的论文《An Efficient SE(p)-Invariant Transport Metric Driven by Polar Transport Discrepancy-Based Representation》被 ICLR 接受，并被知名 AI 公众号“机器之心”宣传报道！ <a href="https://mp.weixin.qq.com/s/JMUyM_UScUCKwxmcGBlTAQ">阅读全文 →</a></p>
   </article>
   <article class="news-card">
     <div class="news-meta"><span class="news-date">2026年1月</span><span class="news-tag news-tag--projects">项目与合作</span></div>
@@ -324,7 +324,7 @@ Hi，大家好，我是孟澄，目前在中国人民大学（RUC）统计与大
   </article>
   <article class="news-card">
     <div class="news-meta"><span class="news-date">2025年11月</span><span class="news-tag news-tag--awards">学生荣誉</span></div>
-    <p><strong>CSIAM 学生论坛墙报奖表现亮眼。</strong> 祝贺黄君烈、杜承朔、王涛、薛敦耀，4位同学荣获中国工业与应用数学学会（CSIAM）第九届学生论坛优秀墙报奖，<strong>获奖数量位列参赛单位首位</strong>！ <a href="https://mp.weixin.qq.com/s/krRC5HjTbBXFPWO6ZEP19Q">阅读全文 →</a> 荣获人大新闻网报道！ <a href="https://news.ruc.edu.cn/1984663406100312065.html">阅读全文 →</a></p>
+    <p><strong>CSIAM 学生论坛墙报奖表现亮眼。</strong> 祝贺黄君烈、杜承朔、王涛、薛敦耀，4位同学荣获中国工业与应用数学学会（CSIAM）第九届学生论坛优秀墙报奖，<strong>获奖数量位列参赛单位首位</strong>，并获人大新闻网报道！ <a href="https://mp.weixin.qq.com/s/krRC5HjTbBXFPWO6ZEP19Q">微信报道 →</a> <a href="https://news.ruc.edu.cn/1984663406100312065.html">人大新闻 →</a></p>
   </article>
   <article class="news-card">
     <div class="news-meta"><span class="news-date">2025年11月</span><span class="news-tag news-tag--awards">学生荣誉</span></div>
@@ -388,15 +388,15 @@ Hi，大家好，我是孟澄，目前在中国人民大学（RUC）统计与大
   </article>
   <article class="news-card">
     <div class="news-meta"><span class="news-date">2025年5月</span><span class="news-tag news-tag--media">媒体报道</span></div>
-    <p><span style="color:purple"><strong>孟澄作为清华毕业十年校友代表发言。</strong> 孟澄作为毕业十年校友代表受邀出席清华大学校党委书记邱勇主持的主题座谈会并发言 <a href="https://mp.weixin.qq.com/s/d8KrSRIqVNIQVdvBO0yjFw">阅读全文 →</a> 并被清华大学统计与数据科学系报道 <a href="https://mp.weixin.qq.com/s/utOxnb63ZurO7jPo6NpkAg">阅读全文 →</a>！</span></p>
+    <p><span style="color:purple"><strong>孟澄作为清华毕业十年校友代表发言。</strong> 孟澄作为毕业十年校友代表受邀出席清华大学校党委书记邱勇主持的主题座谈会并发言，并被清华大学统计与数据科学系报道！ <a href="https://mp.weixin.qq.com/s/d8KrSRIqVNIQVdvBO0yjFw">活动报道 →</a> <a href="https://mp.weixin.qq.com/s/utOxnb63ZurO7jPo6NpkAg">院系报道 →</a></span></p>
   </article>
   <article class="news-card">
     <div class="news-meta"><span class="news-date">2025年4月</span><span class="news-tag news-tag--awards">学生荣誉</span></div>
-    <p><strong>三位同学获得博士生论坛 Travel Award。</strong> 祝贺林俊一，黄君烈，薛敦耀获得Travel award，入选全国工业统计学教学研究会青年统计学家协会年会暨第三届统计理论及其应用国际研讨会博士生论坛 <a href="https://mp.weixin.qq.com/s/ko2HoiA6hpjWPdyo8Q8E-g">阅读全文 →</a>，并被知名学术平台狗熊会转发报道！ <a href="https://mp.weixin.qq.com/s/secOUhCJQb0NYumfMlM5qQ">阅读全文 →</a>。</p>
+    <p><strong>三位同学获得博士生论坛 Travel Award。</strong> 祝贺林俊一、黄君烈、薛敦耀获得 Travel Award，入选全国工业统计学教学研究会青年统计学家协会年会暨第三届统计理论及其应用国际研讨会博士生论坛，并被知名学术平台狗熊会转发报道！ <a href="https://mp.weixin.qq.com/s/ko2HoiA6hpjWPdyo8Q8E-g">论坛报道 →</a> <a href="https://mp.weixin.qq.com/s/secOUhCJQb0NYumfMlM5qQ">平台报道 →</a></p>
   </article>
   <article class="news-card">
     <div class="news-meta"><span class="news-date">2025年3月</span><span class="news-tag news-tag--projects">项目与合作</span></div>
-    <p><strong>团队第三次获得华为“火花奖”。</strong> 祝贺孟澄带领学生郑皓、王涛、梁浩贤、李梦雨荣获华为“难题揭榜”第114期火花奖，这是团队第三次获此殊荣！ <a href="https://mp.weixin.qq.com/s/NXFraboslDTdyHaGAFEjFA">阅读全文 →</a> 祝贺梁浩贤荣获明理书院采访！ <a href="https://mp.weixin.qq.com/s/0SyJYpWQNhOvDi2sjYaxOg">我的火花时光</a></p>
+    <p><strong>团队第三次获得华为难题揭榜“火花奖”。</strong> 祝贺孟澄带领学生郑皓、王涛、梁浩贤、李梦雨荣获华为难题揭榜第 114 期“火花奖”，这是团队第三次获此殊荣；梁浩贤也接受明理书院采访。 <a href="https://mp.weixin.qq.com/s/NXFraboslDTdyHaGAFEjFA">华为报道 →</a> <a href="https://mp.weixin.qq.com/s/0SyJYpWQNhOvDi2sjYaxOg">我的火花时光 →</a></p>
   </article>
   <article class="news-card">
     <div class="news-meta"><span class="news-date">2025年3月</span><span class="news-tag news-tag--papers">论文成果</span></div>

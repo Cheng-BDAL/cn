@@ -275,7 +275,11 @@
   }
 
   .author__avatar img {
+    width: 84px;
+    height: 84px;
     max-width: 84px;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
   }
 
   .author__content {

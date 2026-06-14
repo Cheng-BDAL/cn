@@ -1,6 +1,6 @@
 ---
 layout: post  # 使用合适的布局
-title: 华为“难题揭榜”火花奖  # 奖励名称
+title: 华为难题揭榜“火花奖”  # 奖励名称
 categories: rewards  # 类别，使用 rewards 以便归档
 permalink: https://mp.weixin.qq.com/s/NXFraboslDTdyHaGAFEjFA
 order: 3

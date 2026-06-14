@@ -195,6 +195,11 @@ author_profile: true
     color: #8b1e2d;
     font-weight: 700;
   }
+  .publication-venue-tag {
+    background: #eef2ff;
+    color: #4f46e5;
+    font-weight: 700;
+  }
   .publication-authors {
     margin: 0 0 0.55rem;
     color: #4b5563;
@@ -342,14 +347,11 @@ author_profile: true
         <p class="publication-meta">
           <span class="publication-badge publication-line-badge">{{ line_title }}</span>
           {% if post.venue %}
-            <span class="publication-badge">{{ post.venue }}</span>
+            <span class="publication-tag publication-venue-tag">{{ post.venue }}</span>
           {% endif %}
           {% if post.date %}
             <span class="publication-badge">{{ post.date | date: "%Y" }}</span>
           {% endif %}
-          {% for tag in post.research_tags %}
-            <span class="publication-tag">{{ tag }}</span>
-          {% endfor %}
         </p>
         {% if post.excerpt %}
           <div class="publication-authors">{{ post.excerpt | markdownify }}</div>

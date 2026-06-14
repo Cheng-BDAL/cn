@@ -5,7 +5,7 @@ category: conferences
 permalink: 'https://proceedings.neurips.cc/paper/2020/hash/29586cb449c90e249f1f09a0a4ee245a-Abstract.html'
 excerpt: 'Cheng Meng, Jun Yu, Jingyi Zhang, Ping Ma, Wenxuan Zhong<sup>*</sup>'
 date: 2020-01-01
-venue: 'NeurIPS'
+venue: 'NeurIPS（机器学习三大会）'
 research_line: "optimal_transport"
 research_tags: ["Optimal Transport", "SDR"]
 paperurl: 'https://cheng-bdal.github.io/files/Sufficient dimension reduction.pdf'

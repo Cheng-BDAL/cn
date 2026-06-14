@@ -78,7 +78,7 @@ redirect_from:
     <div class="cv-date">2020 - 至今</div>
     <div>
       <h3>准聘助理教授</h3>
-      <p>中国人民大学<br>统计与大数据研究院</p>
+      <p>中国人民大学，统计与大数据研究院</p>
     </div>
   </div>
 </div>
@@ -90,16 +90,14 @@ redirect_from:
     <div class="cv-date">2015 - 2020</div>
     <div>
       <h3>统计学博士</h3>
-      <p>佐治亚大学</p>
-      <p><a href="https://bdalpingio.github.io/">大数据分析实验室</a></p>
+      <p>佐治亚大学，统计系</p>
     </div>
   </div>
   <div class="cv-entry">
     <div class="cv-date">2011 - 2015</div>
     <div>
       <h3>数学学士</h3>
-      <p>清华大学</p>
-      <p>数学与应用数学系</p>
+      <p>清华大学，数学与应用数学系</p>
     </div>
   </div>
 </div>
@@ -128,7 +126,7 @@ redirect_from:
   </div>
   <div class="cv-service-item">
     <h3>招生与科普</h3>
-    <p>2023-2025 年中国人民大学上海招生组成员。</p>
+    <p>2023-2026 年中国人民大学上海招生组成员。</p>
     <img loading="lazy" class="cv-image-wide" src="https://cheng-bdal.github.io//images/上海招生.jpg" alt="中国人民大学上海招生">
     <p>2025 年代表中国人民大学江苏招生组，赴江苏省天一中学作科普报告。<a href="https://mp.weixin.qq.com/s/Rhzmvg_Trd_3_13nDxzjRg">链接</a></p>
     <img loading="lazy" class="cv-image-wide" src="https://cheng-bdal.github.io//images/江苏省招生.jpg" alt="中国人民大学江苏招生">
