@@ -101,6 +101,29 @@ author_profile: true
     font-size: 0.8rem;
     font-weight: 700;
   }
+  .research-snapshot {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 0.55rem;
+    margin-top: 0.8rem;
+  }
+  .research-stat {
+    padding: 0.55rem 0.65rem;
+    border: 1px solid #e5e0da;
+    border-radius: 7px;
+    background: #fff;
+  }
+  .research-stat strong {
+    display: block;
+    color: #8b1e2d;
+    font-size: 1.15rem;
+    line-height: 1.2;
+  }
+  .research-stat span {
+    color: #4b5563;
+    font-size: 0.78rem;
+    line-height: 1.35;
+  }
   .publication-line {
     margin: 1.7rem 0 0.75rem;
     padding-bottom: 0.35rem;
@@ -193,6 +216,9 @@ author_profile: true
     .research-map {
       grid-template-columns: 1fr;
     }
+    .research-snapshot {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
   }
 </style>
 
@@ -209,6 +235,12 @@ author_profile: true
 <section class="research-hero">
   <h1>BDAL-RUC 科研主线</h1>
   <p>我们围绕大规模统计计算、最优传输几何、空间填充曲线、随机对象、跨域软对齐以及工业与 AI 系统中的统计方法展开研究，目标是在理论可解释性和真实计算效率之间建立可复用的方法框架。</p>
+  <div class="research-snapshot">
+    <div class="research-stat"><strong>32</strong><span>已收录论文</span></div>
+    <div class="research-stat"><strong>1 / 3 / 15</strong><span>人大 A+ / A / A- 类</span></div>
+    <div class="research-stat"><strong>5</strong><span>NeurIPS / ICML / ICLR</span></div>
+    <div class="research-stat"><strong>6</strong><span>核心科研主线</span></div>
+  </div>
   <div class="research-highlights">
     <strong>代表性工作</strong>
     <span>SparSink</span>
