@@ -3,7 +3,7 @@ title: "Sufficient Dimension Reduction for Classification Using Principal Optima
 collection: publications
 category: conferences
 permalink: 'https://proceedings.neurips.cc/paper/2020/hash/29586cb449c90e249f1f09a0a4ee245a-Abstract.html'
-excerpt: '<u>Cheng Meng</u>, Jun Yu, Jingyi Zhang, Ping Ma, Wenxuan Zhong<sup>*</sup>'
+excerpt: 'Cheng Meng, Jun Yu, Jingyi Zhang, Ping Ma, Wenxuan Zhong<sup>*</sup>'
 date: 2020-01-01
 venue: 'NeurIPS'
 research_line: "optimal_transport"

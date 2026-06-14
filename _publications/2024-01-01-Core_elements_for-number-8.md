@@ -3,7 +3,7 @@ title: "Core-Elements for Large-Scale Least Squares Estimation"
 collection: publications
 category: manuscripts
 permalink: 'https://arxiv.org/html/2206.10240v4'
-excerpt: '<u><a href="https://mengyu8042.github.io/">Mengyu Li</a></u>, Jun Yu, <u><a href="https://github.com/sherlockLitao">Tao Li</a></u>, <u>Cheng Meng<sup>*</sup></u>'
+excerpt: '<a href="https://mengyu8042.github.io/">Mengyu Li</a>, Jun Yu, <a href="https://github.com/sherlockLitao">Tao Li</a>, Cheng Meng<sup>*</sup>'
 date: 2024-01-01
 venue: 'Stat. Comput.（人大核心A-类）'
 research_line: "subsampling"

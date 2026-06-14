@@ -3,7 +3,7 @@ title: "Modern Subsampling Methods for Large-Scale Least Squares Regression"
 collection: publications
 category: manuscripts
 permalink: 'https://www.igi-global.com/article/modern-subsampling-methods-for-large-scale-least-squares-regression/280467'
-excerpt: '<u><a href="https://github.com/sherlockLitao">Tao Li</a></u>, <u>Cheng Meng<sup>*</sup></u>'
+excerpt: '<a href="https://github.com/sherlockLitao">Tao Li</a>, Cheng Meng<sup>*</sup>'
 date: 2021-01-01
 venue: 'IJCPS'
 research_line: "review"

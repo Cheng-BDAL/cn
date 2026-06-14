@@ -3,7 +3,7 @@ title: "Double Optimal Transport for Differential Gene Regulatory Network Infere
 collection: publications
 category: manuscripts
 permalink: 'https://www.tandfonline.com/doi/abs/10.1080/10618600.2025.2505732'
-excerpt: '<u><a href="https://mengyu8042.github.io/">Mengyu Li</a></u>, Bencong Zhu, <u>Cheng Meng<sup>*</sup></u>, Xiaodan Fan<sup>*</sup>'
+excerpt: '<a href="https://mengyu8042.github.io/">Mengyu Li</a>, Bencong Zhu, Cheng Meng<sup>*</sup>, Xiaodan Fan<sup>*</sup>'
 date: 2025-01-01
 venue: 'Bioinformatics（人大核心A-类，人大理工核心A-类）'
 research_line: "alignment"

@@ -3,7 +3,7 @@ title: "More Efficient Computation of Smoothing Splines via Space-Filling Basis 
 collection: publications
 category: manuscripts
 permalink: 'https://academic.oup.com/biomet/article-abstract/107/3/723/5831923'
-excerpt: '<u>Cheng Meng</u>, Xinlian Zhang, Jingyi Zhang, Wenxuan Zhong, Ping Ma<sup>*</sup>'
+excerpt: 'Cheng Meng, Xinlian Zhang, Jingyi Zhang, Wenxuan Zhong, Ping Ma<sup>*</sup>'
 date: 2020-01-01
 venue: 'Biometrika(人大核心A类期刊)'
 research_line: "hilbert"

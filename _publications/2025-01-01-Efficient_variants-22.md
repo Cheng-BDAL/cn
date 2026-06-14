@@ -3,7 +3,7 @@ title: "Efficient Variants of Wasserstein Distance in Hyperbolic Space via Space
 collection: publications
 category: manuscripts
 permalink: 'https://ieeexplore.ieee.org/document/10973297'
-excerpt: '<u><a href="https://github.com/sherlockLitao">Tao Li</a></u>, <u>Cheng Meng<sup>*</sup></u>, Hongteng Xu, <u><a href="https://dfsxzj.github.io/homepage/">Jun Zhu</a></u> (alphabetical order)'
+excerpt: '<a href="https://github.com/sherlockLitao">Tao Li</a>, Cheng Meng<sup>*</sup>, Hongteng Xu, <a href="https://dfsxzj.github.io/homepage/">Jun Zhu</a> (alphabetical order)'
 date: 2025-01-01
 venue: 'IEEE TNNLS（人大理工核心A-类）'
 research_line: "hilbert"

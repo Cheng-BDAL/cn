@@ -3,7 +3,7 @@ title: "Efficient Approximation of Gromov-Wasserstein Distance Using Importance 
 collection: publications
 category: manuscripts
 permalink: 'https://www.tandfonline.com/doi/full/10.1080/10618600.2023.2165500'
-excerpt: '<u><a href="https://mengyu8042.github.io/">Mengyu Li</a></u>, Jun Yu, Hongteng Xu, <u>Cheng Meng<sup>*</sup></u>'
+excerpt: '<a href="https://mengyu8042.github.io/">Mengyu Li</a>, Jun Yu, Hongteng Xu, Cheng Meng<sup>*</sup>'
 date: 2022-01-01
 venue: 'JCGS（人大核心A-类，人大理工核心A-类）'
 research_line: "subsampling"
