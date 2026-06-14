@@ -87,9 +87,9 @@ author_profile: true
     color: #4a5964;
   }
   .award-link {
-    display: inline-block;
-    margin-top: 0.25rem;
-    font-size: 0.85rem;
+    display: inline;
+    margin-top: 0;
+    font-size: inherit;
     font-weight: 600;
   }
   .award-feature {
@@ -167,9 +167,9 @@ author_profile: true
           <img class="featured-award-image" src="https://cheng-bdal.github.io//images/李梦雨-吴玉章.jpg" alt="李梦雨吴玉章奖学金">
         {% endif %}
         {% if post.permalink %}
-          <a class="award-link" href="{{ post.permalink }}" target="_blank">查看报道</a>
+          <a class="award-link" href="{{ post.permalink }}" target="_blank">阅读全文 →</a>
         {% else %}
-          <a class="award-link" href="{{ base_path }}{{ post.url }}">查看详情</a>
+          <a class="award-link" href="{{ base_path }}{{ post.url }}">阅读全文 →</a>
         {% endif %}
       </article>
     {% endif %}
@@ -217,9 +217,9 @@ author_profile: true
       {% endif %}
       {% unless post.title contains "火花" %}
         {% if post.permalink %}
-          <a class="award-link" href="{{ post.permalink }}" target="_blank">查看报道</a>
+          <a class="award-link" href="{{ post.permalink }}" target="_blank">阅读全文 →</a>
         {% else %}
-          <a class="award-link" href="{{ base_path }}{{ post.url }}">查看详情</a>
+          <a class="award-link" href="{{ base_path }}{{ post.url }}">阅读全文 →</a>
         {% endif %}
       {% endif %}
     </article>
