@@ -38,8 +38,6 @@ Hi大家好，我是孟澄，现在是中国人民大学（RUC）统计与大数
 
 - **电子邮件：** chengmeng at ruc dot edu dot cn
 
-![访问量](https://komarev.com/ghpvc/?username=Cheng-BDAL&label=Visitors&style=flat-square&color=8b1e2d)
-
 最新动态
 =====
 - （2026年6月）祝贺朱珺等的论文《SSP-Ensemble: A Sufficient Subspace Projection Ensemble for Multiclass Classification》和王培泽等的论文《KPOTD: Kernel Principal Optimal Transport Directions for Nonlinear Sufficient Dimension Reduction》被第一届统计顶会STAI-X接受！
