@@ -58,7 +58,9 @@ author_profile: true
 .admission-process {
   margin: 0.65rem 0 1rem;
   padding: 0.85rem 1rem;
-  border-left: 3px solid #8b1e2d;
+  border: 1px solid #e6e0dc;
+  border-left: 4px solid #8b1e2d;
+  border-radius: 6px;
   background: #fbfaf8;
 }
 .archive hr {
