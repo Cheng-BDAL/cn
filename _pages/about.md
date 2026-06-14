@@ -162,7 +162,7 @@ Hi大家好，我是孟澄，现在是中国人民大学（RUC）统计与大数
   </article>
   <article class="news-card">
     <div class="news-meta"><span class="news-date">2026年5月</span><span class="news-tag news-tag--papers">论文成果</span></div>
-    <p><strong>组里 JCGS 论文列表继续刷新。</strong> 恭喜林俊一等的论文《Sparsification Subsampling for Partial Least Squares Regression》被 Journal of Computational and Graphical Statistics 接受！这是组里第 11 篇研究院 1B 类期刊！ <a href="https://mp.weixin.qq.com/s?__biz=MzI0NTE1MDk4Mg==&mid=2247493940&idx=1&sn=3f41517b696d31773e31a21693ad8c35&chksm=e8f6112b10b60af59a6e06b2b853b016819e8df11bd3e59f74027f2f0f3b6a7008093539b5aa&mpshare=1&scene=1&srcid=0612HIgIPk4SNGTgunx3oLYC&sharer_shareinfo=9485eab15d920ade4b142f3ec70593ac&sharer_shareinfo_first=9485eab15d920ade4b142f3ec70593ac#rd">链接</a></p>
+    <p><strong>组里 JCGS 论文列表继续刷新。</strong> 恭喜林俊一等的论文《Sparsification Subsampling for Partial Least Squares Regression》被 JCGS 接受！这是组里第 11 篇研究院 1B 类期刊！ <a href="https://mp.weixin.qq.com/s?__biz=MzI0NTE1MDk4Mg==&mid=2247493940&idx=1&sn=3f41517b696d31773e31a21693ad8c35&chksm=e8f6112b10b60af59a6e06b2b853b016819e8df11bd3e59f74027f2f0f3b6a7008093539b5aa&mpshare=1&scene=1&srcid=0612HIgIPk4SNGTgunx3oLYC&sharer_shareinfo=9485eab15d920ade4b142f3ec70593ac&sharer_shareinfo_first=9485eab15d920ade4b142f3ec70593ac#rd">链接</a></p>
   </article>
   <article class="news-card">
     <div class="news-meta"><span class="news-date">2026年5月</span><span class="news-tag news-tag--papers">论文成果</span></div>
