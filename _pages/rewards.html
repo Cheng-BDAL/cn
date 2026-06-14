@@ -35,7 +35,7 @@ author_profile: true
     background: #fff;
   }
   .award-card h2 {
-    margin: 0.35rem 0 0.45rem;
+    margin: 0;
     font-size: 1rem;
     line-height: 1.35;
   }
@@ -87,10 +87,38 @@ author_profile: true
     color: #4a5964;
   }
   .award-link {
-    display: inline;
+    display: inline-block;
     margin-top: 0;
-    font-size: inherit;
-    font-weight: 600;
+    padding: 0.12rem 0.48rem;
+    border: 1px solid #d8c8bf;
+    border-radius: 999px;
+    background: #fff;
+    color: #8b1e2d;
+    font-size: 0.78rem;
+    font-weight: 700;
+    line-height: 1.45;
+    text-decoration: none;
+    white-space: nowrap;
+  }
+  .award-link:hover {
+    background: #f7e6e6;
+    border-color: #cfa5a5;
+    text-decoration: none;
+  }
+  .award-heading {
+    display: flex;
+    gap: 0.55rem;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 0.35rem 0 0.45rem;
+  }
+  .award-heading h2 {
+    flex: 1 1 auto;
+    min-width: 0;
+  }
+  .award-heading .award-link {
+    flex: 0 0 auto;
+    margin-top: 0.06rem;
   }
   .award-feature {
     margin-top: 0.65rem;
@@ -135,6 +163,12 @@ author_profile: true
     .featured-awards-grid {
       grid-template-columns: 1fr;
     }
+    .award-heading {
+      display: block;
+    }
+    .award-heading .award-link {
+      margin-top: 0.35rem;
+    }
   }
 </style>
 
@@ -160,16 +194,18 @@ author_profile: true
           <span class="award-tag {{ award_tag_class }}">{{ award_tag }}</span>
           <span class="award-year">{{ award_year }}</span>
         </div>
-        <h2>{{ post.title }}</h2>
+        <div class="award-heading">
+          <h2>{{ post.title }}</h2>
+          {% if post.permalink %}
+            <a class="award-link" href="{{ post.permalink }}" target="_blank">阅读全文 →</a>
+          {% else %}
+            <a class="award-link" href="{{ base_path }}{{ post.url }}">阅读全文 →</a>
+          {% endif %}
+        </div>
         {% if post.title contains "火花" %}
           <img class="featured-award-image" src="{{ base_path }}/images/火花奖.jpg" alt="华为火花奖奖牌">
         {% elsif post.title contains "吴玉章" %}
           <img class="featured-award-image" src="https://cheng-bdal.github.io//images/李梦雨-吴玉章.jpg" alt="李梦雨吴玉章奖学金">
-        {% endif %}
-        {% if post.permalink %}
-          <a class="award-link" href="{{ post.permalink }}" target="_blank">阅读全文 →</a>
-        {% else %}
-          <a class="award-link" href="{{ base_path }}{{ post.url }}">阅读全文 →</a>
         {% endif %}
       </article>
     {% endif %}
@@ -209,19 +245,21 @@ author_profile: true
         <span class="award-tag {{ award_tag_class }}">{{ award_tag }}</span>
         <span class="award-year">{{ award_year }}</span>
       </div>
-      <h2>{{ post.title }}</h2>
+      <div class="award-heading">
+        <h2>{{ post.title }}</h2>
+        {% unless post.title contains "火花" %}
+          {% if post.permalink %}
+            <a class="award-link" href="{{ post.permalink }}" target="_blank">阅读全文 →</a>
+          {% else %}
+            <a class="award-link" href="{{ base_path }}{{ post.url }}">阅读全文 →</a>
+          {% endif %}
+        {% endunless %}
+      </div>
       {% if post.title contains "火花" %}
         <div class="award-feature">
           {{ post.content | split: '<p><img' | first }}
         </div>
       {% endif %}
-      {% unless post.title contains "火花" %}
-        {% if post.permalink %}
-          <a class="award-link" href="{{ post.permalink }}" target="_blank">阅读全文 →</a>
-        {% else %}
-          <a class="award-link" href="{{ base_path }}{{ post.url }}">阅读全文 →</a>
-        {% endif %}
-      {% endunless %}
     </article>
   {% endfor %}
 </div>
