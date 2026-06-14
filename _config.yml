@@ -25,16 +25,17 @@ author:
   name             : "BDAL-RUC"
   pronouns         : # example: "she/her"  
   bio              : "Where Ideas Meet Action"
-  location         : "北京"
-  employer         : "中国人民大学"
+  location         :
+  employer         :
   uri              : # URL
+  email_text       : "chengmeng at ruc dot edu dot cn"
   #email            : "mengcheng@ruc.edu.cn" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
   googlescholar    : "https://scholar.google.com/citations?user=2WsrETAAAAAJ&hl=en"
   impactstory      : # URL
-  orcid            : "https://orcid.org/0000-0002-7111-0966"
+  orcid            :
   semantic         : # URL
   pubmed           : 
   researchgate     : # URL
