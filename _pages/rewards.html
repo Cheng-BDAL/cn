@@ -288,6 +288,9 @@ author_profile: true
           {% endif %}
         </div>
         {% if post.title contains "火花" %}
+          <div class="award-feature">
+            {{ post.content | split: '<p><img' | first }}
+          </div>
           <img loading="lazy" class="featured-award-image" src="{{ base_path }}/images/火花奖.jpg" alt="华为火花奖奖牌">
         {% elsif post.title contains "吴玉章" %}
           <img loading="lazy" class="featured-award-image" src="https://cheng-bdal.github.io//images/李梦雨-吴玉章.jpg" alt="李梦雨吴玉章奖学金">
