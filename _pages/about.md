@@ -18,8 +18,7 @@ Hi，大家好，我是孟澄，目前在中国人民大学（RUC）统计与大
 
 我们的研究从统计理论出发，也始终面向真实应用。近年来，团队围绕大规模数据分析、最优输运快速算法、工业数据建模和人工智能方法开展了一系列工作，并与华为等单位保持深入合作。我曾获得 2023 年泛华统计学会 Junior Researcher Award（全球五位），团队也三次获得华为难题揭榜“火花奖”。我们希望开发既可靠、又高效、还能真正落地的统计与机器学习方法，让统计学在更广阔的工业与交叉科学问题中发挥作用。
 
-代表性报道
-=====
+## 代表性报道
 
 <style>
   .page__content > p:first-of-type img {
@@ -28,7 +27,8 @@ Hi，大家好，我是孟澄，目前在中国人民大学（RUC）统计与大
     border-radius: 6px;
   }
 
-  .page__content > h1 {
+  .page__content > h1,
+  .page__content > h2 {
     margin: 1.55rem 0 0.75rem;
     padding-bottom: 0.35rem;
     border-bottom: 1px solid #eadfd8;
@@ -172,13 +172,20 @@ Hi，大家好，我是孟澄，目前在中国人民大学（RUC）统计与大
   .news-more summary::marker {
     content: "";
   }
+  .news-year {
+    margin-top: 0.7rem;
+  }
+  .news-year summary {
+    font-size: 0.9rem;
+  }
   @media (max-width: 720px) {
     .page__content > p:first-of-type img {
       max-height: 46vh;
       object-fit: cover;
       object-position: center;
     }
-    .page__content > h1 {
+    .page__content > h1,
+    .page__content > h2 {
       margin: 1.2rem 0 0.55rem;
       font-size: 1.18rem;
     }
@@ -249,8 +256,7 @@ Hi，大家好，我是孟澄，目前在中国人民大学（RUC）统计与大
   </a>
 </div>
 
-最新动态
-=====
+## 最新动态
 
 <div class="news-list">
   <article class="news-card">
@@ -277,6 +283,9 @@ Hi，大家好，我是孟澄，目前在中国人民大学（RUC）统计与大
 
 <details class="news-more" markdown="1">
   <summary>展开更多动态</summary>
+
+<details class="news-year" open markdown="1">
+  <summary>2026</summary>
 
 <div class="news-list">
   <article class="news-card">
@@ -314,7 +323,14 @@ Hi，大家好，我是孟澄，目前在中国人民大学（RUC）统计与大
   <article class="news-card">
     <div class="news-meta"><span class="news-date">2026年1月</span><span class="news-tag news-tag--team">团队动态</span></div>
     <p><strong>五位同学入选 RUC 统计学子成长图鉴。</strong> 祝贺李梦雨、黄君烈、杜承朔、王涛、薛敦耀，五位同学荣登2025年RUC统计学子成长图鉴！ <a href="https://mp.weixin.qq.com/s/ZAW9in5xx4kh3uWEm1sinA">阅读全文 →</a></p>
-  </article>
+</article>
+</div>
+</details>
+
+<details class="news-year" markdown="1">
+  <summary>2025</summary>
+
+<div class="news-list">
   <article class="news-card">
     <div class="news-meta"><span class="news-date">2025年11月</span><span class="news-tag news-tag--team">团队动态</span></div>
     <p><strong>博士后研究继续获得支持。</strong> 祝贺李梦雨获得中国博士后科学基金面上资助！ <a href="https://mp.weixin.qq.com/s/Ziaz-dZziQIdrkS6bBu6uQ">阅读全文 →</a></p>
@@ -410,7 +426,15 @@ Hi，大家好，我是孟澄，目前在中国人民大学（RUC）统计与大
   <article class="news-card">
     <div class="news-meta"><span class="news-date">2025年3月</span><span class="news-tag news-tag--papers">论文成果</span></div>
     <p><strong>双曲空间 Wasserstein 距离工作被 IEEE TNNLS 接受。</strong> 恭喜李涛、朱珺等的论文《Efficient Variants of Wasserstein Distance in Hyperbolic Space via Space-filling Curve Projection》被 IEEE TNNLS（IF: 10.2）接受！这是组里第三篇研究院 1A 类期刊！ <a href="https://mp.weixin.qq.com/s/1LUVaZowmOd9oIREQAScgA">阅读全文 →</a></p>
-  </article>
+</article>
+</div>
+</details>
+</details>
+
+<details class="news-year" markdown="1">
+  <summary>2024</summary>
+
+<div class="news-list">
   <article class="news-card">
     <div class="news-meta"><span class="news-date">2024年12月</span><span class="news-tag news-tag--awards">学生荣誉</span></div>
     <p><span style="color: rgb(0, 71, 171);"><strong>李梦雨入选中国科协青年人才托举工程。</strong> 祝贺李梦雨入选2024年度中国科协青年人才托举工程博士生专项计划！托举学会为中国现场统计研究会。这是该计划的首届实施，全国约3000人入选。 <a href="https://mp.weixin.qq.com/s/rRtjWDszTF0U0GonVTHsRA">阅读全文 →</a></span></p>

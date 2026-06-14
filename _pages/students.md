@@ -1,7 +1,7 @@
 ---
 layout: archive  # 选择一个适合的布局，如 'page' 或者 'default'
 permalink: /students/
-title: ""
+title: "团队成员"
 author_profile: true  # 可选，视需要是否显示作者信息
 ---
 
@@ -47,6 +47,28 @@ author_profile: true  # 可选，视需要是否显示作者信息
   .student-email {
     color: #777;
     font-size: 0.78rem;
+  }
+  .student-jump {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.45rem;
+    margin: 0.25rem 0 1.1rem;
+  }
+  .student-jump a {
+    display: inline-block;
+    margin-left: 0;
+    padding: 0.28rem 0.6rem;
+    border: 1px solid #d8c8bf;
+    border-radius: 6px;
+    background: #fbfaf8;
+    color: #8b1e2d;
+    font-size: 0.82rem;
+    font-weight: 700;
+    text-decoration: none;
+  }
+  .student-jump a:hover {
+    background: #f7e6e6;
+    text-decoration: none;
   }
   @media (max-width: 1024px) and (min-width: 721px) {
     table,
@@ -111,7 +133,15 @@ author_profile: true  # 可选，视需要是否显示作者信息
 </style>
 
 
+<nav class="student-jump" aria-label="团队分组导航">
+  <a href="#current-phd">在读博士</a>
+  <a href="#current-ms-undergraduate">在读硕士与本科</a>
+  <a href="#graduated-phd">已毕业博士</a>
+  <a href="#graduated-ms">已毕业硕士</a>
+</nav>
+
 ## 在读博士
+{: #current-phd }
 
 <table>
   <tr>
@@ -143,6 +173,7 @@ author_profile: true  # 可选，视需要是否显示作者信息
 </table>
 
 ## 在读硕士与本科
+{: #current-ms-undergraduate }
 
 <table>
   <tr>
@@ -168,6 +199,7 @@ author_profile: true  # 可选，视需要是否显示作者信息
 </table>
 
 ## 已毕业博士
+{: #graduated-phd }
 <style>
   img {
     width: min(100%, 220px);
@@ -251,6 +283,7 @@ author_profile: true  # 可选，视需要是否显示作者信息
 </table>
 
 ## 已毕业硕士
+{: #graduated-ms }
 <table>
   <tr>
     <td>

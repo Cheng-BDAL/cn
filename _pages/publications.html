@@ -225,6 +225,19 @@ author_profile: true
     font-size: 0.82rem;
     text-decoration: none;
   }
+  .publication-back {
+    margin: -0.1rem 0 1.25rem;
+    text-align: right;
+  }
+  .publication-back a {
+    color: #8b1e2d;
+    font-size: 0.82rem;
+    font-weight: 700;
+    text-decoration: none;
+  }
+  .publication-back a:hover {
+    text-decoration: underline;
+  }
   .publication-years {
     margin-top: 1.8rem;
   }
@@ -285,7 +298,7 @@ author_profile: true
   <a href="#publication-years">按年份查看全部论文</a>
 </div>
 
-<h2 class="research-map-heading">快速导航</h2>
+<h2 id="research-map" class="research-map-heading">快速导航</h2>
 <div class="research-map">
   <a class="research-line-card research-line-card--subsampling" href="#line-subsampling">
     <span class="research-line-icon" aria-hidden="true"><svg viewBox="0 0 48 48"><circle cx="12" cy="12" r="2.5"/><circle cx="24" cy="12" r="2.5"/><circle cx="36" cy="12" r="2.5"/><circle cx="12" cy="24" r="2.5"/><circle cx="24" cy="24" r="4"/><circle cx="36" cy="24" r="2.5"/><circle cx="12" cy="36" r="2.5"/><circle cx="24" cy="36" r="2.5"/><circle cx="36" cy="36" r="4"/><path d="M24 24L36 36M12 24h12M24 12v12"/></svg></span>
@@ -375,6 +388,7 @@ author_profile: true
         {% endif %}
       </article>
     {% endfor %}
+    <p class="publication-back"><a href="#research-map">返回科研地图 ↑</a></p>
   {% endif %}
 {% endfor %}
 
