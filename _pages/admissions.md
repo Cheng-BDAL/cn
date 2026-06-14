@@ -21,16 +21,81 @@ author_profile: true
   margin-top: 1.35rem;
   margin-bottom: 0.55rem;
 }
+.admission-notice {
+  margin: 0.5rem 0 1.25rem;
+  padding: 0.85rem 1rem;
+  border: 1px solid #e6d8c8;
+  border-left: 4px solid #8b1e2d;
+  border-radius: 6px;
+  background: #fbfaf8;
+}
+.admission-notice p {
+  margin-bottom: 0;
+}
+.admission-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.85rem;
+  margin: 0.8rem 0 1.2rem;
+}
+.admission-panel {
+  padding: 0.85rem 1rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 6px;
+  background: #fff;
+}
+.admission-panel h3 {
+  margin-top: 0;
+}
+.admission-panel ul,
+.admission-checklist {
+  margin-top: 0.45rem;
+  padding-left: 1.2rem;
+}
+.admission-process {
+  margin: 0.65rem 0 1rem;
+  padding: 0.85rem 1rem;
+  border-left: 3px solid #8b1e2d;
+  background: #fbfaf8;
+}
 .archive hr {
   margin: 1.8rem 0;
 }
+@media (max-width: 720px) {
+  .admission-grid {
+    grid-template-columns: 1fr;
+  }
+}
 </style>
 
-我们欢迎对本组研究方向有持续兴趣，并愿意长期投入科研训练的同学加入。**由于研究院实行委员会统一招生，申请者需首先按照研究院要求完成正式申请并获得相应入学资格**。获得资格后，欢迎与我们进一步交流入组事宜。**未获得研究院相应资格，或邮件内容较为泛泛、未体现对本组研究方向大致了解等情况，可能无法逐一回复，敬请理解。**
+我们欢迎对本组研究方向有持续兴趣，并愿意长期投入科研训练的同学加入。
+
+<div class="admission-notice" markdown="1">
+**重要提示：**由于研究院实行委员会统一招生，申请者需首先按照研究院要求完成正式申请并获得相应入学资格。获得资格后，欢迎与我们进一步交流入组事宜。未获得研究院相应资格，或邮件内容较为泛泛、未体现对本组研究方向大致了解等情况，可能无法逐一回复，敬请理解。
+</div>
 
 ---
 
 ## 一、我们期待这样的同学
+
+<div class="admission-grid">
+  <div class="admission-panel">
+    <h3>比较适合本组的同学</h3>
+    <ul>
+      <li>愿意长期投入科研训练，对本组方向有持续兴趣。</li>
+      <li>能够主动学习、及时沟通，并稳定推进阶段性工作。</li>
+      <li>重视团队协作，也希望逐步形成独立研究能力。</li>
+    </ul>
+  </div>
+  <div class="admission-panel">
+    <h3>可能不太适合的情况</h3>
+    <ul>
+      <li>尚未了解本组方向，只是泛泛群发邮件。</li>
+      <li>只希望短期挂名参与，难以持续投入。</li>
+      <li>无法保持基本沟通和阶段性反馈。</li>
+    </ul>
+  </div>
+</div>
 
 ### 1. 身体健康，积极向上
 
@@ -50,7 +115,20 @@ author_profile: true
 
 ---
 
-## 二、加入前的交流与匹配机制
+## 二、联系前建议准备
+
+为了提高沟通效率，建议来信前准备以下信息：
+
+<ul class="admission-checklist">
+  <li>你对本组某个研究方向或近期工作的理解。</li>
+  <li>你已有的数学、统计、计算或项目基础。</li>
+  <li>你希望进一步探索的具体问题或研究兴趣。</li>
+  <li>你目前是否已获得、正在申请或计划申请研究院相应入学资格。</li>
+</ul>
+
+---
+
+## 三、加入前的交流与匹配机制
 
 ### 1. 与组内成员充分交流
 
@@ -62,7 +140,9 @@ author_profile: true
 
 ### 3. 通过一段时间的研究参与确认匹配度
 
-对于已获得入学资格、并有意正式加入本组的同学，**原则上需要在组内参与不少于 3 个月的研究交流与课题探索（开始时间可以沟通讨论）**。期间会围绕明确的研究方向开展讨论和阶段性工作，并由导师及组内成员提供必要指导与反馈。该过程主要用于帮助双方进一步了解研究兴趣、合作方式和长期发展匹配度。
+<div class="admission-process" markdown="1">
+**入组匹配期：**对于已获得入学资格、并有意正式加入本组的同学，原则上需要在组内参与不少于 3 个月的研究交流与课题探索（开始时间可以沟通讨论）。期间会围绕明确的研究方向开展讨论和阶段性工作，并由导师及组内成员提供必要指导与反馈。该过程主要用于帮助双方进一步了解研究兴趣、合作方式和长期发展匹配度。
+</div>
 
 ### 4. 双向选择，正式加入
 
@@ -70,7 +150,7 @@ author_profile: true
 
 ---
 
-## 三、课题组能够提供的支持
+## 四、课题组能够提供的支持
 
 ### 1. 充分的指导与阶段性反馈
 
