@@ -183,136 +183,135 @@ Hi大家好，我是孟澄，现在是中国人民大学（RUC）统计与大数
 <div class="news-list">
   <article class="news-card">
     <div class="news-meta"><span class="news-date">2026年1月</span><span class="news-tag news-tag--papers">论文成果</span></div>
-    <p>恭喜欧阳夏雪等的论文《Sparsification Techniques for Large-scale Optimal Transport Problems》被WIREs Computational Statistics接受，并被知名统计公众号“统计之都”宣传报道！ <a href="https://mp.weixin.qq.com/s/f_F0dMu3QbU_GCBHDJIv4A">链接</a></p>
+    <p><strong>最优传输稀疏化工作获得期刊认可。</strong> 恭喜欧阳夏雪等的论文《Sparsification Techniques for Large-scale Optimal Transport Problems》被WIREs Computational Statistics接受，并被知名统计公众号“统计之都”宣传报道！ <a href="https://mp.weixin.qq.com/s/f_F0dMu3QbU_GCBHDJIv4A">链接</a></p>
   </article>
   <article class="news-card">
     <div class="news-meta"><span class="news-date">2026年1月</span><span class="news-tag news-tag--papers">论文成果</span></div>
-    <p>恭喜林俊一、薛敦耀等的论文《An Efficient SE(p)-Invariant Transport Metric Driven by Polar Transport Discrepancy-Based Representation》被ICLR接受，并被知名AI公众号“机器之心”宣传报道！ <a href="https://mp.weixin.qq.com/s/JMUyM_UScUCKwxmcGBlTAQ">链接</a></p>
+    <p><strong>SE(p)-Invariant Transport Metric 工作被 ICLR 接受。</strong> 恭喜林俊一、薛敦耀等的论文《An Efficient SE(p)-Invariant Transport Metric Driven by Polar Transport Discrepancy-Based Representation》被ICLR接受，并被知名AI公众号“机器之心”宣传报道！ <a href="https://mp.weixin.qq.com/s/JMUyM_UScUCKwxmcGBlTAQ">链接</a></p>
   </article>
   <article class="news-card">
     <div class="news-meta"><span class="news-date">2026年1月</span><span class="news-tag news-tag--projects">项目与合作</span></div>
-    <p>孟澄荣获2025年华为公司中央研究院优秀技术合作项目奖！</p>
+    <p><strong>华为合作项目获得年度认可。</strong> 孟澄荣获2025年华为公司中央研究院优秀技术合作项目奖！</p>
   </article>
   <article class="news-card">
     <div class="news-meta"><span class="news-date">2026年1月</span><span class="news-tag news-tag--team">团队动态</span></div>
-    <p>祝贺李梦雨、黄君烈、杜承朔、王涛、薛敦耀，五位同学荣登2025年RUC统计学子成长图鉴！ <a href="https://mp.weixin.qq.com/s/ZAW9in5xx4kh3uWEm1sinA">链接</a></p>
+    <p><strong>五位同学入选 RUC 统计学子成长图鉴。</strong> 祝贺李梦雨、黄君烈、杜承朔、王涛、薛敦耀，五位同学荣登2025年RUC统计学子成长图鉴！ <a href="https://mp.weixin.qq.com/s/ZAW9in5xx4kh3uWEm1sinA">链接</a></p>
   </article>
   <article class="news-card">
     <div class="news-meta"><span class="news-date">2025年11月</span><span class="news-tag news-tag--team">团队动态</span></div>
-    <p>祝贺李梦雨获得中国博士后科学基金面上资助！ <a href="https://mp.weixin.qq.com/s/Ziaz-dZziQIdrkS6bBu6uQ">链接</a></p>
+    <p><strong>博士后研究继续获得支持。</strong> 祝贺李梦雨获得中国博士后科学基金面上资助！ <a href="https://mp.weixin.qq.com/s/Ziaz-dZziQIdrkS6bBu6uQ">链接</a></p>
   </article>
   <article class="news-card">
     <div class="news-meta"><span class="news-date">2025年11月</span><span class="news-tag news-tag--team">团队动态</span></div>
-    <p>祝贺王涛受邀参加NeurIPS 2025北京线下分享会，并做墙报展示。 <a href="https://mp.weixin.qq.com/s/DaLrbOeDIacQ-XAorbPVGA">链接</a></p>
+    <p><strong>NeurIPS 线下交流再添团队身影。</strong> 祝贺王涛受邀参加NeurIPS 2025北京线下分享会，并做墙报展示。 <a href="https://mp.weixin.qq.com/s/DaLrbOeDIacQ-XAorbPVGA">链接</a></p>
   </article>
   <article class="news-card">
     <div class="news-meta"><span class="news-date">2025年11月</span><span class="news-tag news-tag--team">团队动态</span></div>
-    <p>孟澄作为25位清华体育人代表之一讲述体育代表队的成长与故事。 <a href="https://mp.weixin.qq.com/s/vy3i4iGzefxdtZy2zuq0dQ">链接</a></p>
+    <p><strong>清华体育人的成长故事被记录。</strong> 孟澄作为25位清华体育人代表之一讲述体育代表队的成长与故事。 <a href="https://mp.weixin.qq.com/s/vy3i4iGzefxdtZy2zuq0dQ">链接</a></p>
   </article>
   <article class="news-card">
     <div class="news-meta"><span class="news-date">2025年11月</span><span class="news-tag news-tag--papers">论文成果</span></div>
-    <p>恭喜李梦雨等的论文《Iterative Optimal Transport for Multimodal Image Registration》被Pattern Recognition接受！这是组里的第13篇人大A-类期刊！</p>
+    <p><strong>多模态图像配准工作被 Pattern Recognition 接受。</strong> 恭喜李梦雨等的论文《Iterative Optimal Transport for Multimodal Image Registration》被Pattern Recognition接受！这是组里的第13篇人大A-类期刊！</p>
   </article>
   <article class="news-card">
     <div class="news-meta"><span class="news-date">2025年11月</span><span class="news-tag news-tag--awards">学生荣誉</span></div>
-    <p>祝贺黄君烈、杜承朔、王涛、薛敦耀，4位同学荣获中国工业与应用数学学会（CSIAM）第九届学生论坛优秀墙报奖，<strong>获奖数量位列参赛单位首位</strong>！ <a href="https://mp.weixin.qq.com/s/krRC5HjTbBXFPWO6ZEP19Q">链接</a> 荣获人大新闻网报道！ <a href="https://news.ruc.edu.cn/1984663406100312065.html">链接</a></p>
+    <p><strong>CSIAM 学生论坛墙报奖表现亮眼。</strong> 祝贺黄君烈、杜承朔、王涛、薛敦耀，4位同学荣获中国工业与应用数学学会（CSIAM）第九届学生论坛优秀墙报奖，<strong>获奖数量位列参赛单位首位</strong>！ <a href="https://mp.weixin.qq.com/s/krRC5HjTbBXFPWO6ZEP19Q">链接</a> 荣获人大新闻网报道！ <a href="https://news.ruc.edu.cn/1984663406100312065.html">链接</a></p>
   </article>
   <article class="news-card">
     <div class="news-meta"><span class="news-date">2025年11月</span><span class="news-tag news-tag--awards">学生荣誉</span></div>
-    <p>祝贺朱珺获得博士研究生综合类奖学金（全院4位）！</p>
+    <p><strong>朱珺获得博士研究生综合类奖学金。</strong> 祝贺朱珺获得博士研究生综合类奖学金（全院4位）！</p>
   </article>
   <article class="news-card">
     <div class="news-meta"><span class="news-date">2025年10月</span><span class="news-tag news-tag--awards">学生荣誉</span></div>
-    <p>祝贺黄君烈，朱珺，王涛，欧阳夏雪，林俊一，薛敦耀，向智鹏，7位同学获得统计与大数据研究院研究生学业奖学金一等奖（年级前30%）！</p>
+    <p><strong>七位同学获得研究生学业奖学金一等奖。</strong> 祝贺黄君烈，朱珺，王涛，欧阳夏雪，林俊一，薛敦耀，向智鹏，7位同学获得统计与大数据研究院研究生学业奖学金一等奖（年级前30%）！</p>
   </article>
   <article class="news-card">
     <div class="news-meta"><span class="news-date">2025年10月</span><span class="news-tag news-tag--awards">学生荣誉</span></div>
-    <p>黄君烈代表 Stat2Spark 团队参加明理书院2025年学术年会，获林尚立校长颁发 “明理书院优秀科研团队奖”，并在明理创新实验室分论坛上分享展示了团队最新科研成果。 <a href="https://mp.weixin.qq.com/s/LEnJWeN-nbosP2ZigYn-pQ?scene=1&click_id=1">链接</a></p>
+    <p><strong>Stat2Spark 团队亮相明理书院学术年会。</strong> 黄君烈代表 Stat2Spark 团队参加明理书院2025年学术年会，获林尚立校长颁发 “明理书院优秀科研团队奖”，并在明理创新实验室分论坛上分享展示了团队最新科研成果。 <a href="https://mp.weixin.qq.com/s/LEnJWeN-nbosP2ZigYn-pQ?scene=1&click_id=1">链接</a></p>
   </article>
   <article class="news-card">
     <div class="news-meta"><span class="news-date">2025年10月</span><span class="news-tag news-tag--projects">项目与合作</span></div>
-    <p>祝贺孟澄参与的项目《构建全员新型书院体系，打造“三跨三交三学”未来人才培养新生态》获得中国人民大学教学成果奖(本科)特等奖！</p>
+    <p><strong>本科教学成果获得人大特等奖。</strong> 祝贺孟澄参与的项目《构建全员新型书院体系，打造“三跨三交三学”未来人才培养新生态》获得中国人民大学教学成果奖(本科)特等奖！</p>
   </article>
   <article class="news-card">
     <div class="news-meta"><span class="news-date">2025年10月</span><span class="news-tag news-tag--projects">项目与合作</span></div>
-    <p>祝贺孟澄参与的项目《“大数据统计学+”新质交叉国际性人才培养体系构建与实践》获得中国人民大学教学成果奖(研究生)一等奖！</p>
+    <p><strong>研究生教学成果获得人大一等奖。</strong> 祝贺孟澄参与的项目《“大数据统计学+”新质交叉国际性人才培养体系构建与实践》获得中国人民大学教学成果奖(研究生)一等奖！</p>
   </article>
   <article class="news-card">
     <div class="news-meta"><span class="news-date">2025年9月</span><span class="news-tag news-tag--papers">论文成果</span></div>
-    <p>恭喜康欣来，欧阳夏雪等的论文《Hausdorff Correlation for Interval-valued Random Objects》被Statistics and Computing接受！这是组里的第12篇人大A-类期刊！</p>
+    <p><strong>区间值随机对象相关性工作被 Statistics and Computing 接受。</strong> 恭喜康欣来，欧阳夏雪等的论文《Hausdorff Correlation for Interval-valued Random Objects》被Statistics and Computing接受！这是组里的第12篇人大A-类期刊！</p>
   </article>
   <article class="news-card">
     <div class="news-meta"><span class="news-date">2025年9月</span><span class="news-tag news-tag--papers">论文成果</span></div>
-    <p>恭喜王涛、李梦雨、曾舸舵等的论文《Gaussian Herding across Pens: An Optimal Transport Perspective on Global Gaussian Reduction for 3DGS》被NeurIPS（Spotlight）接受，并被知名机器学习公众号“机器之心”宣传报道！ <a href="https://mp.weixin.qq.com/s/N34W_LK0jYPrmWWtGxVp4w">链接</a></p>
+    <p><strong>3DGS 高斯压缩工作获 NeurIPS Spotlight。</strong> 恭喜王涛、李梦雨、曾舸舵等的论文《Gaussian Herding across Pens: An Optimal Transport Perspective on Global Gaussian Reduction for 3DGS》被NeurIPS（Spotlight）接受，并被知名机器学习公众号“机器之心”宣传报道！ <a href="https://mp.weixin.qq.com/s/N34W_LK0jYPrmWWtGxVp4w">链接</a></p>
   </article>
   <article class="news-card">
     <div class="news-meta"><span class="news-date">2025年8月</span><span class="news-tag news-tag--projects">项目与合作</span></div>
-    <p>祝贺欧阳夏雪主持的《自适应子采样驱动的高效特征筛选与生物启发编码拓展和稀疏化表示方法》立项为2025年度统计与大数据研究院研究生科学研究基金项目！</p>
+    <p><strong>欧阳夏雪主持的研究生科研基金项目获批。</strong> 祝贺欧阳夏雪主持的《自适应子采样驱动的高效特征筛选与生物启发编码拓展和稀疏化表示方法》立项为2025年度统计与大数据研究院研究生科学研究基金项目！</p>
   </article>
   <article class="news-card">
     <div class="news-meta"><span class="news-date">2025年8月</span><span class="news-tag news-tag--papers">论文成果</span></div>
-    <p>恭喜孟澄等的论文《SPOT: An Active Learning Algorithm for Efficient Deep
- Neural Network Training》被Big Data Mining and Analytics（IF:13.6）接受！</p>
+    <p><strong>主动学习训练算法 SPOT 被 BDMA 接受。</strong> 恭喜孟澄等的论文《SPOT: An Active Learning Algorithm for Efficient Deep Neural Network Training》被Big Data Mining and Analytics（IF:13.6）接受！</p>
   </article>
   <article class="news-card">
     <div class="news-meta"><span class="news-date">2025年7月</span><span class="news-tag news-tag--awards">学生荣誉</span></div>
-    <p>祝贺李梦雨入选清华大学“水木学者”计划！“水木学者”计划是清华大学重点打造的高层次青年人才培养计划，目标是培养一批潜心学术、勇于创新、具有强烈社会责任感和国际视野的优秀青年学者。每年支持人数不超过100人。</p>
+    <p><strong>李梦雨入选清华大学“水木学者”计划。</strong> 祝贺李梦雨入选清华大学“水木学者”计划！“水木学者”计划是清华大学重点打造的高层次青年人才培养计划，目标是培养一批潜心学术、勇于创新、具有强烈社会责任感和国际视野的优秀青年学者。每年支持人数不超过100人。</p>
   </article>
   <article class="news-card">
     <div class="news-meta"><span class="news-date">2025年6月</span><span class="news-tag news-tag--media">媒体报道</span></div>
-    <p>孟澄受邀在多平台介绍统计学专业并分享成长中的小故事。 <a href="https://www.bilibili.com/video/BV1gZM1zSEKs/?spm_id_from=333.337.search-card.all.click&vd_source=e6527d198967f47b463a38a48f92d812">链接</a></p>
+    <p><strong>统计学专业介绍登上多平台。</strong> 孟澄受邀在多平台介绍统计学专业并分享成长中的小故事。 <a href="https://www.bilibili.com/video/BV1gZM1zSEKs/?spm_id_from=333.337.search-card.all.click&vd_source=e6527d198967f47b463a38a48f92d812">链接</a></p>
   </article>
   <article class="news-card">
     <div class="news-meta"><span class="news-date">2025年6月</span><span class="news-tag news-tag--awards">学生荣誉</span></div>
-    <p><span style="color: rgb(165, 16, 33);">祝贺李梦雨获得“吴玉章奖学金”！“吴玉章奖学金”是我校学生最高荣誉，颁发给德智体美劳全面发展、最能体现学校人才培养目标的毕业年级学生，每年博士生仅四个名额！ <a href="https://mp.weixin.qq.com/s/zID17NSsC8q4sK_bimLOJQ">链接</a></span></p>
+    <p><span style="color: rgb(165, 16, 33);"><strong>李梦雨获得中国人民大学学生最高荣誉。</strong> 祝贺李梦雨获得“吴玉章奖学金”！“吴玉章奖学金”是我校学生最高荣誉，颁发给德智体美劳全面发展、最能体现学校人才培养目标的毕业年级学生，每年博士生仅四个名额！ <a href="https://mp.weixin.qq.com/s/zID17NSsC8q4sK_bimLOJQ">链接</a></span></p>
   </article>
   <article class="news-card">
     <div class="news-meta"><span class="news-date">2025年6月</span><span class="news-tag news-tag--papers">论文成果</span></div>
-    <p>恭喜李梦雨等的论文《Double Optimal Transport for Differential Gene Regulatory Network Inference with Unpaired Samples》被Bioinformatics接受！这是组里的第11篇人大A-类期刊！</p>
+    <p><strong>双重最优传输基因调控网络工作被 Bioinformatics 接受。</strong> 恭喜李梦雨等的论文《Double Optimal Transport for Differential Gene Regulatory Network Inference with Unpaired Samples》被Bioinformatics接受！这是组里的第11篇人大A-类期刊！</p>
   </article>
   <article class="news-card">
     <div class="news-meta"><span class="news-date">2025年5月</span><span class="news-tag news-tag--team">团队动态</span></div>
-    <p>祝贺李梦雨（博士）和黄倩楠（硕士）顺利通过论文毕业答辩！借用悟空学筋斗云时菩提祖师的一句话，“世上无难事，只怕有心人”；愿信心和恒心助你如虎添翼；愿你的理想主义不灭，继续做“顶天立地”的研究；愿你面对未来更大的挑战时也能充满力量，无惧，无忧。Cheers！</p>
+    <p><strong>李梦雨和黄倩楠顺利通过毕业答辩。</strong> 祝贺李梦雨（博士）和黄倩楠（硕士）顺利通过论文毕业答辩！借用悟空学筋斗云时菩提祖师的一句话，“世上无难事，只怕有心人”；愿信心和恒心助你如虎添翼；愿你的理想主义不灭，继续做“顶天立地”的研究；愿你面对未来更大的挑战时也能充满力量，无惧，无忧。Cheers！</p>
   </article>
   <article class="news-card">
     <div class="news-meta"><span class="news-date">2025年5月</span><span class="news-tag news-tag--papers">论文成果</span></div>
-    <p>恭喜黄君烈、康欣来、黄倩楠等的论文《Efficient Approximation of Leverage Scores in Two-dimensional Autoregressive Models with Application to Image Anomaly Detection》被JCGS接受！这是组里第9篇研究院1B类期刊！ <a href="https://mp.weixin.qq.com/s/68Qa5Yv9DNXlm035fzIhjQ">链接</a></p>
+    <p><strong>二维自回归杠杆分数近似工作被 JCGS 接受。</strong> 恭喜黄君烈、康欣来、黄倩楠等的论文《Efficient Approximation of Leverage Scores in Two-dimensional Autoregressive Models with Application to Image Anomaly Detection》被JCGS接受！这是组里第9篇研究院1B类期刊！ <a href="https://mp.weixin.qq.com/s/68Qa5Yv9DNXlm035fzIhjQ">链接</a></p>
   </article>
   <article class="news-card">
     <div class="news-meta"><span class="news-date">2025年5月</span><span class="news-tag news-tag--media">媒体报道</span></div>
-    <p><span style="color:purple">孟澄作为毕业十年校友代表受邀出席清华大学校党委书记邱勇主持的主题座谈会并发言 <a href="https://mp.weixin.qq.com/s/d8KrSRIqVNIQVdvBO0yjFw">链接</a> 并被清华大学统计与数据科学系报道 <a href="https://mp.weixin.qq.com/s/utOxnb63ZurO7jPo6NpkAg">链接</a>！</span></p>
+    <p><span style="color:purple"><strong>孟澄作为清华毕业十年校友代表发言。</strong> 孟澄作为毕业十年校友代表受邀出席清华大学校党委书记邱勇主持的主题座谈会并发言 <a href="https://mp.weixin.qq.com/s/d8KrSRIqVNIQVdvBO0yjFw">链接</a> 并被清华大学统计与数据科学系报道 <a href="https://mp.weixin.qq.com/s/utOxnb63ZurO7jPo6NpkAg">链接</a>！</span></p>
   </article>
   <article class="news-card">
     <div class="news-meta"><span class="news-date">2025年4月</span><span class="news-tag news-tag--awards">学生荣誉</span></div>
-    <p>祝贺林俊一，黄君烈，薛敦耀获得Travel award，入选全国工业统计学教学研究会青年统计学家协会年会暨第三届统计理论及其应用国际研讨会博士生论坛 <a href="https://mp.weixin.qq.com/s/ko2HoiA6hpjWPdyo8Q8E-g">链接</a>，并被知名学术平台狗熊会转发报道！ <a href="https://mp.weixin.qq.com/s/secOUhCJQb0NYumfMlM5qQ">链接</a>。</p>
+    <p><strong>三位同学获得博士生论坛 Travel Award。</strong> 祝贺林俊一，黄君烈，薛敦耀获得Travel award，入选全国工业统计学教学研究会青年统计学家协会年会暨第三届统计理论及其应用国际研讨会博士生论坛 <a href="https://mp.weixin.qq.com/s/ko2HoiA6hpjWPdyo8Q8E-g">链接</a>，并被知名学术平台狗熊会转发报道！ <a href="https://mp.weixin.qq.com/s/secOUhCJQb0NYumfMlM5qQ">链接</a>。</p>
   </article>
   <article class="news-card">
     <div class="news-meta"><span class="news-date">2025年3月</span><span class="news-tag news-tag--projects">项目与合作</span></div>
-    <p>祝贺孟澄带领学生郑皓、王涛、梁浩贤、李梦雨荣获华为“难题揭榜”第114期火花奖，这是团队第三次获此殊荣！ <a href="https://mp.weixin.qq.com/s/NXFraboslDTdyHaGAFEjFA">链接</a> 祝贺梁浩贤荣获明理书院采访！ <a href="https://mp.weixin.qq.com/s/0SyJYpWQNhOvDi2sjYaxOg">我的火花时光</a></p>
+    <p><strong>团队第三次获得华为“火花奖”。</strong> 祝贺孟澄带领学生郑皓、王涛、梁浩贤、李梦雨荣获华为“难题揭榜”第114期火花奖，这是团队第三次获此殊荣！ <a href="https://mp.weixin.qq.com/s/NXFraboslDTdyHaGAFEjFA">链接</a> 祝贺梁浩贤荣获明理书院采访！ <a href="https://mp.weixin.qq.com/s/0SyJYpWQNhOvDi2sjYaxOg">我的火花时光</a></p>
   </article>
   <article class="news-card">
     <div class="news-meta"><span class="news-date">2025年3月</span><span class="news-tag news-tag--papers">论文成果</span></div>
-    <p>恭喜李涛、朱珺等的论文《Efficient Variants of Wasserstein Distance in Hyperbolic Space via Space-filling Curve Projection》被IEEE TNNLS（IF:10.2）接受！这是组里第三篇研究院1A类期刊！ <a href="https://mp.weixin.qq.com/s/1LUVaZowmOd9oIREQAScgA">链接</a></p>
+    <p><strong>双曲空间 Wasserstein 距离工作被 IEEE TNNLS 接受。</strong> 恭喜李涛、朱珺等的论文《Efficient Variants of Wasserstein Distance in Hyperbolic Space via Space-filling Curve Projection》被IEEE TNNLS（IF:10.2）接受！这是组里第三篇研究院1A类期刊！ <a href="https://mp.weixin.qq.com/s/1LUVaZowmOd9oIREQAScgA">链接</a></p>
   </article>
   <article class="news-card">
     <div class="news-meta"><span class="news-date">2024年12月</span><span class="news-tag news-tag--awards">学生荣誉</span></div>
-    <p><span style="color: rgb(0, 71, 171);">祝贺李梦雨入选2024年度中国科协青年人才托举工程博士生专项计划！托举学会为中国现场统计研究会。这是该计划的首届实施，全国约3000人入选。 <a href="https://mp.weixin.qq.com/s/rRtjWDszTF0U0GonVTHsRA">链接</a></span></p>
+    <p><span style="color: rgb(0, 71, 171);"><strong>李梦雨入选中国科协青年人才托举工程。</strong> 祝贺李梦雨入选2024年度中国科协青年人才托举工程博士生专项计划！托举学会为中国现场统计研究会。这是该计划的首届实施，全国约3000人入选。 <a href="https://mp.weixin.qq.com/s/rRtjWDszTF0U0GonVTHsRA">链接</a></span></p>
   </article>
   <article class="news-card">
     <div class="news-meta"><span class="news-date">2024年11月</span><span class="news-tag news-tag--awards">学生荣誉</span></div>
-    <p>祝贺黄倩楠获得2024年京东奖学金提名！ <a href="https://mp.weixin.qq.com/s/yr_M4j9BJM41Ku5_H25O0Q">链接</a></p>
+    <p><strong>黄倩楠获得京东奖学金提名。</strong> 祝贺黄倩楠获得2024年京东奖学金提名！ <a href="https://mp.weixin.qq.com/s/yr_M4j9BJM41Ku5_H25O0Q">链接</a></p>
   </article>
   <article class="news-card">
     <div class="news-meta"><span class="news-date">2024年11月</span><span class="news-tag news-tag--awards">学生荣誉</span></div>
-    <p>祝贺黄倩楠荣获2024年国家奖学金！继李梦雨的2023年博士国家奖学金和林殿钧的2021年硕士国家奖学金之后，这是BDAL实验室第三个国奖！ <a href="https://cheng-bdal.github.io//images/黄倩楠国奖.jpg">链接</a></p>
+    <p><strong>黄倩楠获得国家奖学金。</strong> 祝贺黄倩楠荣获2024年国家奖学金！继李梦雨的2023年博士国家奖学金和林殿钧的2021年硕士国家奖学金之后，这是BDAL实验室第三个国奖！ <a href="https://cheng-bdal.github.io//images/黄倩楠国奖.jpg">链接</a></p>
   </article>
   <article class="news-card">
     <div class="news-meta"><span class="news-date">2024年10月</span><span class="news-tag news-tag--awards">学生荣誉</span></div>
-    <p>祝贺李梦雨荣获中国工业与应用数学学会第22届年会优秀墙报奖! <a href="https://mp.weixin.qq.com/s/ffKNLItqx5vv-P0r3Yd2QQ">链接</a></p>
+    <p><strong>李梦雨获得 CSIAM 年会优秀墙报奖。</strong> 祝贺李梦雨荣获中国工业与应用数学学会第22届年会优秀墙报奖! <a href="https://mp.weixin.qq.com/s/ffKNLItqx5vv-P0r3Yd2QQ">链接</a></p>
   </article>
   <article class="news-card">
     <div class="news-meta"><span class="news-date">2024年9月</span><span class="news-tag news-tag--team">团队动态</span></div>
-    <p>BDAL-RUC主页正式上线！主页维护：杜承朔，向智鹏。</p>
+    <p><strong>BDAL-RUC 主页正式上线。</strong> BDAL-RUC主页正式上线！主页维护：孟澄，杜承朔，向智鹏。</p>
   </article>
 </div>
 </details>
