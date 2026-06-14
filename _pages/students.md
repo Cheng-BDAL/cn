@@ -171,8 +171,7 @@ author_profile: true  # 可选，视需要是否显示作者信息
   </tr>
 </table>
 
-已毕业博士
-======
+## 已毕业博士
 <style>
   img {
     width: min(100%, 220px);
@@ -255,8 +254,7 @@ author_profile: true  # 可选，视需要是否显示作者信息
   </tr>
 </table>
 
-已毕业硕士
-======
+## 已毕业硕士
 <table>
   <tr>
     <td>
