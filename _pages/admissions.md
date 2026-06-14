@@ -140,7 +140,30 @@ author_profile: true
 
 ---
 
-## 四、课题组能够提供什么支持
+## 四、为什么加入我们
+
+<div class="admission-grid">
+  <div class="admission-panel">
+    <h3>有竞争力的发展出口</h3>
+    <p>已毕业博士生均获得百万级别 offer；硕士生大多进入高水平博士项目或头部互联网、科技企业。课题组重视长期发展规划，也鼓励同学尽早思考毕业后的学术或产业路径。</p>
+  </div>
+  <div class="admission-panel">
+    <h3>学生主导的科研成果</h3>
+    <p>组内鼓励学生担任论文一作或核心作者，围绕明确问题持续积累代表性成果。近年来多篇论文由组内学生主导完成，并发表在统计学、机器学习和交叉应用领域的重要期刊会议上。</p>
+  </div>
+  <div class="admission-panel">
+    <h3>高质量论文与学术平台</h3>
+    <p>组内已有 NeurIPS、ICML、ICLR、JCGS、JMLR、Biometrika、Bioinformatics、Pattern Recognition、STAI-X 等论文成果，为学生提供较好的科研训练和展示平台。</p>
+  </div>
+  <div class="admission-panel">
+    <h3>真实问题与工业合作</h3>
+    <p>团队与华为等单位保持深入合作，多次获得华为难题揭榜“火花奖”。我们希望学生在真实复杂问题中训练建模、计算和方法创新能力。</p>
+  </div>
+</div>
+
+---
+
+## 五、课题组能够提供什么支持
 
 <div class="admission-grid">
   <div class="admission-panel">
