@@ -10,18 +10,34 @@ author_profile: true  # 可选，视需要是否显示作者信息
 ======
 
 <style>
+  table {
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: separate;
+    border-spacing: 0 1rem;
+  }
   table, tr, td {
     border: none !important;
   }
   img {
-    width: 180px;
-    height: 240px;
+    width: min(100%, 190px);
+    height: 220px;
     object-fit: cover;
     border-radius: 8px;
   }
   td {
+    width: 33.333%;
+    vertical-align: top;
     text-align: center;
-    padding: 10px;
+    padding: 12px 10px;
+    line-height: 1.45;
+    font-size: 0.94rem;
+  }
+  td a {
+    display: inline-block;
+    margin-left: 0.25rem;
+    font-size: 0.85rem;
+    font-weight: 600;
   }
 </style>
 
@@ -78,19 +94,12 @@ author_profile: true  # 可选，视需要是否显示作者信息
 已毕业博士
 ======
 <style>
-  table, tr, td {
-    border: none !important;
-  }
   img {
-    width: 230px;
-    height: 240px;
+    width: min(100%, 190px);
+    height: 220px;
     object-fit: cover;
     border-radius: 8px;
-    vertical-align: top; /* 确保图片顶部对齐 */
-  }
-  td {
-    text-align: center;
-    padding: 10px;
+    vertical-align: top;
   }
 </style>
 
