@@ -163,7 +163,7 @@ Hi，大家好，我是孟澄，目前在中国人民大学（RUC）统计与大
     display: inline-block;
     padding: 0.38rem 0.72rem;
     border: 1px solid #d8c8bf;
-    border-radius: 6px;
+    border-radius: 999px;
     background: #fbfaf8;
     cursor: pointer;
     color: #8b1e2d;
