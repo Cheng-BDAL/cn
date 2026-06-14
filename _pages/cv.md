@@ -78,7 +78,7 @@ redirect_from:
     <div class="cv-date">2020 - 至今</div>
     <div>
       <h3>准聘助理教授</h3>
-      <p>中国人民大学统计与大数据研究院</p>
+      <p>中国人民大学<br>统计与大数据研究院</p>
     </div>
   </div>
 </div>
