@@ -57,6 +57,19 @@ author_profile: true
     font-size: 0.85rem;
     font-weight: 600;
   }
+  .award-feature {
+    margin-top: 0.65rem;
+    overflow-x: auto;
+  }
+  .award-feature table {
+    margin: 0.35rem 0 0.75rem;
+    font-size: 0.78rem;
+  }
+  .award-feature img {
+    max-width: min(400px, 100%);
+    height: auto;
+    margin: 0.25rem 0.5rem 0.25rem 0;
+  }
 </style>
 
 <p class="awards-intro">
@@ -89,6 +102,11 @@ author_profile: true
           <a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a>
         {% endif %}
       </h2>
+      {% if post.title contains "华为" or post.title contains "火花" %}
+        <div class="award-feature">
+          {{ post.content }}
+        </div>
+      {% endif %}
       {% if post.permalink %}
         <a class="award-link" href="{{ post.permalink }}" target="_blank">查看详情</a>
       {% else %}
