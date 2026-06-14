@@ -122,6 +122,15 @@ author_profile: true
     height: auto;
     margin: 0.25rem 0.5rem 0.25rem 0;
   }
+  .featured-award-image {
+    display: block;
+    max-width: 100%;
+    max-height: 240px;
+    width: auto;
+    height: auto;
+    margin: 0.55rem 0 0.35rem;
+    object-fit: contain;
+  }
   @media (max-width: 720px) {
     .featured-awards-grid {
       grid-template-columns: 1fr;
@@ -136,8 +145,8 @@ author_profile: true
 <h2 class="awards-section-title">重点荣誉</h2>
 <div class="featured-awards-grid">
   {% for post in sorted_rewards %}
-    {% if post.title contains "华为" or post.title contains "火花" or post.title contains "吴玉章" %}
-      {% if post.title contains "华为" or post.title contains "火花" %}
+    {% if post.title contains "火花" or post.title contains "吴玉章" %}
+      {% if post.title contains "火花" %}
         {% assign award_tag = "产业合作" %}
         {% assign award_tag_class = "award-tag--projects" %}
         {% assign award_year = "多期" %}
@@ -158,6 +167,11 @@ author_profile: true
             <a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a>
           {% endif %}
         </h2>
+        {% if post.title contains "火花" %}
+          <img class="featured-award-image" src="{{ base_path }}/images/火花奖.jpg" alt="华为火花奖奖牌">
+        {% elsif post.title contains "吴玉章" %}
+          <img class="featured-award-image" src="https://cheng-bdal.github.io//images/李梦雨-吴玉章.jpg" alt="李梦雨吴玉章奖学金">
+        {% endif %}
         {% if post.permalink %}
           <a class="award-link" href="{{ post.permalink }}" target="_blank">查看详情</a>
         {% else %}
@@ -204,9 +218,9 @@ author_profile: true
           <a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a>
         {% endif %}
       </h2>
-      {% if post.title contains "华为" or post.title contains "火花" %}
+      {% if post.title contains "火花" %}
         <div class="award-feature">
-          {{ post.content }}
+          {{ post.content | split: '<p><img' | first }}
         </div>
       {% endif %}
       {% if post.permalink %}
