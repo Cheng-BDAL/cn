@@ -281,10 +281,10 @@ Hi，大家好，我是孟澄，目前在中国人民大学（RUC）统计与大
   </article>
 </div>
 
-<details class="news-more" markdown="1">
+<details class="news-more">
   <summary>展开更多动态</summary>
 
-<details class="news-year" open markdown="1">
+<details class="news-year" open>
   <summary>2026</summary>
 
 <div class="news-list">
@@ -327,7 +327,7 @@ Hi，大家好，我是孟澄，目前在中国人民大学（RUC）统计与大
 </div>
 </details>
 
-<details class="news-year" markdown="1">
+<details class="news-year">
   <summary>2025</summary>
 
 <div class="news-list">
@@ -431,7 +431,7 @@ Hi，大家好，我是孟澄，目前在中国人民大学（RUC）统计与大
 </details>
 </details>
 
-<details class="news-year" markdown="1">
+<details class="news-year">
   <summary>2024</summary>
 
 <div class="news-list">
