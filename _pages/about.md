@@ -93,7 +93,8 @@ Hi，大家好，我是孟澄，目前在中国人民大学（RUC）统计与大
   }
   .news-card a {
     display: inline-block;
-    margin-left: 0.25rem;
+    float: right;
+    margin: 0.06rem 0 0.15rem 0.55rem;
     padding: 0.12rem 0.48rem;
     border: 1px solid #d8c8bf;
     border-radius: 999px;
@@ -104,6 +105,11 @@ Hi，大家好，我是孟澄，目前在中国人民大学（RUC）统计与大
     line-height: 1.45;
     text-decoration: none;
     white-space: nowrap;
+  }
+  .news-card p::after {
+    content: "";
+    display: block;
+    clear: both;
   }
   .news-card a:hover {
     background: #f7e6e6;
@@ -213,6 +219,9 @@ Hi，大家好，我是孟澄，目前在中国人民大学（RUC）统计与大
     }
     .news-card p {
       line-height: 1.52;
+    }
+    .news-card a {
+      margin: 0.12rem 0 0.1rem 0.5rem;
     }
     .news-meta {
       gap: 0.32rem;
