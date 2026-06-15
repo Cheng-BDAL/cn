@@ -21,7 +21,7 @@ main:
     url: /fundings/
 
   - title: "团队"
-    url: "https://cheng-bdal.github.io/Cheng-BDAL-CN.github.io/students/"
+    url: "https://cheng-bdal.github.io/cn/students/"
     
   - title: "简历"
     url: /cv/

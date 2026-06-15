@@ -12,7 +12,7 @@ title                    : "BDAL-RUC主页"
 title_separator          : "-"
 name                     : &name "Your Name"
 description              : &description "personal description"
-url                      : https://cheng-bdal.github.io/Cheng-BDAL-CN.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://cheng-bdal.github.io/cn/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "emerald-dcs/bdal.github.io"
 
