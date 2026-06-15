@@ -130,8 +130,8 @@ author_profile: true  # 可选，视需要是否显示作者信息
   .alumni-story img {
     width: 100%;
     max-width: 220px;
-    height: 185px;
-    object-fit: cover;
+    height: auto;
+    object-fit: contain;
   }
   @media (max-width: 1024px) and (min-width: 721px) {
     table,
@@ -209,10 +209,13 @@ author_profile: true  # 可选，视需要是否显示作者信息
       border: 0;
       background: transparent;
     }
-    .student-grid img,
-    .alumni-story img {
+    .student-grid img {
       width: min(100%, 180px);
       height: 210px;
+    }
+    .alumni-story img {
+      width: min(100%, 180px);
+      height: auto;
     }
     .alumni-story td:first-child {
       padding-right: 0.75rem;
