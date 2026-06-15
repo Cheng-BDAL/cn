@@ -80,17 +80,6 @@ author_profile: true  # 可选，视需要是否显示作者信息
     background: #f7e6e6;
     text-decoration: none;
   }
-  .student-jump .jump-count {
-    display: inline-block;
-    margin-left: 0.32rem;
-    padding: 0 0.32rem;
-    border-radius: 999px;
-    background: #f4eeee;
-    color: #7a4b4b;
-    font-size: 0.7rem;
-    font-weight: 700;
-    line-height: 1.45;
-  }
   .student-grid tr {
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -234,10 +223,10 @@ author_profile: true  # 可选，视需要是否显示作者信息
 
 
 <nav class="student-jump" aria-label="团队分组导航">
-  <a href="#current-phd">在读博士<span class="jump-count">15</span></a>
-  <a href="#current-ms-undergraduate">在读硕士与本科<span class="jump-count">10</span></a>
-  <a href="#graduated-phd">已毕业博士<span class="jump-count">3</span></a>
-  <a href="#graduated-ms">已毕业硕士等<span class="jump-count">7</span></a>
+  <a href="#current-phd">在读博士</a>
+  <a href="#current-ms-undergraduate">在读硕士与本科</a>
+  <a href="#graduated-phd">已毕业博士</a>
+  <a href="#graduated-ms">已毕业硕士</a>
 </nav>
 
 ## 在读博士
