@@ -180,6 +180,42 @@
   }
 
   @media (max-width: 720px) {
+    .sidebar .author__urls-wrapper {
+      display: block;
+      width: 100%;
+      margin-top: 0.45rem;
+      cursor: default;
+    }
+
+    .sidebar .author__urls-wrapper .btn {
+      display: none !important;
+    }
+
+    .sidebar .author__urls.social-icons {
+      display: block !important;
+      position: static !important;
+      width: 100%;
+      margin: 0.45rem 0 0;
+      padding: 0;
+      border: 0;
+      background: transparent;
+      box-shadow: none;
+      z-index: auto;
+    }
+
+    .sidebar .author__urls.social-icons:before {
+      display: none;
+    }
+
+    .sidebar .author__urls.social-icons li,
+    .sidebar .author__urls.social-icons .author__desktop {
+      display: block;
+      margin: 0.12rem 0;
+      white-space: normal;
+      overflow-wrap: anywhere;
+      word-break: break-word;
+    }
+
     .page__content > h1,
     .archive .page__title {
       margin: 1.2rem 0 0.55rem !important;
