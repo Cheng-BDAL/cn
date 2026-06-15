@@ -1,0 +1,20 @@
+{% assign lang_map = site.data.lang_map %}
+{% assign current_path = page.url | default: "/" %}
+{% assign target_path = "/" %}
+{% for mapped_page in lang_map.pages %}
+  {% if mapped_page.path == current_path %}
+    {% assign target_path = mapped_page.path %}
+  {% endif %}
+{% endfor %}
+{% assign site_url = site.url | default: "" %}
+{% if site_url contains "/cn" %}
+  {% assign target_base = lang_map.english_base %}
+{% else %}
+  {% assign target_base = lang_map.chinese_base %}
+{% endif %}
+{% if target_path == "/" %}
+  {% assign target_url = target_base | append: "/" %}
+{% else %}
+  {% assign target_url = target_base | append: target_path %}
+{% endif %}
+<a href="{{ target_url }}">{{ include.title }}</a>

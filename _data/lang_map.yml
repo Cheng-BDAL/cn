@@ -1,0 +1,12 @@
+english_base: "https://cheng-bdal.github.io"
+chinese_base: "https://cheng-bdal.github.io/cn"
+
+pages:
+  - path: "/"
+  - path: "/publications/"
+  - path: "/rewards/"
+  - path: "/fundings/"
+  - path: "/students/"
+  - path: "/cv/"
+  - path: "/admissions/"
+  - path: "/photos/"
