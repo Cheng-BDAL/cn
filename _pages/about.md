@@ -31,9 +31,9 @@ Hi，大家好，我是孟澄，目前在中国人民大学（RUC）统计与大
     border-radius: 6px;
   }
   .profile-intro p {
-    margin: 0 0 0.8rem;
+    margin: 0 0 0.55rem;
     text-align: justify;
-    line-height: 1.68;
+    line-height: 1.55;
   }
 
   .page__content > h1,
@@ -46,7 +46,7 @@ Hi，大家好，我是孟澄，目前在中国人民大学（RUC）统计与大
     letter-spacing: 0;
   }
   .page__content > h1:first-of-type {
-    margin-top: 1.1rem;
+    margin-top: 0.85rem;
   }
 
   .highlight-grid {
