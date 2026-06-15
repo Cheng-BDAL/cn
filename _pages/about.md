@@ -83,6 +83,7 @@ Hi，大家好，我是孟澄，目前在中国人民大学（RUC）统计与大
   }
   .highlight-grid span {
     display: inline-block;
+    max-width: 100%;
     margin-top: 0.45rem;
     padding: 0.12rem 0.48rem;
     border: 1px solid #d8c8bf;
@@ -92,6 +93,8 @@ Hi，大家好，我是孟澄，目前在中国人民大学（RUC）统计与大
     font-size: 0.78rem;
     font-weight: 700;
     line-height: 1.45;
+    white-space: normal;
+    overflow-wrap: anywhere;
   }
 
   .news-list {
