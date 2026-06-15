@@ -159,19 +159,15 @@ redirect_from:
     </div>
   </div>
   <div class="cv-service-item">
-    <h3>实验室指导</h3>
-    <p>Stat2Spark 明理创新实验室指导教师。<a href="https://mp.weixin.qq.com/s/ci3yEQE8B6Om9nn7HDRXJA">查看介绍</a></p>
-    <img loading="lazy" class="cv-image-wide" src="https://cheng-bdal.github.io//images/明理创新实验室.png" alt="Stat2Spark 明理创新实验室">
-  </div>
-  <div class="cv-service-item">
-    <h3>学术评审</h3>
-    <p>AOS、AOAS、Biometrika、JMLR、JCGS、NeurIPS、ICLR 等期刊会议审稿人。</p>
-  </div>
-  <div class="cv-service-item">
     <h3>招生与科普</h3>
     <p>2023-2026 年中国人民大学上海招生组成员。</p>
     <img loading="lazy" class="cv-image-wide" src="https://cheng-bdal.github.io//images/上海招生.jpg" alt="中国人民大学上海招生">
     <p>2025 年代表中国人民大学江苏招生组，赴江苏省天一中学作科普报告。<a href="https://mp.weixin.qq.com/s/Rhzmvg_Trd_3_13nDxzjRg">查看报道</a></p>
     <img loading="lazy" class="cv-image-wide" src="https://cheng-bdal.github.io//images/江苏省招生.jpg" alt="中国人民大学江苏招生">
+  </div>
+  <div class="cv-service-item">
+    <h3>实验室指导</h3>
+    <p>Stat2Spark 明理创新实验室指导教师。<a href="https://mp.weixin.qq.com/s/ci3yEQE8B6Om9nn7HDRXJA">查看介绍</a></p>
+    <img loading="lazy" class="cv-image-wide" src="https://cheng-bdal.github.io//images/明理创新实验室.png" alt="Stat2Spark 明理创新实验室">
   </div>
 </div>
