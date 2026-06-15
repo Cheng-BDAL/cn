@@ -12,11 +12,15 @@ redirect_from:
 
 BDAL-RUC简介
 ======
+<div class="profile-intro" markdown="1">
+
 Hi，大家好，我是孟澄，目前在中国人民大学（RUC）统计与大数据研究院任准聘助理教授、博士生导师。我的研究兴趣主要围绕大数据统计学、最优输运、人工智能与工业统计，关注如何用有理论保证的统计方法解决真实复杂场景中的计算与建模问题。
 
 我本科毕业于清华大学数学系，随后在美国佐治亚大学获得统计学博士学位。博士期间，我非常幸运地师从 Big Data Analytics Lab（BDAL）的两位主任[马平教授](https://bdalpingio.github.io/)和[钟文瑄教授](https://zhonglabuga.github.io/)。入职人大之后，我和一群优秀、真诚、有冲劲的同学共同建立了 BDAL-RUC 实验室。至今，组内同学已获得吴玉章奖学金（我校学生最高荣誉）、JSM 学生论文奖、研究生国家奖学金等多项重要荣誉。
 
 我们的研究从统计理论出发，也始终面向真实应用。近年来，团队围绕大规模数据分析、最优输运快速算法、工业数据建模和人工智能方法开展了一系列工作，并与华为等单位保持深入合作。我曾获得 2023 年泛华统计学会 Junior Researcher Award（全球五位），团队也三次获得华为难题揭榜“火花奖”。我们希望开发既可靠、又高效、还能真正落地的统计与机器学习方法，让统计学在更广阔的工业与交叉科学问题中发挥作用。
+
+</div>
 
 ## 代表性报道
 
@@ -26,10 +30,15 @@ Hi，大家好，我是孟澄，目前在中国人民大学（RUC）统计与大
     height: auto;
     border-radius: 6px;
   }
+  .profile-intro p {
+    margin: 0 0 0.8rem;
+    text-align: justify;
+    line-height: 1.68;
+  }
 
   .page__content > h1,
   .page__content > h2 {
-    margin: 1.55rem 0 0.75rem;
+    margin: 1.45rem 0 0.65rem;
     padding-bottom: 0.35rem;
     border-bottom: 1px solid #eadfd8;
     font-size: 1.35rem;
@@ -44,12 +53,22 @@ Hi，大家好，我是孟澄，目前在中国人民大学（RUC）统计与大
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 0.8rem;
-    margin: 0.25rem 0 1.25rem;
+    margin: 0.2rem 0 1.1rem;
   }
   .highlight-grid a {
     display: block;
+    padding: 0.65rem;
+    border: 1px solid #e7e0da;
+    border-left: 3px solid #8b1e2d;
+    border-radius: 6px;
+    background: #fbfaf8;
     color: inherit;
     text-decoration: none;
+    transition: background 0.15s ease, border-color 0.15s ease;
+  }
+  .highlight-grid a:hover {
+    background: #f7f1ee;
+    border-color: #d8c8bf;
   }
   .highlight-grid a:hover span {
     background: #f7e6e6;
@@ -60,11 +79,11 @@ Hi，大家好，我是孟澄，目前在中国人民大学（RUC）统计与大
     width: 100%;
     aspect-ratio: 4 / 3;
     object-fit: cover;
-    border-radius: 6px;
+    border-radius: 5px;
   }
   .highlight-grid span {
     display: inline-block;
-    margin-top: 0.35rem;
+    margin-top: 0.45rem;
     padding: 0.12rem 0.48rem;
     border: 1px solid #d8c8bf;
     border-radius: 999px;
@@ -78,7 +97,7 @@ Hi，大家好，我是孟澄，目前在中国人民大学（RUC）统计与大
   .news-list {
     display: grid;
     gap: 0.72rem;
-    margin: 0.25rem 0 1rem;
+    margin: 0.2rem 0 1rem;
   }
   .news-card {
     padding: 0.75rem 0.85rem;
@@ -186,7 +205,7 @@ Hi，大家好，我是孟澄，目前在中国人民大学（RUC）统计与大
     }
     .page__content > h1,
     .page__content > h2 {
-      margin: 1.2rem 0 0.55rem;
+      margin: 1.12rem 0 0.5rem;
       font-size: 1.18rem;
     }
     .highlight-grid {
@@ -198,6 +217,7 @@ Hi，大家好，我是孟澄，目前在中国人民大学（RUC）统计与大
       grid-template-columns: 5.6rem minmax(0, 1fr);
       gap: 0.65rem;
       align-items: center;
+      padding: 0.55rem 0.62rem;
     }
     .highlight-grid img {
       aspect-ratio: 4 / 3;
@@ -411,7 +431,7 @@ Hi，大家好，我是孟澄，目前在中国人民大学（RUC）统计与大
   </article>
   <article class="news-card">
     <div class="news-meta"><span class="news-date">2025年5月</span><span class="news-tag news-tag--media">媒体报道</span></div>
-    <p><span class="news-emphasis--muted"><strong>孟澄作为清华毕业十年校友代表发言。</strong> 孟澄作为毕业十年校友代表受邀出席清华大学校党委书记邱勇主持的主题座谈会并发言，并被清华大学统计与数据科学系报道！ <a href="https://mp.weixin.qq.com/s/d8KrSRIqVNIQVdvBO0yjFw">活动报道 →</a> <a href="https://mp.weixin.qq.com/s/utOxnb63ZurO7jPo6NpkAg">院系报道 →</a></span></p>
+    <p><span class="news-emphasis--red"><strong>孟澄作为清华毕业十年校友代表发言。</strong> 孟澄作为毕业十年校友代表受邀出席清华大学校党委书记邱勇主持的主题座谈会并发言，并被清华大学统计与数据科学系报道！ <a href="https://mp.weixin.qq.com/s/d8KrSRIqVNIQVdvBO0yjFw">活动报道 →</a> <a href="https://mp.weixin.qq.com/s/utOxnb63ZurO7jPo6NpkAg">院系报道 →</a></span></p>
   </article>
   <article class="news-card">
     <div class="news-meta"><span class="news-date">2025年4月</span><span class="news-tag news-tag--awards">学生荣誉</span></div>
@@ -432,7 +452,7 @@ Hi，大家好，我是孟澄，目前在中国人民大学（RUC）统计与大
 <div class="news-list">
   <article class="news-card">
     <div class="news-meta"><span class="news-date">2024年12月</span><span class="news-tag news-tag--awards">学生荣誉</span></div>
-    <p><span class="news-emphasis--blue"><strong>李梦雨入选中国科协青年人才托举工程。</strong> 祝贺李梦雨入选2024年度中国科协青年人才托举工程博士生专项计划！托举学会为中国现场统计研究会。这是该计划的首届实施，全国约3000人入选。 <a href="https://mp.weixin.qq.com/s/rRtjWDszTF0U0GonVTHsRA">阅读全文 →</a></span></p>
+    <p><strong>李梦雨入选中国科协青年人才托举工程。</strong> 祝贺李梦雨入选2024年度中国科协青年人才托举工程博士生专项计划！托举学会为中国现场统计研究会。这是该计划的首届实施，全国约3000人入选。 <a href="https://mp.weixin.qq.com/s/rRtjWDszTF0U0GonVTHsRA">阅读全文 →</a></p>
   </article>
   <article class="news-card">
     <div class="news-meta"><span class="news-date">2024年11月</span><span class="news-tag news-tag--awards">学生荣誉</span></div>
