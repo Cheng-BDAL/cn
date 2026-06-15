@@ -59,21 +59,28 @@ author_profile: true  # 可选，视需要是否显示作者信息
     font-size: 0.78rem;
   }
   .student-jump {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.45rem;
-    margin: 0.25rem 0 1.1rem;
-  }
-  .student-jump a {
-    display: inline-block;
-    margin-left: 0;
-    padding: 0.28rem 0.6rem;
-    border: 1px solid #d8c8bf;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 0.5rem;
+    margin: 0.3rem 0 1.2rem;
+    padding: 0.55rem;
+    border: 1px solid #e6e0dc;
+    border-left: 3px solid #8b1e2d;
     border-radius: 6px;
     background: #fbfaf8;
+  }
+  .student-jump a {
+    display: block;
+    margin-left: 0;
+    padding: 0.34rem 0.6rem;
+    border: 1px solid #d8c8bf;
+    border-radius: 6px;
+    background: #fff;
     color: #8b1e2d;
     font-size: 0.82rem;
     font-weight: 700;
+    line-height: 1.35;
+    text-align: center;
     text-decoration: none;
   }
   .student-jump a:hover {
@@ -204,6 +211,15 @@ author_profile: true  # 可选，视需要是否显示作者信息
     }
     .student-email {
       overflow-wrap: anywhere;
+    }
+    .student-jump {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 0.42rem;
+      padding: 0.48rem;
+    }
+    .student-jump a {
+      padding: 0.34rem 0.45rem;
+      font-size: 0.78rem;
     }
     .student-grid tr,
     .alumni-story tr {

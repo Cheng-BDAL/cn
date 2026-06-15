@@ -46,8 +46,8 @@ redirect_from:
   }
   .cv-service {
     display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 0.85rem;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 0.75rem;
   }
   .cv-service-item {
     min-width: 0;
@@ -84,8 +84,8 @@ redirect_from:
   .cv-image-grid {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 0.6rem;
-    margin-top: 0.6rem;
+    gap: 0.45rem;
+    margin-top: 0.5rem;
   }
   .cv-image-grid img,
   .cv-image-wide {
@@ -96,9 +96,14 @@ redirect_from:
   }
   .cv-image-wide {
     max-width: 100%;
-    max-height: 220px;
+    max-height: 155px;
     margin-top: 0.5rem;
     object-fit: cover;
+  }
+  @media (max-width: 1024px) {
+    .cv-service {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
   }
   @media (max-width: 720px) {
     .cv-entry {
@@ -110,6 +115,9 @@ redirect_from:
     }
     .cv-image-grid {
       grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+    .cv-image-wide {
+      max-height: 160px;
     }
   }
 </style>

@@ -7,23 +7,50 @@ author_profile: true
 
 <style>
   .photo-gallery {
-    display: grid;
-    gap: 0.85rem;
-    justify-items: center;
+    column-count: 2;
+    column-gap: 1.1rem;
+    max-width: 820px;
+    margin: 0.25rem auto 1.5rem;
+    padding: 0.35rem 0.25rem;
   }
   .photo-gallery img {
-    width: min(100%, 600px);
+    display: block;
+    width: 100%;
     height: auto;
-    border-radius: 6px;
+    margin: 0 0 1.1rem;
+    break-inside: avoid;
+    border: 7px solid #fff;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 10px 26px rgba(37, 31, 28, 0.12);
+    transition: transform 180ms ease, box-shadow 180ms ease;
+  }
+  .photo-gallery img:nth-child(odd) {
+    transform: rotate(-0.7deg);
+  }
+  .photo-gallery img:nth-child(even) {
+    transform: rotate(0.8deg);
+  }
+  .photo-gallery img:nth-child(3n) {
+    transform: rotate(0.35deg);
+  }
+  .photo-gallery img:hover {
+    transform: translateY(-3px) rotate(0deg);
+    box-shadow: 0 14px 32px rgba(37, 31, 28, 0.16);
   }
   @media (max-width: 720px) {
     .photo-gallery {
-      gap: 0.65rem;
+      column-count: 1;
+      max-width: 100%;
+      padding: 0;
     }
     .photo-gallery img {
       width: 100%;
+      margin-bottom: 0.85rem;
+      border-width: 5px;
       max-height: 72vh;
       object-fit: contain;
+      transform: none !important;
     }
   }
 </style>
