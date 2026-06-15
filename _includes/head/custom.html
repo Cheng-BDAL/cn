@@ -186,6 +186,19 @@
     word-break: break-word;
   }
 
+  @media (min-width: 1024px) {
+    .sidebar {
+      height: calc(100vh - 2.5rem) !important;
+      padding-bottom: 1rem;
+      box-sizing: border-box;
+    }
+
+    .sidebar .author__urls.social-icons a {
+      white-space: normal;
+      overflow-wrap: anywhere;
+    }
+  }
+
   @media (max-width: 1023px) {
     .sidebar:not(.sidebar--home) {
       display: none !important;
