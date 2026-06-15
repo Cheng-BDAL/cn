@@ -147,7 +147,7 @@ author_profile: true  # 可选，视需要是否显示作者信息
   <tr>
     <td><img loading="lazy" src="https://cheng-bdal.github.io//images/头像/黄君烈.jpg" alt="Junlie Huang"><br><strong class="student-name">黄君烈</strong><a href="https://junlie22.github.io/">Github</a><br>2022级博士<br>联合指导：郭绍俊副教授<br>清华大学，数学与应用数学本科<br><span class="student-email">hjl22 at ruc dot edu dot cn</span></td>
     <td><img loading="lazy" src="https://cheng-bdal.github.io//images/头像/朱珺.png" alt="Jun Zhu"><br><strong class="student-name">朱珺</strong><a href="https://dfsxzj.github.io/homepage/">Github</a><br>2022级博士<br>东南大学，数学学院本科<br><span class="student-email">dfsxzj at ruc dot edu dot cn</span></td>
-    <td><img loading="lazy" src="https://cheng-bdal.github.io//images/头像/杜承朔.jpg" alt="Chengshuo Du"><br><strong class="student-name">杜承朔</strong><br>2023级博士<br>联合指导：郭绍俊副教授<br>北京航空航天大学，数学科学学院本科<br><span class="student-email">duchengshuo at ruc dot edu dot cn</span></td>
+    <td><img loading="lazy" src="https://cheng-bdal.github.io//images/头像/杜承朔.jpg" alt="Chengshuo Du"><br><strong class="student-name">杜承朔</strong><a href="https://chengshuodu.github.io/">Github</a><br>2023级博士<br>联合指导：郭绍俊副教授<br>北京航空航天大学，数学科学学院本科<br><span class="student-email">duchengshuo at ruc dot edu dot cn</span></td>
   </tr>
   <tr>
     <td><img loading="lazy" src="https://cheng-bdal.github.io//images/头像/欧阳夏雪.jpg" alt="Xiaxue Ouyang"><br><strong class="student-name">欧阳夏雪</strong><a href="https://xiaxueouyang2001.github.io/">Github</a><br>2023级博士<br>联合指导：何珂俊副教授<br>武汉大学，数学与统计学院本科<br><span class="student-email">ouyangxiaxue at ruc dot edu dot cn</span></td>
