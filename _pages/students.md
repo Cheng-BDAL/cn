@@ -183,22 +183,24 @@ author_profile: true  # 可选，视需要是否显示作者信息
       margin: 0;
     }
     td {
-      margin: 0 0 0.8rem;
-      padding: 0.8rem 0.75rem;
+      margin: 0 0 0.68rem;
+      padding: 0.68rem 0.65rem;
       border: 1px solid #e6e0dc !important;
       border-radius: 6px;
       background: #fff;
-      font-size: 0.82rem;
+      font-size: 0.8rem;
+      line-height: 1.32;
     }
     td:empty {
       display: none;
     }
     table img {
-      width: min(100%, 180px);
-      height: 210px;
+      width: min(100%, 165px);
+      height: 190px;
     }
     .student-name {
-      font-size: 0.95rem;
+      margin-top: 0.34rem;
+      font-size: 0.92rem;
     }
     .student-email {
       overflow-wrap: anywhere;
@@ -212,8 +214,8 @@ author_profile: true  # 可选，视需要是否显示作者信息
     }
     .student-grid img,
     .alumni-story img {
-      width: min(100%, 180px);
-      height: 210px;
+      width: min(100%, 165px);
+      height: 190px;
     }
     .alumni-story td:first-child {
       padding-right: 0.75rem;

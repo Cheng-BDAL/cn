@@ -67,8 +67,24 @@ author_profile: true
   margin: 1.8rem 0;
 }
 @media (max-width: 720px) {
+  .archive p {
+    line-height: 1.62;
+  }
+  .archive hr {
+    margin: 1.35rem 0;
+  }
+  .admission-notice {
+    margin: 0.15rem 0 0.95rem;
+    padding: 0.68rem 0.78rem;
+    font-size: 0.88rem;
+    line-height: 1.55;
+  }
+  .admission-notice p {
+    line-height: 1.55;
+  }
   .admission-grid {
     grid-template-columns: 1fr;
+    gap: 0.7rem;
   }
 }
 </style>
