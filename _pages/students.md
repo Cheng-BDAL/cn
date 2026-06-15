@@ -40,9 +40,19 @@ author_profile: true  # 可选，视需要是否显示作者信息
   td a {
     display: inline-block;
     margin-left: 0.25rem;
+    padding: 0.08rem 0.38rem;
+    border: 1px solid #d8c8bf;
+    border-radius: 999px;
+    background: #fff;
     font-size: 0.76rem;
     font-weight: 600;
     color: #8b1e2d;
+    line-height: 1.35;
+    text-decoration: none;
+  }
+  td a:hover {
+    background: #f7e6e6;
+    text-decoration: none;
   }
   .student-email {
     color: #777;
@@ -70,6 +80,59 @@ author_profile: true  # 可选，视需要是否显示作者信息
     background: #f7e6e6;
     text-decoration: none;
   }
+  .student-grid tr {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 0.85rem;
+    margin-bottom: 0.85rem;
+  }
+  .student-grid td {
+    display: block;
+    width: auto;
+    min-height: 100%;
+    padding: 0.85rem 0.75rem;
+    border: 1px solid #e6e0dc !important;
+    border-left: 3px solid #8b1e2d !important;
+    border-radius: 6px;
+    background: #fbfaf8;
+  }
+  .student-grid td:empty {
+    display: none;
+  }
+  .student-grid img {
+    width: min(100%, 190px);
+    height: 218px;
+  }
+  .alumni-story {
+    border-spacing: 0 0.95rem;
+  }
+  .alumni-story tr {
+    display: grid;
+    grid-template-columns: 0.88fr 1fr 1fr;
+    gap: 0.75rem;
+    padding: 0.78rem;
+    border: 1px solid #e6e0dc;
+    border-left: 3px solid #8b1e2d;
+    border-radius: 6px;
+    background: #fbfaf8;
+  }
+  .alumni-story td {
+    display: block;
+    width: auto;
+    padding: 0;
+    background: transparent;
+    color: #555;
+  }
+  .alumni-story td:first-child {
+    padding-right: 0.35rem;
+    border-right: 1px solid #eadfd8 !important;
+  }
+  .alumni-story img {
+    width: 100%;
+    max-width: 220px;
+    height: 185px;
+    object-fit: cover;
+  }
   @media (max-width: 1024px) and (min-width: 721px) {
     table,
     tbody {
@@ -92,6 +155,16 @@ author_profile: true  # 可选，视需要是否显示作者信息
     }
     td:empty {
       display: none;
+    }
+    .alumni-story tr {
+      grid-template-columns: 1fr 1fr;
+    }
+    .alumni-story td:first-child {
+      grid-column: 1 / -1;
+      padding-right: 0;
+      padding-bottom: 0.7rem;
+      border-right: 0 !important;
+      border-bottom: 1px solid #eadfd8 !important;
     }
   }
   @media (max-width: 720px) {
@@ -129,6 +202,22 @@ author_profile: true  # 可选，视需要是否显示作者信息
     .student-email {
       overflow-wrap: anywhere;
     }
+    .student-grid tr,
+    .alumni-story tr {
+      display: block;
+      padding: 0;
+      border: 0;
+      background: transparent;
+    }
+    .student-grid img,
+    .alumni-story img {
+      width: min(100%, 180px);
+      height: 210px;
+    }
+    .alumni-story td:first-child {
+      padding-right: 0.75rem;
+      border-right: 1px solid #e6e0dc !important;
+    }
   }
 </style>
 
@@ -143,21 +232,21 @@ author_profile: true  # 可选，视需要是否显示作者信息
 ## 在读博士
 {: #current-phd }
 
-<table>
+<table class="student-grid">
   <tr>
-    <td><img loading="lazy" src="https://cheng-bdal.github.io//images/头像/黄君烈.jpg" alt="Junlie Huang"><br><strong class="student-name">黄君烈</strong><a href="https://junlie22.github.io/">Github</a><br>2022级博士<br>联合指导：郭绍俊副教授<br>清华大学，数学与应用数学本科<br><span class="student-email">hjl22 at ruc dot edu dot cn</span></td>
-    <td><img loading="lazy" src="https://cheng-bdal.github.io//images/头像/朱珺.png" alt="Jun Zhu"><br><strong class="student-name">朱珺</strong><a href="https://dfsxzj.github.io/homepage/">Github</a><br>2022级博士<br>东南大学，数学学院本科<br><span class="student-email">dfsxzj at ruc dot edu dot cn</span></td>
-    <td><img loading="lazy" src="https://cheng-bdal.github.io//images/头像/杜承朔.jpg" alt="Chengshuo Du"><br><strong class="student-name">杜承朔</strong><a href="https://chengshuodu.github.io/">Github</a><br>2023级博士<br>联合指导：郭绍俊副教授<br>北京航空航天大学，数学科学学院本科<br><span class="student-email">duchengshuo at ruc dot edu dot cn</span></td>
+    <td><img loading="lazy" src="https://cheng-bdal.github.io//images/头像/黄君烈.jpg" alt="Junlie Huang"><br><strong class="student-name">黄君烈</strong><a href="https://junlie22.github.io/">主页</a><br>2022级博士<br>联合指导：郭绍俊副教授<br>清华大学，数学与应用数学本科<br><span class="student-email">hjl22 at ruc dot edu dot cn</span></td>
+    <td><img loading="lazy" src="https://cheng-bdal.github.io//images/头像/朱珺.png" alt="Jun Zhu"><br><strong class="student-name">朱珺</strong><a href="https://dfsxzj.github.io/homepage/">主页</a><br>2022级博士<br>东南大学，数学学院本科<br><span class="student-email">dfsxzj at ruc dot edu dot cn</span></td>
+    <td><img loading="lazy" src="https://cheng-bdal.github.io//images/头像/杜承朔.jpg" alt="Chengshuo Du"><br><strong class="student-name">杜承朔</strong><a href="https://chengshuodu.github.io/">主页</a><br>2023级博士<br>联合指导：郭绍俊副教授<br>北京航空航天大学，数学科学学院本科<br><span class="student-email">duchengshuo at ruc dot edu dot cn</span></td>
   </tr>
   <tr>
-    <td><img loading="lazy" src="https://cheng-bdal.github.io//images/头像/欧阳夏雪.jpg" alt="Xiaxue Ouyang"><br><strong class="student-name">欧阳夏雪</strong><a href="https://xiaxueouyang2001.github.io/">Github</a><br>2023级博士<br>联合指导：何珂俊副教授<br>武汉大学，数学与统计学院本科<br><span class="student-email">ouyangxiaxue at ruc dot edu dot cn</span></td>
-    <td><img loading="lazy" src="https://cheng-bdal.github.io//images/头像/王涛.jpg" alt="Tao Wang"><br><strong class="student-name">王涛</strong><a href="https://taowang0105.github.io/">Github</a><br>2023级博士<br>天津大学，数学学院本科<br><span class="student-email">wang_tao at ruc dot edu dot cn</span></td>
+    <td><img loading="lazy" src="https://cheng-bdal.github.io//images/头像/欧阳夏雪.jpg" alt="Xiaxue Ouyang"><br><strong class="student-name">欧阳夏雪</strong><a href="https://xiaxueouyang2001.github.io/">主页</a><br>2023级博士<br>联合指导：何珂俊副教授<br>武汉大学，数学与统计学院本科<br><span class="student-email">ouyangxiaxue at ruc dot edu dot cn</span></td>
+    <td><img loading="lazy" src="https://cheng-bdal.github.io//images/头像/王涛.jpg" alt="Tao Wang"><br><strong class="student-name">王涛</strong><a href="https://taowang0105.github.io/">主页</a><br>2023级博士<br>天津大学，数学学院本科<br><span class="student-email">wang_tao at ruc dot edu dot cn</span></td>
     <!-- <td><img loading="lazy" src="https://cheng-bdal.github.io//images/头像/金贝宁.jpg" alt="Beining Jin"><br>金贝宁<br>2024级博士（财政金融学院）<br>北京工业大学，理学院本科<br>Jinbeining at foxmail dot com</td> -->
-    <td><img loading="lazy" src="https://cheng-bdal.github.io//images/头像/林俊一.jpg" alt="Junyi Lin"><br><strong class="student-name">林俊一</strong><a href="https://junyilin559.github.io/">Github</a><br>2024级博士<br>联合指导：何珂俊副教授<br>南开大学，统计与数据科学学院本科<br><span class="student-email">junyilin at ruc dot edu dot cn</span></td>
+    <td><img loading="lazy" src="https://cheng-bdal.github.io//images/头像/林俊一.jpg" alt="Junyi Lin"><br><strong class="student-name">林俊一</strong><a href="https://junyilin559.github.io/">主页</a><br>2024级博士<br>联合指导：何珂俊副教授<br>南开大学，统计与数据科学学院本科<br><span class="student-email">junyilin at ruc dot edu dot cn</span></td>
   </tr>
   <tr>
     <td><img loading="lazy" src="https://cheng-bdal.github.io//images/头像/王培泽.jpg" alt="Peize Wang"><br><strong class="student-name">王培泽</strong><br>2024级博士<br>厦门大学，数学科学学院本科<br><span class="student-email">wpz2024 at ruc dot edu dot cn</span></td>
-    <td><img loading="lazy" src="https://cheng-bdal.github.io//images/头像/薛敦耀.jpg" alt="Dunyao Xue"><br><strong class="student-name">薛敦耀</strong><a href="https://sapphirexdy.github.io/">Github</a><br>2024级博士<br>联合指导：代文林副教授<br>兰州大学，萃英学院本科<br><span class="student-email">xuedunyao1202 at ruc dot edu dot cn</span></td>
+    <td><img loading="lazy" src="https://cheng-bdal.github.io//images/头像/薛敦耀.jpg" alt="Dunyao Xue"><br><strong class="student-name">薛敦耀</strong><a href="https://sapphirexdy.github.io/">主页</a><br>2024级博士<br>联合指导：代文林副教授<br>兰州大学，萃英学院本科<br><span class="student-email">xuedunyao1202 at ruc dot edu dot cn</span></td>
     <td><img loading="lazy" src="https://cheng-bdal.github.io//images/头像/董雨铮.jpg" alt="Yuzheng Dong"><br><strong class="student-name">董雨铮</strong><br>2025级博士<br>北京师范大学，数学科学学院本科<br><span class="student-email">dongyz0514 at ruc dot edu dot cn</span></td>
   </tr>
   <tr>
@@ -175,9 +264,9 @@ author_profile: true  # 可选，视需要是否显示作者信息
 ## 在读硕士与本科
 {: #current-ms-undergraduate }
 
-<table>
+<table class="student-grid">
   <tr>
-    <td><img loading="lazy" src="https://cheng-bdal.github.io//images/头像/梁浩贤.jpg" alt="Haoxian Liang"><br><strong class="student-name">梁浩贤</strong><a href="https://haoxian1024.github.io/">Github</a><br>2024级硕士(北师大数学系)<br>中国人民大学，数学科学学院本科<br><span class="student-email">haoxian_liang at mail dot bnu dot edu dot cn</span></td>
+    <td><img loading="lazy" src="https://cheng-bdal.github.io//images/头像/梁浩贤.jpg" alt="Haoxian Liang"><br><strong class="student-name">梁浩贤</strong><a href="https://haoxian1024.github.io/">主页</a><br>2024级硕士(北师大数学系)<br>中国人民大学，数学科学学院本科<br><span class="student-email">haoxian_liang at mail dot bnu dot edu dot cn</span></td>
     <td><img loading="lazy" src="https://cheng-bdal.github.io//images/头像/胡婧璇.jpg" alt="Jingxuan Hu"><br><strong class="student-name">胡婧璇</strong><br>2025级硕士<br>北京交通大学，经济管理学院本科<br><span class="student-email">2025104242 at ruc dot edu dot cn</span></td>
     <td><img loading="lazy" src="https://cheng-bdal.github.io//images/头像/蒋文浩.jpg" alt="Wenhao Jiang"><br><strong class="student-name">蒋文浩</strong><br>2025级硕士<br>中国人民大学，统计学院本科<br><span class="student-email">2021201382 at ruc dot edu dot cn</span></td>
   </tr>
@@ -210,11 +299,11 @@ author_profile: true  # 可选，视需要是否显示作者信息
   }
 </style>
 
-<table>
+<table class="alumni-story">
   <tr>
     <td>
       <img loading="lazy" src="https://cheng-bdal.github.io//images/头像/康欣来.jpg" alt="Xinlai Kang"><br>
-      <strong class="student-name">康欣来</strong><a href="https://kxlkxl1999.github.io/">Github</a><br>
+      <strong class="student-name">康欣来</strong><a href="https://kxlkxl1999.github.io/">主页</a><br>
       2026届博士<br>
       中国人民大学，统计学院本科<br>
       <span class="student-email">kangxinlai at ruc dot edu dot cn</span>
@@ -237,7 +326,7 @@ author_profile: true  # 可选，视需要是否显示作者信息
   <tr>
     <td>
       <img loading="lazy" src="https://cheng-bdal.github.io//images/头像/李梦雨.jpg" alt="Mengyu Li"><br>
-      <strong class="student-name">李梦雨</strong><a href="https://mengyu8042.github.io/">GitHub</a><br>
+      <strong class="student-name">李梦雨</strong><a href="https://mengyu8042.github.io/">主页</a><br>
       2025届博士<br>
       北京师范大学，统计学院本科<br>
       <span class="student-email">mengyuli (at) tsinghua.edu.cn</span>
@@ -260,7 +349,7 @@ author_profile: true  # 可选，视需要是否显示作者信息
   <tr>
     <td>
      <img loading="lazy" src="https://cheng-bdal.github.io//images/头像/李涛.jpg" alt="Tao Li"><br>
-      <strong class="student-name">李涛</strong><a href="https://github.com/sherlockLitao">GitHub</a><br>
+      <strong class="student-name">李涛</strong><a href="https://github.com/sherlockLitao">主页</a><br>
       2024届博士<br>
       南京大学，数学系本科<br>
       <span class="student-email">lt1306516392 at gmail dot com</span>
@@ -284,7 +373,7 @@ author_profile: true  # 可选，视需要是否显示作者信息
 
 ## 已毕业硕士
 {: #graduated-ms }
-<table>
+<table class="alumni-story">
   <tr>
     <td>
       <img loading="lazy" src="https://cheng-bdal.github.io//images/头像/黄倩楠.jpg" alt="黄倩楠"><br>
