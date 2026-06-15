@@ -179,11 +179,83 @@
     color: var(--bdal-muted);
   }
 
-  @media (max-width: 720px) {
+  @media (max-width: 1023px) {
     .sidebar:not(.sidebar--home) {
       display: none !important;
     }
 
+    .sidebar--home {
+      float: none !important;
+      position: static !important;
+      width: 100% !important;
+      max-width: none !important;
+      height: auto !important;
+      margin-bottom: 1em;
+      padding-top: 0 !important;
+      overflow: visible !important;
+    }
+
+    .sidebar--home .author__avatar {
+      display: table-cell;
+      width: 84px;
+      vertical-align: top;
+    }
+
+    .sidebar--home .author__avatar img {
+      width: 84px;
+      height: 84px;
+      max-width: 84px;
+      aspect-ratio: 1 / 1;
+      object-fit: cover;
+    }
+
+    .sidebar--home .author__content {
+      display: table-cell;
+      width: auto;
+      padding-left: 15px;
+      padding-right: 10px;
+      vertical-align: top;
+    }
+
+    .sidebar--home .author__urls-wrapper {
+      display: block;
+      width: 100%;
+      margin-top: 0.45rem;
+      cursor: default;
+    }
+
+    .sidebar--home .author__urls-wrapper .btn {
+      display: none !important;
+    }
+
+    .sidebar--home .author__urls.social-icons {
+      display: block !important;
+      position: static !important;
+      width: 100%;
+      margin: 0.45rem 0 0;
+      padding: 0;
+      border: 0;
+      background: transparent;
+      box-shadow: none;
+      z-index: auto;
+    }
+
+    .sidebar--home .author__urls.social-icons:before,
+    .sidebar--home .author__urls.social-icons:after {
+      display: none;
+    }
+
+    .sidebar--home .author__urls.social-icons li,
+    .sidebar--home .author__urls.social-icons .author__desktop {
+      display: block;
+      margin: 0.12rem 0;
+      white-space: normal;
+      overflow-wrap: anywhere;
+      word-break: break-word;
+    }
+  }
+
+  @media (max-width: 720px) {
     .sidebar .author__urls-wrapper {
       display: block;
       width: 100%;
