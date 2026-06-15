@@ -123,6 +123,10 @@ author_profile: true
   </div>
 </div>
 
+<div class="admission-process" markdown="1">
+BDAL-RUC 希望是一个既能认真做研究，也能轻松相处的团队。我们“尤其欢迎”真诚开朗、愿意沟通、喜欢和伙伴一起讨论与成长的同学。科研能力可以慢慢训练，但善意、责任感和团队融入感非常重要。
+</div>
+
 ---
 
 ## 三、入组匹配机制
