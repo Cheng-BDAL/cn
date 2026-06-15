@@ -4,6 +4,7 @@ collection: publications
 category: conferences
 permalink: 'https://proceedings.neurips.cc/paper/2019/hash/4bbbe6cb5982b9110413c40f3cce680b-Abstract.html'
 excerpt: 'Cheng Meng, Yuan Ke, Jingyi Zhang, Mengrui Zhang, Wenxuan Zhong, Ping Ma<sup>*</sup>'
+tldr: "用残差驱动的投影追踪方向，逐步构造高维最优传输映射近似。"
 date: 2019-01-01
 venue: 'NeurIPS（机器学习三大会）'
 research_line: "optimal_transport"

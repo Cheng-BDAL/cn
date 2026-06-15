@@ -4,6 +4,7 @@ collection: publications
 category: manuscripts
 permalink: 'https://www.igi-global.com/article/modern-subsampling-methods-for-large-scale-least-squares-regression/280467'
 excerpt: '<a href="https://github.com/sherlockLitao">Tao Li</a>, Cheng Meng<sup>*</sup>'
+tldr: "梳理大规模最小二乘子抽样方法，作为 leverage 与 optimal subsampling 的背景入口。"
 date: 2021-01-01
 venue: 'IJCPS'
 research_line: "review"

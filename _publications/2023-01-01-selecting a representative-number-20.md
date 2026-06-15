@@ -4,6 +4,7 @@ collection: publications
 category: manuscripts
 permalink: 'https://www.tandfonline.com/doi/abs/10.1080/10618600.2022.2084404'
 excerpt: 'Jingyi Zhang, Cheng Meng, Jun Yu, Mengrui Zhang, Wenxuan Zhong, and Ping Ma<sup>*</sup>'
+tldr: "用最优传输构造代表性子样本，提升核密度估计中的分布覆盖效率。"
 date: 2023-01-01
 venue: 'JCGS（人大核心A-类）'
 research_line: "subsampling"

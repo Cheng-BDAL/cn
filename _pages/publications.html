@@ -102,12 +102,16 @@ author_profile: true
   }
   .research-line-card--hilbert { border-left-color: #2f6f73; }
   .research-line-card--optimal_transport { border-left-color: #6d5a9c; }
-  .research-line-card--random_objects { border-left-color: #a15c38; }
+  .research-line-card--alignment_ot { border-left-color: #2f6073; }
   .research-line-card--applications_ai { border-left-color: #a07a18; }
+  .research-line-card--review { border-left-color: #64748b; }
+  .research-line-card--other { border-left-color: #7a5d4a; }
   .research-line-card--hilbert .research-line-icon { color: #2f6f73; }
   .research-line-card--optimal_transport .research-line-icon { color: #6d5a9c; }
-  .research-line-card--random_objects .research-line-icon { color: #a15c38; }
+  .research-line-card--alignment_ot .research-line-icon { color: #2f6073; }
   .research-line-card--applications_ai .research-line-icon { color: #a07a18; }
+  .research-line-card--review .research-line-icon { color: #64748b; }
+  .research-line-card--other .research-line-icon { color: #7a5d4a; }
   .research-highlights {
     margin-top: 0.7rem;
   }
@@ -215,6 +219,35 @@ author_profile: true
   .publication-authors p {
     margin: 0;
   }
+  .publication-action-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    margin: 0.42rem 0 0;
+  }
+  .publication-tldr {
+    flex: 1 1 auto;
+    min-width: 0;
+    padding: 0.36rem 0.52rem;
+    border-left: 3px solid #d8c8bf;
+    border-radius: 4px;
+    background: #fbfaf8;
+    color: #4f5962;
+    font-size: 0.84rem;
+    line-height: 1.46;
+  }
+  .publication-tldr strong {
+    color: #8b1e2d;
+    font-weight: 700;
+  }
+  .publication-action-row .publication-links {
+    display: flex;
+    flex: 0 0 auto;
+    align-items: center;
+    gap: 0.4rem;
+    margin-left: auto;
+  }
   .publication-links a {
     display: inline-block;
     margin-right: 0.45rem;
@@ -268,6 +301,20 @@ author_profile: true
     .research-snapshot {
       grid-template-columns: repeat(2, minmax(0, 1fr));
     }
+    .publication-action-row {
+      display: block;
+      margin-top: 0.36rem;
+    }
+    .publication-tldr {
+      padding: 0.34rem 0.48rem;
+      font-size: 0.8rem;
+      line-height: 1.43;
+    }
+    .publication-action-row .publication-links {
+      justify-content: flex-start;
+      margin-top: 0.46rem;
+      margin-left: 0;
+    }
   }
 </style>
 
@@ -276,7 +323,7 @@ author_profile: true
 {% assign publications = site.publications | sort: "date" | reverse %}
 <section class="research-hero">
   <h1>BDAL-RUC 科研地图</h1>
-  <p>我们围绕大规模统计计算、空间填充曲线、最优传输几何、随机对象与分布型回归，以及工业与 AI 系统中的统计方法展开研究，目标是在理论可解释性和真实计算效率之间建立可复用的方法框架。</p>
+  <p>我们围绕大规模统计计算、代表性设计、Hilbert/空间填充曲线传输度量、最优传输几何、跨域软对齐，以及工业与 AI 系统中的统计方法展开研究，目标是在理论可解释性和真实计算效率之间建立可复用的方法框架。</p>
   <div class="research-snapshot">
     <div class="research-stat"><strong>32</strong><span>已收录论文</span></div>
     <div class="research-stat"><strong>1 / 3 / 15</strong><span>人大 A+ / A / A- 类期刊</span></div>
@@ -302,32 +349,42 @@ author_profile: true
 <div class="research-map">
   <a class="research-line-card research-line-card--subsampling" href="#line-subsampling">
     <span class="research-line-icon" aria-hidden="true"><svg viewBox="0 0 48 48"><circle cx="12" cy="12" r="2.5"/><circle cx="24" cy="12" r="2.5"/><circle cx="36" cy="12" r="2.5"/><circle cx="12" cy="24" r="2.5"/><circle cx="24" cy="24" r="4"/><circle cx="36" cy="24" r="2.5"/><circle cx="12" cy="36" r="2.5"/><circle cx="24" cy="36" r="2.5"/><circle cx="36" cy="36" r="4"/><path d="M24 24L36 36M12 24h12M24 12v12"/></svg></span>
-    <span class="research-line-card-title">大规模子抽样与稀疏化</span>
+    <span class="research-line-card-title">大规模子抽样、稀疏化与代表性设计</span>
     <p>从样本级抽样到元素级、算子级和交互级稀疏化。</p>
   </a>
   <a class="research-line-card research-line-card--hilbert" href="#line-hilbert">
     <span class="research-line-icon" aria-hidden="true"><svg viewBox="0 0 48 48"><path d="M8 40V26h10v-8H8V8h32v10H28v12h12v10H18V30"/><path d="M18 30h10"/></svg></span>
-    <span class="research-line-card-title">空间填充曲线与 Hilbert 方法</span>
+    <span class="research-line-card-title">Hilbert / 空间填充曲线传输度量</span>
     <p>用低维排序、质量坐标和原空间计价连接效率与几何。</p>
   </a>
   <a class="research-line-card research-line-card--optimal_transport" href="#line-optimal_transport">
     <span class="research-line-icon" aria-hidden="true"><svg viewBox="0 0 48 48"><circle cx="10" cy="14" r="2.5"/><circle cx="12" cy="30" r="2.5"/><circle cx="19" cy="22" r="2.5"/><circle cx="35" cy="13" r="2.5"/><circle cx="38" cy="29" r="2.5"/><circle cx="29" cy="36" r="2.5"/><path d="M19 22c6-8 9-9 16-9"/><path d="M19 22c8 2 13 4 19 7"/><path d="M12 30c6 5 10 7 17 6"/><path d="M33 10l2 3-3 2M35 26l3 3-4 2M26 34l3 2-2 4"/></svg></span>
-    <span class="research-line-card-title">最优传输几何、降维与软对齐</span>
-    <p>把 OT 作为几何代理、判别方向和跨域软对应的统一工具。</p>
+    <span class="research-line-card-title">最优传输几何、降维与不变表示</span>
+    <p>把 OT 作为几何代理、判别方向和不变表示的统一工具。</p>
   </a>
-  <a class="research-line-card research-line-card--random_objects" href="#line-random_objects">
-    <span class="research-line-icon" aria-hidden="true"><svg viewBox="0 0 48 48"><path d="M8 34c4-11 8-18 13-18 4 0 6 6 9 11 3 6 6 8 10 1"/><path d="M8 40h32"/><path d="M12 30c5-4 9-5 13-3 4 1 7 4 12 3"/><ellipse cx="24" cy="24" rx="14" ry="8"/></svg></span>
-    <span class="research-line-card-title">随机对象、分布型回归与几何统计</span>
-    <p>面向区间、分布和 Wasserstein 对象的建模、相关性和预测。</p>
+  <a class="research-line-card research-line-card--alignment_ot" href="#line-alignment_ot">
+    <span class="research-line-icon" aria-hidden="true"><svg viewBox="0 0 48 48"><circle cx="12" cy="16" r="3"/><circle cx="12" cy="32" r="3"/><circle cx="36" cy="12" r="3"/><circle cx="36" cy="36" r="3"/><path d="M15 16c7-4 12-5 18-4"/><path d="M15 32c7 4 12 5 18 4"/><path d="M15 16c8 3 13 9 18 20"/><path d="M15 32c8-3 13-9 18-20"/></svg></span>
+    <span class="research-line-card-title">跨域软对齐与应用型 OT</span>
+    <p>用 OT/UOT 生成软对应，服务跨域推断、配准和代表对象构造。</p>
   </a>
   <a class="research-line-card research-line-card--applications_ai" href="#line-applications_ai">
     <span class="research-line-icon" aria-hidden="true"><svg viewBox="0 0 48 48"><rect x="13" y="13" width="22" height="22" rx="3"/><path d="M18 8v5M24 8v5M30 8v5M18 35v5M24 35v5M30 35v5M8 18h5M8 24h5M8 30h5M35 18h5M35 24h5M35 30h5"/><circle cx="21" cy="22" r="2"/><circle cx="28" cy="18" r="2"/><circle cx="28" cy="29" r="2"/><path d="M22.5 21l4-2M22.5 23l4 5"/></svg></span>
     <span class="research-line-card-title">工业与 AI 系统中的统计方法</span>
-    <p>把统计结构转化为图像、农业、深度学习和 MoE 系统中的可用算法。</p>
+    <p>把统计计算和功能单元选择转化为图像、深度学习与 MoE 系统中的可用算法。</p>
+  </a>
+  <a class="research-line-card research-line-card--review" href="#line-review">
+    <span class="research-line-icon" aria-hidden="true"><svg viewBox="0 0 48 48"><path d="M14 8h15l7 7v25H14z"/><path d="M29 8v8h7"/><path d="M19 23h14M19 29h14M19 35h9"/></svg></span>
+    <span class="research-line-card-title">综述与背景入口</span>
+    <p>梳理子抽样、投影最优传输和 OT 稀疏化的技术谱系。</p>
+  </a>
+  <a class="research-line-card research-line-card--other" href="#line-other">
+    <span class="research-line-icon" aria-hidden="true"><svg viewBox="0 0 48 48"><circle cx="15" cy="18" r="3"/><circle cx="24" cy="30" r="3"/><circle cx="34" cy="16" r="3"/><path d="M17 20l5 8M27 28l5-9M18 18h13"/></svg></span>
+    <span class="research-line-card-title">其它论文与低权重补充</span>
+    <p>收录区间值对象、应用合作和不适合强行归入主线的相关工作。</p>
   </a>
 </div>
 
-{% assign research_lines = "subsampling|hilbert|optimal_transport|random_objects|applications_ai|review|related" | split: "|" %}
+{% assign research_lines = "subsampling|hilbert|optimal_transport|alignment_ot|applications_ai|review|other" | split: "|" %}
 
 <h2 class="research-map-heading">按主线浏览论文</h2>
 {% for line in research_lines %}
@@ -335,26 +392,26 @@ author_profile: true
   {% if line_publications.size > 0 %}
     {% case line %}
       {% when "subsampling" %}
-        {% assign line_title = "大规模子抽样与稀疏化" %}
-        {% assign line_intro = "这一主线关注如何在保持统计性质的同时降低大规模数据、矩阵和最优传输问题的计算成本。" %}
+        {% assign line_title = "大规模子抽样、稀疏化与代表性设计" %}
+        {% assign line_intro = "这一主线关注代表性设计、子抽样和元素/交互级稀疏化，在保持统计性质的同时降低大规模计算成本。" %}
       {% when "hilbert" %}
-        {% assign line_title = "空间填充曲线与 Hilbert 方法" %}
-        {% assign line_intro = "这一主线利用空间填充曲线的排序和局部性，为分布比较、基函数选择和高维几何计算提供轻量结构。" %}
+        {% assign line_title = "Hilbert / 空间填充曲线传输度量" %}
+        {% assign line_intro = "这一主线利用 Hilbert 曲线和空间填充曲线的排序与局部性，为分布比较和高维几何计算提供轻量结构。" %}
       {% when "optimal_transport" %}
-        {% assign line_title = "最优传输几何、降维与软对齐" %}
-        {% assign line_intro = "这一主线把最优传输视为几何代理，用于方向恢复、投影追踪、不变度量、跨域软对应和高维结构学习。" %}
-      {% when "random_objects" %}
-        {% assign line_title = "随机对象、分布型回归与几何统计" %}
-        {% assign line_intro = "这一主线处理区间、分布和 Wasserstein 对象等非欧式数据形式中的建模、相关性和预测问题。" %}
+        {% assign line_title = "最优传输几何、降维与不变表示" %}
+        {% assign line_intro = "这一主线把最优传输视为几何代理，用于方向恢复、投影追踪、特征筛选和刚体不变度量。" %}
+      {% when "alignment_ot" %}
+        {% assign line_title = "跨域软对齐与应用型 OT" %}
+        {% assign line_intro = "这一主线用 OT/UOT/partial OT 生成软对应或代表对象，服务无配对推断、图像配准和 3D 表示压缩。" %}
       {% when "applications_ai" %}
         {% assign line_title = "工业与 AI 系统中的统计方法" %}
-        {% assign line_intro = "这一主线面向真实应用场景，把统计计算、几何建模和功能单元选择转化为可部署算法。" %}
+        {% assign line_intro = "这一主线面向真实应用场景，把统计计算、杠杆近似、主动学习和功能单元选择转化为可部署算法。" %}
       {% when "review" %}
-        {% assign line_title = "背景综述" %}
+        {% assign line_title = "综述与背景入口" %}
         {% assign line_intro = "这些论文作为研究背景入口，帮助读者理解大规模子抽样、投影最优传输和最优传输稀疏化的技术谱系。" %}
-      {% when "related" %}
-        {% assign line_title = "相关论文与应用合作" %}
-        {% assign line_intro = "这些工作与团队研究、应用合作或统计学习场景相关，但不强行归入前述主线。" %}
+      {% when "other" %}
+        {% assign line_title = "其它论文与低权重补充" %}
+        {% assign line_intro = "这些论文与团队研究、应用合作或几何统计补充方向相关，但不强行归入核心主线。" %}
     {% endcase %}
 
     <h2 id="line-{{ line }}" class="publication-line">{{ line_title }}</h2>
@@ -376,13 +433,20 @@ author_profile: true
         {% if post.excerpt %}
           <div class="publication-authors">{{ post.excerpt | markdownify }}</div>
         {% endif %}
-        {% if post.paperurl or post.slidesurl %}
-          <div class="publication-links">
-            {% if post.paperurl %}
-              <a href="{{ post.paperurl }}">PDF</a>
+        {% if post.tldr or post.paperurl or post.slidesurl %}
+          <div class="publication-action-row">
+            {% if post.tldr %}
+              <div class="publication-tldr"><strong>TL;DR:</strong> {{ post.tldr }}</div>
             {% endif %}
-            {% if post.slidesurl %}
-              <a href="{{ post.slidesurl }}">Slides</a>
+            {% if post.paperurl or post.slidesurl %}
+              <div class="publication-links">
+                {% if post.paperurl %}
+                  <a href="{{ post.paperurl }}">PDF</a>
+                {% endif %}
+                {% if post.slidesurl %}
+                  <a href="{{ post.slidesurl }}">Slides</a>
+                {% endif %}
+              </div>
             {% endif %}
           </div>
         {% endif %}
