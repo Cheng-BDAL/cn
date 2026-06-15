@@ -132,7 +132,7 @@ author_profile: true  # 可选，视需要是否显示作者信息
     max-width: 220px;
     height: 185px;
     object-fit: cover;
-    object-position: center top;
+    object-position: center 35%;
   }
   @media (max-width: 1024px) and (min-width: 721px) {
     table,
