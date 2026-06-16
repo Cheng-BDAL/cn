@@ -309,7 +309,10 @@ author_profile: true
       grid-template-columns: repeat(2, minmax(0, 1fr));
     }
     .publication-action-row {
-      display: block;
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      gap: 0.45rem;
+      align-items: end;
       margin-top: 0.36rem;
     }
     .publication-tldr {
@@ -318,8 +321,8 @@ author_profile: true
       line-height: 1.43;
     }
     .publication-action-row .publication-links {
-      justify-content: flex-start;
-      margin-top: 0.46rem;
+      justify-content: flex-end;
+      margin-top: 0;
       margin-left: 0;
     }
   }
