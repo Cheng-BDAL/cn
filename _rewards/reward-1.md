@@ -8,14 +8,14 @@ order: 3
 
 | 难题期数       | 难题名称                                   | 获奖类型   | 火花奖期数 | 解题核心成员                      |
 | -------------- | ------------------------------------------ | ---------- | ---------- | --------------------------------- |
-| 长江会战第三期 | 非原生Bayer Raw图像噪声分析和处理技术      | 价值奖     | 第73期     | 康欣来、黄倩楠、张静怡、孟澄      |
-| 长江会战第一期 | 光纤传感数据增强算法                       | 鼓励奖     | 第73期     | 朱珺、李梦雨、孟澄               |
-| 飞峰会战第四期 | 基于模式感知的100x网络时序数据缩减         | 鼓励奖     | 第88期     | 黄君烈、孟澄                     |
-| 长江会战第五期 | 光耦合快速寻优                             | 价值奖     | 第109期    | 李梦雨、黄君烈、孟澄             |
-| 硬件工程难题第十期 | 一种自适应模糊检测调整算法                 | 鼓励奖     | 第109期    | 黄君烈、孟澄                     |
-| EDA专题第三期 | 大规模芯片版图Pattern特征提取与聚类算法研究 | 价值奖 | 第114期 | 郑皓、王涛、梁浩贤、李梦雨、张静怡、孟澄 |
-| 终端BG硬工难题第六期 | 析锂在线检测 | 价值奖 | 第131期 | 詹纯、孟澄、樊龙龙、朱珺 |
-| 珠峰会战第七期 | 超宽chiplet交换芯片的DIE间交换加速比最小化 | 鼓励奖 | 第135期 | 董雨铮、黄君烈、白静言、孟澄 |
+| 长江会战第三期 | 非原生Bayer Raw图像噪声分析和处理技术      | <span class="spark-award-type spark-award-type--value">价值奖</span> | 第73期     | 康欣来、黄倩楠、张静怡、孟澄      |
+| 长江会战第一期 | 光纤传感数据增强算法                       | <span class="spark-award-type spark-award-type--encouragement">鼓励奖</span> | 第73期     | 朱珺、李梦雨、孟澄               |
+| 飞峰会战第四期 | 基于模式感知的100x网络时序数据缩减         | <span class="spark-award-type spark-award-type--encouragement">鼓励奖</span> | 第88期     | 黄君烈、孟澄                     |
+| 长江会战第五期 | 光耦合快速寻优                             | <span class="spark-award-type spark-award-type--value">价值奖</span> | 第109期    | 李梦雨、黄君烈、孟澄             |
+| 硬件工程难题第十期 | 一种自适应模糊检测调整算法                 | <span class="spark-award-type spark-award-type--encouragement">鼓励奖</span> | 第109期    | 黄君烈、孟澄                     |
+| EDA专题第三期 | 大规模芯片版图Pattern特征提取与聚类算法研究 | <span class="spark-award-type spark-award-type--value">价值奖</span> | 第114期 | 郑皓、王涛、梁浩贤、李梦雨、张静怡、孟澄 |
+| 终端BG硬工难题第六期 | 析锂在线检测 | <span class="spark-award-type spark-award-type--value">价值奖</span> | 第131期 | 詹纯、孟澄、樊龙龙、朱珺 |
+| 珠峰会战第七期 | 超宽chiplet交换芯片的DIE间交换加速比最小化 | <span class="spark-award-type spark-award-type--encouragement">鼓励奖</span> | 第135期 | 董雨铮、黄君烈、白静言、孟澄 |
  
 ![荣誉奖章](../images/火花奖.jpg){: loading="lazy" style="width:400px; height:auto;" }
 ![荣誉奖章](../images/压缩结项.jpg){: loading="lazy" style="width:400px; height:auto;" }
