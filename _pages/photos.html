@@ -10,13 +10,20 @@ author_profile: true
     column-count: 2;
     column-gap: 1.1rem;
     max-width: 820px;
-    margin: 0.25rem auto 1.5rem;
+    margin: 0.25rem auto 1.1rem;
     padding: 0.35rem 0.25rem;
   }
-  .photo-gallery img {
+  .photo-gallery + .photo-gallery {
+    margin-top: 0;
+  }
+  .photo-gallery--2024 {
+    column-count: 1;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.1rem;
+  }
+  .photo-card {
     display: block;
-    width: 100%;
-    height: auto;
     margin: 0 0 1.1rem;
     break-inside: avoid;
     border: 7px solid #fff;
@@ -25,16 +32,37 @@ author_profile: true
     box-shadow: 0 10px 26px rgba(37, 31, 28, 0.12);
     transition: transform 180ms ease, box-shadow 180ms ease;
   }
-  .photo-gallery img:nth-child(odd) {
+  .photo-gallery--2024 .photo-card {
+    margin: 0;
+  }
+  .photo-card--tall {
+    grid-row: span 2;
+  }
+  .photo-card img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+  .photo-card figcaption {
+    margin-top: 0.55rem;
+    padding-left: 0.55rem;
+    border-left: 3px solid #d94b3d;
+    color: #6a574f;
+    font-size: 0.76rem;
+    line-height: 1.45;
+    letter-spacing: 0;
+  }
+  .photo-card:nth-child(odd) {
     transform: rotate(-0.7deg);
   }
-  .photo-gallery img:nth-child(even) {
+  .photo-card:nth-child(even) {
     transform: rotate(0.8deg);
   }
-  .photo-gallery img:nth-child(3n) {
+  .photo-card:nth-child(3n) {
     transform: rotate(0.35deg);
   }
-  .photo-gallery img:hover {
+  .photo-card:hover {
     transform: translateY(-3px) rotate(0deg);
     box-shadow: 0 14px 32px rgba(37, 31, 28, 0.16);
   }
@@ -44,31 +72,63 @@ author_profile: true
       max-width: 100%;
       padding: 0;
     }
-    .photo-gallery img {
+    .photo-gallery--2024 {
+      display: block;
+    }
+    .photo-card {
       width: 100%;
       margin-bottom: 0.85rem;
       border-width: 5px;
+      transform: none !important;
+    }
+    .photo-card img {
       max-height: 72vh;
       object-fit: contain;
-      transform: none !important;
     }
   }
 </style>
 
 <div class="photo-gallery">
-    
-<img loading="lazy" src="https://cheng-bdal.github.io//images/合照6.jpg" alt="合照 6" width="600" height="400">
+  <figure class="photo-card">
+    <img loading="lazy" src="https://cheng-bdal.github.io/images/bdal-2026-food-festival-stage-group.jpg" alt="20260618 味星舱汉堡节合影" width="1800" height="1200">
+    <figcaption>2026.06.18 · “味星舱”汉堡节打卡</figcaption>
+  </figure>
 
-<img loading="lazy" src="https://cheng-bdal.github.io//images/合照1.jpg" alt="合照 1" width="600" height="400">
+  <figure class="photo-card">
+    <img loading="lazy" src="https://cheng-bdal.github.io/images/bdal-2026-food-festival-selfie.jpg" alt="20260618 味星舱汉堡节自拍合影" width="1800" height="1200">
+    <figcaption>2026.06.18 · “味星舱”汉堡节自拍</figcaption>
+  </figure>
 
-<img loading="lazy" src="https://cheng-bdal.github.io//images/合照2.jpg" alt="合照 2" width="600" height="400">
+  <figure class="photo-card">
+    <img loading="lazy" src="https://cheng-bdal.github.io/images/合照6.jpg" alt="2026年新春全家福" width="1800" height="1189">
+    <figcaption>2026 · 新春全家福</figcaption>
+  </figure>
+</div>
 
-<img loading="lazy" src="https://cheng-bdal.github.io//images/合照3.jpg" alt="合照 3" width="400" height="600">
+<div class="photo-gallery photo-gallery--2024">
+  <figure class="photo-card">
+    <img loading="lazy" src="https://cheng-bdal.github.io/images/合照4.jpg" alt="2024年BDAL-RUC合影" width="1620" height="1080">
+    <figcaption>2024 · BDAL-RUC合影日</figcaption>
+  </figure>
 
-<img loading="lazy" src="https://cheng-bdal.github.io//images/合照4.jpg" alt="合照 4" width="600" height="400">
+  <figure class="photo-card photo-card--tall">
+    <img loading="lazy" src="https://cheng-bdal.github.io/images/合照3.jpg" alt="2024年BDAL-RUC合影" width="1200" height="1800">
+    <figcaption>2024 · BDAL-RUC合影日</figcaption>
+  </figure>
 
-<img loading="lazy" src="https://cheng-bdal.github.io//images/合照5.jpg" alt="合照 5" width="600" height="400">
+  <figure class="photo-card">
+    <img loading="lazy" src="https://cheng-bdal.github.io/images/合照1.jpg" alt="2024年BDAL-RUC合影" width="1800" height="1200">
+    <figcaption>2024 · BDAL-RUC合影日</figcaption>
+  </figure>
 
+  <figure class="photo-card">
+    <img loading="lazy" src="https://cheng-bdal.github.io/images/合照2.jpg" alt="2024年BDAL-RUC合影" width="1620" height="1080">
+    <figcaption>2024 · BDAL-RUC合影日</figcaption>
+  </figure>
 
+  <figure class="photo-card">
+    <img loading="lazy" src="https://cheng-bdal.github.io/images/合照5.jpg" alt="2024年BDAL-RUC合影" width="1620" height="1080">
+    <figcaption>2024 · BDAL-RUC合影日</figcaption>
+  </figure>
 
 </div>
