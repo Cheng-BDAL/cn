@@ -16,6 +16,12 @@ author_profile: true
   .photo-gallery + .photo-gallery {
     margin-top: 0;
   }
+  .photo-gallery--2026 {
+    column-count: 1;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.1rem;
+  }
   .photo-gallery--2024 {
     column-count: 1;
     display: grid;
@@ -33,6 +39,9 @@ author_profile: true
     transition: transform 180ms ease, box-shadow 180ms ease;
   }
   .photo-gallery--2024 .photo-card {
+    margin: 0;
+  }
+  .photo-gallery--2026 .photo-card {
     margin: 0;
   }
   .photo-card--tall {
@@ -75,6 +84,9 @@ author_profile: true
     .photo-gallery--2024 {
       display: block;
     }
+    .photo-gallery--2026 {
+      display: block;
+    }
     .photo-card {
       width: 100%;
       margin-bottom: 0.85rem;
@@ -88,7 +100,7 @@ author_profile: true
   }
 </style>
 
-<div class="photo-gallery">
+<div class="photo-gallery photo-gallery--2026">
   <figure class="photo-card">
     <img loading="lazy" src="https://cheng-bdal.github.io/images/bdal-2026-food-festival-stage-group.jpg" alt="20260618 味星舱汉堡节合影" width="1800" height="1200">
     <figcaption>2026.06.18 · “味星舱”汉堡节打卡</figcaption>
