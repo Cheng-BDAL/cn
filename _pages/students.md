@@ -48,11 +48,13 @@ author_profile: true  # 可选，视需要是否显示作者信息
     font-weight: 600;
     color: #8b1e2d;
     line-height: 1.35;
-    text-decoration: none;
+    text-decoration: none !important;
   }
-  td a:hover {
+  td a:hover,
+  td a:focus,
+  td a:active {
     background: #f7e6e6;
-    text-decoration: none;
+    text-decoration: none !important;
   }
   .student-email {
     color: #777;
@@ -81,11 +83,13 @@ author_profile: true  # 可选，视需要是否显示作者信息
     font-weight: 700;
     line-height: 1.35;
     text-align: center;
-    text-decoration: none;
+    text-decoration: none !important;
   }
-  .student-jump a:hover {
+  .student-jump a:hover,
+  .student-jump a:focus,
+  .student-jump a:active {
     background: #f7e6e6;
-    text-decoration: none;
+    text-decoration: none !important;
   }
   .student-grid tr {
     display: grid;
