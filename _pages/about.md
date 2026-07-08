@@ -283,6 +283,10 @@ Hi，大家好，我是孟澄，目前在中国人民大学（RUC）统计与大
 
 <div class="news-list">
   <article class="news-card">
+    <div class="news-meta"><span class="news-date">2026年7月</span><span class="news-tag news-tag--team">团队动态</span></div>
+    <p><strong>团队同学参加 ICML 2026 现场交流。</strong> 康欣来和薛敦耀近日赴韩国首尔参加 ICML 2026，并围绕 MP-MoE 工作进行 poster 展示与学术交流。 <a href="https://cheng-bdal.github.io/cn/news/icml-2026-mp-moe/">阅读全文 →</a></p>
+  </article>
+  <article class="news-card">
     <div class="news-meta"><span class="news-date">2026年6月</span><span class="news-tag news-tag--papers">论文成果</span></div>
     <p><strong>BDAL-RUC 两篇工作将亮相 STAI-X。</strong> 恭喜朱珺等的论文《SSP-Ensemble: A Sufficient Subspace Projection Ensemble for Multiclass Classification》和王培泽等的论文《KPOTD: Kernel Principal Optimal Transport Directions for Nonlinear Sufficient Dimension Reduction》被第一届统计顶会 STAI-X 接受！</p>
   </article>

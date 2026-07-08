@@ -10,3 +10,4 @@ pages:
   - path: "/cv/"
   - path: "/admissions/"
   - path: "/photos/"
+  - path: "/news/icml-2026-mp-moe/"
