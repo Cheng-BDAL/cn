@@ -284,7 +284,7 @@ Hi，大家好，我是孟澄，目前在中国人民大学（RUC）统计与大
 <div class="news-list">
   <article class="news-card">
     <div class="news-meta"><span class="news-date">2026年7月</span><span class="news-tag news-tag--team">团队动态</span></div>
-    <p><strong>团队同学参加 ICML 2026 现场交流。</strong> 康欣来和薛敦耀近日赴韩国首尔参加 ICML 2026，并围绕 MP-MoE 工作进行 poster 展示与学术交流。 <a href="https://cheng-bdal.github.io/cn/news/icml-2026-mp-moe/">阅读全文 →</a></p>
+    <p><strong>MP-MoE 工作亮相 ICML 2026 首尔现场。</strong> 康欣来和薛敦耀赴韩国首尔参加 ICML 2026，并在 poster 环节展示交流团队关于 MP-MoE 的最新工作。 <a href="https://cheng-bdal.github.io/cn/news/icml-2026-mp-moe/">阅读全文 →</a></p>
   </article>
   <article class="news-card">
     <div class="news-meta"><span class="news-date">2026年6月</span><span class="news-tag news-tag--papers">论文成果</span></div>

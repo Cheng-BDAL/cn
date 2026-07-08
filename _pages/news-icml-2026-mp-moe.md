@@ -1,7 +1,7 @@
 ---
 layout: archive
 permalink: /news/icml-2026-mp-moe/
-title: "团队同学参加 ICML 2026 现场交流"
+title: "ICML 2026 首尔现场记录"
 author_profile: true
 ---
 
@@ -31,9 +31,9 @@ author_profile: true
 }
 </style>
 
-2026年7月，康欣来和薛敦耀赴韩国首尔参加 ICML 2026，并围绕团队关于 MP-MoE 的工作进行 poster 展示与现场交流。
+2026年7月，康欣来和薛敦耀赴韩国首尔参加 ICML 2026，并在 poster 环节展示团队关于 MP-MoE 的最新工作。
 
-这次参会也让同学们有机会近距离了解机器学习顶会现场的研究动态，与来自不同方向的研究者交流想法，把会议中的观察和反馈带回后续研究中。
+现场交流中，同学们围绕 MoE 模型中的专家选择、互补性建模和实际部署效率等问题，与来自不同方向的研究者进行了讨论。会议期间的反馈和观察，也将进一步帮助我们完善后续研究。
 
 <div class="news-photo-grid">
   <div class="news-photo-placeholder">Poster 合照</div>
