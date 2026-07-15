@@ -302,6 +302,15 @@ Hi，大家好，我是孟澄，目前在中国人民大学（RUC）统计与大
     <div class="news-meta"><span class="news-date">2026年6月</span><span class="news-tag news-tag--projects">项目与合作</span></div>
     <p><strong>明理书院“求索育研”项目再添新题。</strong> 祝贺黄君烈主持的《基于统计学的高精度故障预警算法研究》项目获批中国人民大学明理书院“求索育研”项目立项！ <a href="https://mp.weixin.qq.com/s/RctY4tEAfXxE1zw6Io4I-g">阅读全文 →</a></p>
   </article>
+</div>
+
+<div class="news-more">
+  <button type="button" class="news-more-toggle" onclick="var target=document.getElementById('more-news-list'); target.hidden=!target.hidden; this.textContent=target.hidden?'展开更多动态':'收起更多动态';">展开更多动态</button>
+  <div id="more-news-list" hidden>
+
+<h3 class="news-year-heading">2026</h3>
+
+<div class="news-list">
   <article class="news-card">
     <div class="news-meta"><span class="news-date">2026年6月</span><span class="news-tag news-tag--projects">项目与合作</span></div>
     <p><strong>四项学生科研项目获得研究院支持。</strong> 祝贺王涛、黄君烈、薛敦耀、杜承朔申请的项目立项为 2026 年度统计与大数据研究院研究生科学研究基金项目（全院 8 位）！</p>
@@ -314,15 +323,6 @@ Hi，大家好，我是孟澄，目前在中国人民大学（RUC）统计与大
     <div class="news-meta"><span class="news-date">2026年5月</span><span class="news-tag news-tag--papers">论文成果</span></div>
     <p><strong>关于MoE的改进工作被 ICML 2026 接受。</strong> 恭喜康欣来、薛敦耀、王政博、杜承朔等的论文《Breaking the Echo Chamber: A Dynamic Ensemble Pruning Perspective on MoE》被 ICML 接受，并被知名机器学习公众号“机器之心”宣传报道！ <a href="https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651034543&idx=2&sn=8c0a91d51644de87618d0cdd9585429d">阅读全文 →</a></p>
   </article>
-</div>
-
-<div class="news-more">
-  <button type="button" class="news-more-toggle" onclick="var target=document.getElementById('more-news-list'); target.hidden=!target.hidden; this.textContent=target.hidden?'展开更多动态':'收起更多动态';">展开更多动态</button>
-  <div id="more-news-list" hidden>
-
-<h3 class="news-year-heading">2026</h3>
-
-<div class="news-list">
   <article class="news-card">
     <div class="news-meta"><span class="news-date">2026年5月</span><span class="news-tag news-tag--projects">项目与合作</span></div>
     <p><strong>人才培养项目获得北京市级认可。</strong> 祝贺孟澄参与的项目《构建全员新型书院体系，打造“三跨三交三学”未来人才培养新生态》获得北京市高等教育教学成果奖二等奖！ <a href="https://mp.weixin.qq.com/s/tblNY71IJZHax3ybNhkG0A">阅读全文 →</a></p>
