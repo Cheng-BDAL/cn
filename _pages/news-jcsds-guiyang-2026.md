@@ -64,7 +64,7 @@ author_profile: true
 }
 </style>
 
-2026年7月，李梦雨赴贵阳参加第四届统计与数据科学联合会议暨 IMS China 双年会。会议期间，刘军教授作大会报告 *Conditional Generation via Sequential Monte Carlo: Diffusion, flow, and bridge*，其中展示了与李梦雨、屈倩倩、孟澄合作的相关工作。
+2026年7月，李梦雨赴贵阳参加第四届统计与数据科学联合会议暨 IMS China 双年会。会议期间，刘军教授作大会报告 *Conditional Generation via Sequential Monte Carlo: Diffusion, flow, and bridge*，其中展示了与李梦雨、曲仟仟、孟澄合作的相关工作。
 
 从论文推进到大会报告现场，是一段研究工作被继续讨论、打磨和看见的过程。会场之外，李梦雨也与 BDAL 实验室毕业生、现任波士顿大学助理教授成慧敏老师合影交流；不同阶段的 BDAL 成员在贵阳相遇，也是一种很自然的传承和连接。
 
