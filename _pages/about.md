@@ -337,7 +337,7 @@ Hi，大家好，我是孟澄，目前在中国人民大学（RUC）统计与大
   </article>
   <article class="news-card">
     <div class="news-meta"><span class="news-date">2026年3月</span><span class="news-tag news-tag--awards">学生荣誉</span></div>
-    <p><strong>薛敦耀入选学校拔尖创新人才培育资助计划。</strong> 祝贺薛敦耀入选 2025-2026 学年中国人民大学“拔尖创新人才培育资助计划”（全院2位），这是继李梦雨之后团队成员第二次获此殊荣！</p>
+    <p><strong>薛敦耀入选学校拔尖创新人才培育资助计划。</strong> 祝贺薛敦耀入选 2025-2026 学年中国人民大学“拔尖创新人才培育资助计划”（全院2位），这是继李梦雨之后团队成员第二次获此殊荣！ <a href="https://cheng-bdal.github.io/images/awards/xue-dunyao-top-innovative-certificate.jpg">查看证书 →</a></p>
   </article>
   <article class="news-card">
     <div class="news-meta"><span class="news-date">2026年3月</span><span class="news-tag news-tag--projects">项目与合作</span></div>
