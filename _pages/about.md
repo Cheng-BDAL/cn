@@ -284,6 +284,10 @@ Hi，大家好，我是孟澄，目前在中国人民大学（RUC）统计与大
 <div class="news-list">
   <article class="news-card">
     <div class="news-meta"><span class="news-date">2026年7月</span><span class="news-tag news-tag--team">团队动态</span></div>
+    <p><strong>紫禁之巅再开场：朱珺、王培泽分享两项统计方法工作。</strong> 朱珺和王培泽受邀参加【紫禁之巅】青年学者论文分享会，分别围绕“精准投影”和“数据质量上限评估”展开报告交流。 <a href="https://cheng-bdal.github.io/cn/news/zijin-summit-2026-07-31/">阅读全文 →</a></p>
+  </article>
+  <article class="news-card">
+    <div class="news-meta"><span class="news-date">2026年7月</span><span class="news-tag news-tag--team">团队动态</span></div>
     <p><strong>贵阳会场：李梦雨参与的合作工作亮相大会 keynote。</strong> 李梦雨赴贵阳参加第四届统计与数据科学联合会议，并参与刘军教授大会报告相关合作工作；会场上，她也与 BDAL 毕业生、波士顿大学助理教授成慧敏老师相聚交流。 <a href="https://cheng-bdal.github.io/cn/news/jcsds-guiyang-2026/">阅读全文 →</a></p>
   </article>
   <article class="news-card">
@@ -298,10 +302,6 @@ Hi，大家好，我是孟澄，目前在中国人民大学（RUC）统计与大
     <div class="news-meta"><span class="news-date">2026年6月</span><span class="news-tag news-tag--papers">论文成果</span></div>
     <p><strong>BDAL-RUC 两篇工作将亮相 STAI-X。</strong> 恭喜朱珺等的论文《SSP-Ensemble: A Sufficient Subspace Projection Ensemble for Multiclass Classification》和王培泽等的论文《KPOTD: Kernel Principal Optimal Transport Directions for Nonlinear Sufficient Dimension Reduction》被第一届统计顶会 STAI-X 接受！</p>
   </article>
-  <article class="news-card">
-    <div class="news-meta"><span class="news-date">2026年6月</span><span class="news-tag news-tag--projects">项目与合作</span></div>
-    <p><strong>明理书院“求索育研”项目再添新题。</strong> 祝贺黄君烈主持的《基于统计学的高精度故障预警算法研究》项目获批中国人民大学明理书院“求索育研”项目立项！ <a href="https://mp.weixin.qq.com/s/RctY4tEAfXxE1zw6Io4I-g">阅读全文 →</a></p>
-  </article>
 </div>
 
 <div class="news-more">
@@ -311,6 +311,10 @@ Hi，大家好，我是孟澄，目前在中国人民大学（RUC）统计与大
 <h3 class="news-year-heading">2026</h3>
 
 <div class="news-list">
+  <article class="news-card">
+    <div class="news-meta"><span class="news-date">2026年6月</span><span class="news-tag news-tag--projects">项目与合作</span></div>
+    <p><strong>明理书院“求索育研”项目再添新题。</strong> 祝贺黄君烈主持的《基于统计学的高精度故障预警算法研究》项目获批中国人民大学明理书院“求索育研”项目立项！ <a href="https://mp.weixin.qq.com/s/RctY4tEAfXxE1zw6Io4I-g">阅读全文 →</a></p>
+  </article>
   <article class="news-card">
     <div class="news-meta"><span class="news-date">2026年6月</span><span class="news-tag news-tag--projects">项目与合作</span></div>
     <p><strong>四项学生科研项目获得研究院支持。</strong> 祝贺王涛、黄君烈、薛敦耀、杜承朔申请的项目立项为 2026 年度统计与大数据研究院研究生科学研究基金项目（全院 8 位）！</p>
