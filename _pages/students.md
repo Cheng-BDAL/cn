@@ -268,7 +268,7 @@ author_profile: true  # 可选，视需要是否显示作者信息
     <td><img loading="lazy" src="https://cheng-bdal.github.io//images/头像/林俊一.jpg" alt="Junyi Lin"><br><strong class="student-name">林俊一</strong><a href="https://junyilin559.github.io/">主页</a><br>2024级博士<br>联合指导：何珂俊副教授<br>南开大学，统计与数据科学学院本科<br><span class="student-email">junyilin at ruc dot edu dot cn</span></td>
   </tr>
   <tr>
-    <td><img loading="lazy" src="https://cheng-bdal.github.io//images/头像/王培泽.jpg" alt="Peize Wang"><br><strong class="student-name">王培泽</strong><br>2024级博士<br>厦门大学，数学科学学院本科<br><span class="student-email">wpz2024 at ruc dot edu dot cn</span></td>
+    <td><img loading="lazy" src="https://cheng-bdal.github.io//images/头像/王培泽.jpg" alt="Peize Wang"><br><strong class="student-name">王培泽</strong><a href="https://pzcardinal.github.io/">主页</a><br>2024级博士<br>厦门大学，数学科学学院本科<br><span class="student-email">wpz2024 at ruc dot edu dot cn</span></td>
     <td><img loading="lazy" src="https://cheng-bdal.github.io//images/头像/薛敦耀.jpg" alt="Dunyao Xue"><br><strong class="student-name">薛敦耀</strong><a href="https://sapphirexdy.github.io/">主页</a><br>2024级博士<br>联合指导：代文林副教授<br>兰州大学，萃英学院本科<br><span class="student-email">xuedunyao1202 at ruc dot edu dot cn</span></td>
     <td><img loading="lazy" src="https://cheng-bdal.github.io//images/头像/董雨铮.jpg" alt="Yuzheng Dong"><br><strong class="student-name">董雨铮</strong><br>2025级博士<br>北京师范大学，数学科学学院本科<br><span class="student-email">dongyz0514 at ruc dot edu dot cn</span></td>
   </tr>
