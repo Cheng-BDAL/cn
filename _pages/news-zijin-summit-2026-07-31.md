@@ -51,6 +51,27 @@ author_profile: true
   line-height: 1.4;
   letter-spacing: 0;
 }
+.news-video-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+  margin: 1rem 0 1.2rem;
+}
+.news-video-links a {
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid #d8c8c0;
+  border-radius: 999px;
+  padding: 0.35rem 0.75rem;
+  color: #7c2f24;
+  font-size: 0.82rem;
+  text-decoration: none;
+  background: #fffaf7;
+}
+.news-video-links a:hover {
+  border-color: #c44a3c;
+  color: #c44a3c;
+}
 @media (max-width: 720px) {
   .news-photo-grid {
     grid-template-columns: 1fr;
@@ -67,6 +88,13 @@ author_profile: true
 2026年7月31日，朱珺和王培泽受邀参加【紫禁之巅】青年学者论文分享会，并在华为黄大年茶思屋围绕近期统计方法研究进行报告交流。
 
 朱珺的报告题目为《从“广撒网”到“精准投影”：告别随机投影碰运气》，聚焦如何用更有监督信息的投影视角替代随机搜索式的子空间尝试。王培泽的报告题目为《数据质量的天花板在哪里：统计学视角下的精度上限评估和无模型度量选择》，讨论如何从统计学角度理解数据质量、模型表现上限和度量选择问题。两场报告延续了团队把方法研究带到真实问题现场中交流打磨的节奏。
+
+两场报告录屏现已上线，可在茶思屋平台回看：
+
+<div class="news-video-links">
+  <a href="https://www.chaspark.com/#/stw/media/1303070357372678144?lang=zh" target="_blank" rel="noopener">观看报告录屏（一）</a>
+  <a href="https://www.chaspark.com/#/stw/media/1303068016695947264?lang=zh" target="_blank" rel="noopener">观看报告录屏（二）</a>
+</div>
 
 <div class="news-photo-grid">
   <figure class="news-photo-card">

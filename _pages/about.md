@@ -284,7 +284,7 @@ Hi，大家好，我是孟澄，目前在中国人民大学（RUC）统计与大
 <div class="news-list">
   <article class="news-card">
     <div class="news-meta"><span class="news-date">2026年7月</span><span class="news-tag news-tag--team">团队动态</span></div>
-    <p><strong>紫禁之巅再开场：朱珺、王培泽分享两项统计方法工作。</strong> 朱珺和王培泽受邀参加【紫禁之巅】青年学者论文分享会，分别围绕“精准投影”和“数据质量上限评估”展开报告交流。 <a href="https://cheng-bdal.github.io/cn/news/zijin-summit-2026-07-31/">阅读全文 →</a></p>
+    <p><strong>紫禁之巅再开场：朱珺、王培泽分享两项统计方法工作。</strong> 朱珺和王培泽受邀参加【紫禁之巅】青年学者论文分享会，分别围绕“精准投影”和“数据质量上限评估”展开报告交流；两场报告录屏已上线。 <a href="https://cheng-bdal.github.io/cn/news/zijin-summit-2026-07-31/">阅读全文 →</a></p>
   </article>
   <article class="news-card">
     <div class="news-meta"><span class="news-date">2026年7月</span><span class="news-tag news-tag--team">团队动态</span></div>
