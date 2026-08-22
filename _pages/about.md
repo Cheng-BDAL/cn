@@ -283,6 +283,10 @@ Hi，大家好，我是孟澄，目前在中国人民大学（RUC）统计与大
 
 <div class="news-list">
   <article class="news-card">
+    <div class="news-meta"><span class="news-date">2026年8月</span><span class="news-tag news-tag--papers">论文成果</span></div>
+    <p><strong>大模型解码从“概率截断”走向“集成剪枝”。</strong> 祝贺薛敦耀、杜承朔、王政博、代文林、孟澄的论文《Beyond Truncation: Rethinking LLM Decoding as Ensemble Pruning》被自然语言处理顶会 EMNLP 2026 主会接收！本届共收到 17,669 篇投稿，其中 2,719 篇进入主会，主会录用率为 15.4%。</p>
+  </article>
+  <article class="news-card">
     <div class="news-meta"><span class="news-date">2026年7月</span><span class="news-tag news-tag--team">团队动态</span></div>
     <p><strong>紫禁之巅再开场：朱珺、王培泽分享两项统计方法工作。</strong> 朱珺和王培泽受邀参加【紫禁之巅】青年学者论文分享会，分别围绕“精准投影”和“数据质量上限评估”展开报告交流；两场报告录屏已上线。 <a href="https://cheng-bdal.github.io/cn/news/zijin-summit-2026-07-31/">阅读全文 →</a></p>
   </article>
@@ -298,10 +302,6 @@ Hi，大家好，我是孟澄，目前在中国人民大学（RUC）统计与大
     <div class="news-meta"><span class="news-date">2026年7月</span><span class="news-tag news-tag--team">团队动态</span></div>
     <p><strong>MP-MoE 工作亮相 ICML 2026 首尔现场。</strong> 康欣来和薛敦耀赴韩国首尔参加 ICML 2026，并在 poster 环节展示交流团队关于 MP-MoE 的最新工作。 <a href="https://cheng-bdal.github.io/cn/news/icml-2026-mp-moe/">阅读全文 →</a></p>
   </article>
-  <article class="news-card">
-    <div class="news-meta"><span class="news-date">2026年6月</span><span class="news-tag news-tag--papers">论文成果</span></div>
-    <p><strong>BDAL-RUC 两篇工作将亮相 STAI-X。</strong> 恭喜朱珺等的论文《SSP-Ensemble: A Sufficient Subspace Projection Ensemble for Multiclass Classification》和王培泽等的论文《KPOTD: Kernel Principal Optimal Transport Directions for Nonlinear Sufficient Dimension Reduction》被第一届统计顶会 STAI-X 接受！</p>
-  </article>
 </div>
 
 <div class="news-more">
@@ -311,6 +311,10 @@ Hi，大家好，我是孟澄，目前在中国人民大学（RUC）统计与大
 <h3 class="news-year-heading">2026</h3>
 
 <div class="news-list">
+  <article class="news-card">
+    <div class="news-meta"><span class="news-date">2026年6月</span><span class="news-tag news-tag--papers">论文成果</span></div>
+    <p><strong>BDAL-RUC 两篇工作将亮相 STAI-X。</strong> 祝贺朱珺等的论文《SSP-Ensemble: A Sufficient Subspace Projection Ensemble for Multiclass Classification》和王培泽等的论文《KPOTD: Kernel Principal Optimal Transport Directions for Nonlinear Sufficient Dimension Reduction》被第一届统计顶会 STAI-X 接受！</p>
+  </article>
   <article class="news-card">
     <div class="news-meta"><span class="news-date">2026年6月</span><span class="news-tag news-tag--projects">项目与合作</span></div>
     <p><strong>明理书院“求索育研”项目再添新题。</strong> 祝贺黄君烈主持的《基于统计学的高精度故障预警算法研究》项目获批中国人民大学明理书院“求索育研”项目立项！ <a href="https://mp.weixin.qq.com/s/RctY4tEAfXxE1zw6Io4I-g">阅读全文 →</a></p>
