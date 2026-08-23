@@ -301,11 +301,11 @@ author_profile: true  # 可选，视需要是否显示作者信息
   <tr>
     <td><img loading="lazy" src="https://cheng-bdal.github.io//images/头像/郝卓轩.jpg" alt="Zhuoxuan Hao"><br><strong class="student-name">郝卓轩</strong><br>2026级硕士（北邮数学学院）<br>联合指导：张静怡研究员<br>湖南师范大学，数学与应用数学本科<br><span class="student-email">m17835179527 at 163 dot com</span></td>
     <td><img loading="lazy" src="https://cheng-bdal.github.io//images/头像/罗茜.jpg" alt="Qian Luo"><br><strong class="student-name">罗茜</strong><br>2026级硕士（北邮数学学院）<br>联合指导：张静怡研究员<br><span class="student-email">2867202110 at qq dot com</span></td>
-    <td><img loading="lazy" src="https://cheng-bdal.github.io//images/头像/蒋璇.jpg" alt="Xuan Jiang"><br><strong class="student-name">蒋璇</strong><br>2024级本科（北邮数学学院）<br>联合指导：张静怡研究员<br><span class="student-email">2024212523 at bupt dot cn</span></td>
+    <td><img loading="lazy" src="https://cheng-bdal.github.io//images/头像/雷依衡.jpg" alt="Yiheng Lei" style="object-position: center top;"><br><strong class="student-name">雷依衡</strong><br>2026级硕士<br>湖南大学，数学学院本科<br><span class="student-email">yihenglei822 at ruc dot edu dot cn</span></td>
   </tr>
   <tr>
+    <td><img loading="lazy" src="https://cheng-bdal.github.io//images/头像/蒋璇.jpg" alt="Xuan Jiang"><br><strong class="student-name">蒋璇</strong><br>2024级本科（北邮数学学院）<br>联合指导：张静怡研究员<br><span class="student-email">2024212523 at bupt dot cn</span></td>
     <td><img loading="lazy" src="https://cheng-bdal.github.io//images/头像/朱同臣.jpg" alt="Tongchen Zhu"><br><strong class="student-name">朱同臣</strong><br>2024级本科（北邮数字媒体技术）<br>联合指导：张静怡研究员<br><span class="student-email">2024213885 at bupt dot cn</span></td>
-    <td></td>
     <td></td>
   </tr>
 </table>
