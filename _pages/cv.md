@@ -128,7 +128,7 @@ redirect_from:
   <div class="cv-entry">
     <div class="cv-date">2026 - 至今</div>
     <div>
-      <h3>长聘副教授、研究员、博士生导师</h3>
+      <h3>长聘副教授、研究员</h3>
       <p>中国人民大学，统计与大数据研究院</p>
     </div>
   </div>
