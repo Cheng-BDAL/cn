@@ -283,6 +283,10 @@ Hi，大家好，我是孟澄，目前在中国人民大学（RUC）统计与大
 
 <div class="news-list">
   <article class="news-card">
+    <div class="news-meta"><span class="news-date">2026年9月</span><span class="news-tag news-tag--projects">项目与合作</span></div>
+    <p><strong>李梦雨获得青年基金资助。</strong> 项目《面向虚拟细胞的最优传输序贯采样与条件生成研究》获青年基金支持，期待在虚拟细胞方向继续做出更多有意思的探索！</p>
+  </article>
+  <article class="news-card">
     <div class="news-meta"><span class="news-date">2026年8月</span><span class="news-tag news-tag--papers">论文成果</span></div>
     <p><strong>大模型解码从“概率截断”走向“集成剪枝”。</strong> 祝贺薛敦耀、杜承朔、王政博等的论文《Beyond Truncation: Rethinking LLM Decoding as Ensemble Pruning》被自然语言处理顶会 EMNLP 2026 主会接收！本届共收到 17,669 篇投稿，其中 2,719 篇进入主会，主会录用率为 15.4%。</p>
   </article>
@@ -298,10 +302,6 @@ Hi，大家好，我是孟澄，目前在中国人民大学（RUC）统计与大
     <div class="news-meta"><span class="news-date">2026年7月</span><span class="news-tag news-tag--team">团队动态</span></div>
     <p><strong>紫禁之巅现场：三位同学在华为茶思屋分享论文。</strong> 康欣来、薛敦耀、林俊一受邀于华为黄大年茶思屋参加【紫禁之巅】青年学者论文分享会，并围绕近期研究工作进行报告与交流；两场报告视频已上线。 <a href="https://cheng-bdal.github.io/cn/news/huawei-zijinzhi-dian-2026/">阅读全文 →</a></p>
   </article>
-  <article class="news-card">
-    <div class="news-meta"><span class="news-date">2026年7月</span><span class="news-tag news-tag--team">团队动态</span></div>
-    <p><strong>MP-MoE 工作亮相 ICML 2026 首尔现场。</strong> 康欣来和薛敦耀赴韩国首尔参加 ICML 2026，并在 poster 环节展示交流团队关于 MP-MoE 的最新工作。 <a href="https://cheng-bdal.github.io/cn/news/icml-2026-mp-moe/">阅读全文 →</a></p>
-  </article>
 </div>
 
 <div class="news-more">
@@ -311,6 +311,10 @@ Hi，大家好，我是孟澄，目前在中国人民大学（RUC）统计与大
 <h3 class="news-year-heading">2026</h3>
 
 <div class="news-list">
+  <article class="news-card">
+    <div class="news-meta"><span class="news-date">2026年7月</span><span class="news-tag news-tag--team">团队动态</span></div>
+    <p><strong>MP-MoE 工作亮相 ICML 2026 首尔现场。</strong> 康欣来和薛敦耀赴韩国首尔参加 ICML 2026，并在 poster 环节展示交流团队关于 MP-MoE 的最新工作。 <a href="https://cheng-bdal.github.io/cn/news/icml-2026-mp-moe/">阅读全文 →</a></p>
+  </article>
   <article class="news-card">
     <div class="news-meta"><span class="news-date">2026年6月</span><span class="news-tag news-tag--papers">论文成果</span></div>
     <p><strong>BDAL-RUC 两篇工作将亮相 STAI-X。</strong> 祝贺朱珺等的论文《SSP-Ensemble: A Sufficient Subspace Projection Ensemble for Multiclass Classification》和王培泽等的论文《KPOTD: Kernel Principal Optimal Transport Directions for Nonlinear Sufficient Dimension Reduction》被第一届统计顶会 STAI-X 接受！</p>
