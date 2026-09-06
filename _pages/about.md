@@ -284,7 +284,7 @@ Hi，大家好，我是孟澄，目前在中国人民大学（RUC）统计与大
 <div class="news-list">
   <article class="news-card">
     <div class="news-meta"><span class="news-date">2026年9月</span><span class="news-tag news-tag--projects">项目与合作</span></div>
-    <p><strong>李梦雨获得青年基金资助。</strong> 项目《面向虚拟细胞的最优传输序贯采样与条件生成研究》获青年基金支持，期待在虚拟细胞方向继续做出更多有意思的探索！</p>
+    <p><strong>虚拟细胞研究获青C资助。</strong> 祝贺李梦雨的项目《面向虚拟细胞的最优传输序贯采样与条件生成研究》获国家自然科学基金青年科学基金项目（C类）资助！</p>
   </article>
   <article class="news-card">
     <div class="news-meta"><span class="news-date">2026年8月</span><span class="news-tag news-tag--papers">论文成果</span></div>
