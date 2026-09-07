@@ -282,6 +282,9 @@ author_profile: true  # 可选，视需要是否显示作者信息
     <td><img loading="lazy" src="https://cheng-bdal.github.io//images/头像/李雨凝.jpg" alt="Yuning Li"><br><strong class="student-name">李雨凝</strong><br>2026级博士（北邮数学学院）<br>联合指导：张静怡研究员<br>华中农业大学，信息与计算科学专业本科<br><span class="student-email">13204761705 at 163 dot com</span></td>
     <td><img loading="lazy" src="https://cheng-bdal.github.io//images/头像/刘可欣.jpg" alt="Kexin Liu"><br><strong class="student-name">刘可欣</strong><br>2026级博士（北邮数学学院）<br>联合指导：张静怡研究员<br><span class="student-email">kxliu2025 at bupt dot cn</span></td>
   </tr>
+  <tr>
+    <td><img loading="lazy" src="https://cheng-bdal.github.io//images/头像/郑旖馨.jpg" alt="Yixin Zheng"><br><strong class="student-name">郑旖馨</strong><br>2027级博士<br>武汉大学，数学与统计学院本科<br><span class="student-email">1692037193 at qq dot com</span></td>
+  </tr>
 </table>
 
 ## 在读硕士与本科
