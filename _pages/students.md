@@ -297,7 +297,7 @@ author_profile: true  # 可选，视需要是否显示作者信息
     <td><img loading="lazy" src="https://cheng-bdal.github.io//images/头像/蒋文浩.jpg" alt="Wenhao Jiang"><br><strong class="student-name">蒋文浩</strong><br>2025级硕士<br>中国人民大学，统计学院本科<br><span class="student-email">2021201382 at ruc dot edu dot cn</span></td>
   </tr>
   <tr>
-    <td><img loading="lazy" src="https://cheng-bdal.github.io//images/头像/吕佳迪.jpg" alt="Jiadi Lv"><br><strong class="student-name">吕佳迪</strong><br>2025级硕士<br>中南财经政法大学，统计与数学学院本科<br><span class="student-email">2025104254 at ruc dot edu dot cn</span></td>
+    <td><img loading="lazy" src="https://cheng-bdal.github.io//images/头像/吕佳迪.jpg?v=20260920" alt="Jiadi Lv"><br><strong class="student-name">吕佳迪</strong><br>2025级硕士<br>中南财经政法大学，统计与数学学院本科<br><span class="student-email">2025104254 at ruc dot edu dot cn</span></td>
     <td><img loading="lazy" src="https://cheng-bdal.github.io//images/头像/王政博.jpg" alt="Zhengbo Wang"><br><strong class="student-name">王政博</strong><br>2025级硕士<br>东北财经大学，会计学院本科<br><span class="student-email">2025104259 at ruc dot edu dot cn</span></td>
     <td><img loading="lazy" src="https://cheng-bdal.github.io//images/头像/陈佳丰.jpg" alt="Jiafeng Chen"><br><strong class="student-name">陈佳丰</strong><br>2025级硕士（北邮数学学院）<br>联合指导：张静怡研究员<br>山西财经大学，统计学本科<br><span class="student-email">2025111691 at bupt dot cn</span></td>
   </tr>
