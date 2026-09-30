@@ -288,7 +288,7 @@ Hi，大家好，我是孟澄，目前在中国人民大学（RUC）统计与大
   </article>
   <article class="news-card">
     <div class="news-meta"><span class="news-date">2026年8月</span><span class="news-tag news-tag--papers">论文成果</span></div>
-    <p><strong>大模型解码从“概率截断”走向“集成剪枝”。</strong> 祝贺薛敦耀、杜承朔、王政博等的论文《Beyond Truncation: Rethinking LLM Decoding as Ensemble Pruning》被自然语言处理顶会 EMNLP 2026 主会接收！本届共收到 17,669 篇投稿，其中 2,719 篇进入主会，主会录用率为 15.4%。</p>
+    <p><strong>大模型解码的集成剪枝工作被 EMNLP 2026 主会接受。</strong> 祝贺薛敦耀、杜承朔、王政博等的论文《Beyond Truncation: Rethinking LLM Decoding as Ensemble Pruning》被自然语言处理顶会 EMNLP 2026 主会接收！本届共收到 17,669 篇投稿，其中 2,719 篇进入主会，主会录用率为 15.4%。该工作也被知名 AI 公众号“机器之心”宣传报道！ <a href="https://mp.weixin.qq.com/s/ChcBYE_i2YdKuBIwpFphtA">阅读全文 →</a></p>
   </article>
   <article class="news-card">
     <div class="news-meta"><span class="news-date">2026年7月</span><span class="news-tag news-tag--team">团队动态</span></div>
