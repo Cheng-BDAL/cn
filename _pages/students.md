@@ -242,6 +242,9 @@ author_profile: true  # 可选，视需要是否显示作者信息
       border-right: 1px solid #e6e0dc !important;
     }
   }
+  .student-grid img.student-photo--jingyi-mo {
+    object-position: 84% center;
+  }
 </style>
 
 
@@ -283,7 +286,8 @@ author_profile: true  # 可选，视需要是否显示作者信息
     <td><img loading="lazy" src="https://cheng-bdal.github.io//images/头像/刘可欣.jpg" alt="Kexin Liu"><br><strong class="student-name">刘可欣</strong><br>2026级博士（北邮数学学院）<br>联合指导：张静怡研究员<br><span class="student-email">kxliu2025 at bupt dot cn</span></td>
   </tr>
   <tr>
-    <td><img loading="lazy" src="https://cheng-bdal.github.io//images/头像/郑旖馨.jpg" alt="Yixin Zheng"><br><strong class="student-name">郑旖馨</strong><br>2027级博士<br>武汉大学，数学与统计学院本科<br><span class="student-email">1692037193 at qq dot com</span></td>
+    <td><img loading="lazy" class="student-photo--jingyi-mo" src="https://cheng-bdal.github.io/images/头像/jingyi-mo.jpg" alt="Jingyi Mo"><br><strong class="student-name">莫静仪</strong><br>2026级博士（北邮数学学院）<br>联合指导：张静怡研究员<br><span class="student-email">jymo2026 at bupt dot cn</span></td>
+<td><img loading="lazy" src="https://cheng-bdal.github.io//images/头像/郑旖馨.jpg" alt="Yixin Zheng"><br><strong class="student-name">郑旖馨</strong><br>2027级博士<br>武汉大学，数学与统计学院本科<br><span class="student-email">1692037193 at qq dot com</span></td>
   </tr>
 </table>
 
