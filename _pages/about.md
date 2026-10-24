@@ -302,14 +302,6 @@ Hi，大家好，我是孟澄，目前在中国人民大学（RUC）统计与大
     <div class="news-meta"><span class="news-date">2026年7月</span><span class="news-tag news-tag--team">团队动态</span></div>
     <p><strong>紫禁之巅再开场：朱珺、王培泽分享两项统计方法工作。</strong> 朱珺和王培泽受邀参加【紫禁之巅】青年学者论文分享会，分别围绕“精准投影”和“数据质量上限评估”展开报告交流；两场报告录屏已上线。 <a href="https://cheng-bdal.github.io/cn/news/zijin-summit-2026-07-31/">阅读全文 →</a></p>
   </article>
-  <article class="news-card">
-    <div class="news-meta"><span class="news-date">2026年7月</span><span class="news-tag news-tag--team">团队动态</span></div>
-    <p><strong>贵阳会场：李梦雨参与的合作工作亮相大会 keynote。</strong> 李梦雨赴贵阳参加第四届统计与数据科学联合会议，并参与刘军教授大会报告相关合作工作；会场上，她也与 BDAL 毕业生、波士顿大学助理教授成慧敏老师相聚交流。 <a href="https://cheng-bdal.github.io/cn/news/jcsds-guiyang-2026/">阅读全文 →</a></p>
-  </article>
-  <article class="news-card">
-    <div class="news-meta"><span class="news-date">2026年7月</span><span class="news-tag news-tag--team">团队动态</span></div>
-    <p><strong>紫禁之巅现场：三位同学在华为茶思屋分享论文。</strong> 康欣来、薛敦耀、林俊一受邀于华为黄大年茶思屋参加【紫禁之巅】青年学者论文分享会，并围绕近期研究工作进行报告与交流；两场报告视频已上线。 <a href="https://cheng-bdal.github.io/cn/news/huawei-zijinzhi-dian-2026/">阅读全文 →</a></p>
-  </article>
 </div>
 
 <div class="news-more">
@@ -319,6 +311,14 @@ Hi，大家好，我是孟澄，目前在中国人民大学（RUC）统计与大
 <h3 class="news-year-heading">2026</h3>
 
 <div class="news-list">
+  <article class="news-card">
+    <div class="news-meta"><span class="news-date">2026年7月</span><span class="news-tag news-tag--team">团队动态</span></div>
+    <p><strong>贵阳会场：李梦雨参与的合作工作亮相大会 keynote。</strong> 李梦雨赴贵阳参加第四届统计与数据科学联合会议，并参与刘军教授大会报告相关合作工作；会场上，她也与 BDAL 毕业生、波士顿大学助理教授成慧敏老师相聚交流。 <a href="https://cheng-bdal.github.io/cn/news/jcsds-guiyang-2026/">阅读全文 →</a></p>
+  </article>
+  <article class="news-card">
+    <div class="news-meta"><span class="news-date">2026年7月</span><span class="news-tag news-tag--team">团队动态</span></div>
+    <p><strong>紫禁之巅现场：三位同学在华为茶思屋分享论文。</strong> 康欣来、薛敦耀、林俊一受邀于华为黄大年茶思屋参加【紫禁之巅】青年学者论文分享会，并围绕近期研究工作进行报告与交流；两场报告视频已上线。 <a href="https://cheng-bdal.github.io/cn/news/huawei-zijinzhi-dian-2026/">阅读全文 →</a></p>
+  </article>
   <article class="news-card">
     <div class="news-meta"><span class="news-date">2026年7月</span><span class="news-tag news-tag--team">团队动态</span></div>
     <p><strong>MP-MoE 工作亮相 ICML 2026 首尔现场。</strong> 康欣来和薛敦耀赴韩国首尔参加 ICML 2026，并在 poster 环节展示交流团队关于 MP-MoE 的最新工作。 <a href="https://cheng-bdal.github.io/cn/news/icml-2026-mp-moe/">阅读全文 →</a></p>
