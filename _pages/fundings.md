@@ -53,6 +53,14 @@ author_profile: true
 
 <div class="funding-list">
   <article class="funding-card">
+    <span class="funding-status funding-status--ongoing">在研</span>
+    <h3>面向时序的高维变量距离度量和压缩技术合作项目</h3>
+    <ul>
+      <li>华为技术有限公司 2012实验室</li>
+    </ul>
+  </article>
+
+  <article class="funding-card">
     <span class="funding-status funding-status--excellent">优秀结项</span>
     <h3>基于互信息的时序特征关联分析与维度压缩技术合作项目</h3>
     <ul>
