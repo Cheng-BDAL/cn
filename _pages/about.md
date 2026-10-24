@@ -283,6 +283,10 @@ Hi，大家好，我是孟澄，目前在中国人民大学（RUC）统计与大
 
 <div class="news-list">
   <article class="news-card">
+    <div class="news-meta"><span class="news-date">2026年10月</span><span class="news-tag news-tag--awards">学生荣誉</span></div>
+    <p><strong>欧阳夏雪、王培泽获 CSIAM 学生论坛优秀墙报奖。</strong> 祝贺两位同学在中国工业与应用数学学会第十届学生论坛获奖！本届论坛共有135名学生参与展示，最终评出13份优秀墙报。白静言也入选论坛并参加展示。 <a href="https://mp.weixin.qq.com/s/PhRMWpL_K2bFUqnZGjzbgA">阅读全文 →</a></p>
+  </article>
+  <article class="news-card">
     <div class="news-meta"><span class="news-date">2026年9月</span><span class="news-tag news-tag--projects">项目与合作</span></div>
     <p><strong>虚拟细胞研究获青C资助。</strong> 祝贺李梦雨的项目《面向虚拟细胞的最优传输序贯采样与条件生成研究》获国家自然科学基金青年科学基金项目（C类）资助！</p>
   </article>
