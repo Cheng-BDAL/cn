@@ -284,6 +284,10 @@ Hi，大家好，我是孟澄，目前在中国人民大学（RUC）统计与大
 <div class="news-list">
   <article class="news-card">
     <div class="news-meta"><span class="news-date">2026年10月</span><span class="news-tag news-tag--awards">学生荣誉</span></div>
+    <p><strong>十位同学获得研究生学业奖学金一等奖。</strong> 祝贺朱珺、王涛、杜承朔、欧阳夏雪、林俊一、薛敦耀、董雨铮、向智鹏、蒋文浩、黄玙凡，10位同学获得统计与大数据研究院研究生学业奖学金一等奖（年级前30%）！</p>
+  </article>
+  <article class="news-card">
+    <div class="news-meta"><span class="news-date">2026年10月</span><span class="news-tag news-tag--awards">学生荣誉</span></div>
     <p><strong>欧阳夏雪、王培泽获 CSIAM 学生论坛优秀墙报奖。</strong> 祝贺两位同学在中国工业与应用数学学会第十届学生论坛获奖！本届论坛共有135名学生参与展示，最终评出13份优秀墙报。白静言也入选论坛并参加展示。 <a href="https://mp.weixin.qq.com/s/PhRMWpL_K2bFUqnZGjzbgA">阅读全文 →</a></p>
   </article>
   <article class="news-card">
