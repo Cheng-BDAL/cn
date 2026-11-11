@@ -104,7 +104,7 @@ author_profile: true
   </div>
   <div class="admission-panel">
     <h3>论文与产业合作平台</h3>
-    <p>组内已有 NeurIPS、ICML、ICLR、JMLR、Biometrika 等成果，并与华为等单位保持长期合作，可提供较强的实习、工作内推机会。</p>
+    <p>组内学生以第一作者在 JASA、JMLR 等期刊发表论文或获录用，团队成果也见于 Biometrika、NeurIPS、ICML 和 ICLR。团队与华为等单位保持长期合作，可提供实习和工作内推机会。</p>
   </div>
   <div class="admission-panel">
     <h3>成长支持与组内氛围</h3>

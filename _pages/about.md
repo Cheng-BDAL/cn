@@ -283,6 +283,10 @@ Hi，大家好，我是孟澄，目前在中国人民大学（RUC）统计与大
 
 <div class="news-list">
   <article class="news-card">
+    <div class="news-meta"><span class="news-date">2026年11月</span><span class="news-tag news-tag--papers">论文成果</span></div>
+    <p><strong>李梦雨的序贯蒙特卡洛重采样论文被 JASA 接收！</strong> 祝贺梦雨！这项与孟澄、刘军合作的研究，用最优传输在重采样时生成新粒子，让粒子数量有限时也能保留更多样的样本。 <a href="https://arxiv.org/abs/2610.17924">查看论文 →</a></p>
+  </article>
+  <article class="news-card">
     <div class="news-meta"><span class="news-date">2026年10月</span><span class="news-tag news-tag--awards">学生荣誉</span></div>
     <p><strong>十位同学获得研究生学业奖学金一等奖。</strong> 祝贺朱珺、王涛、杜承朔、欧阳夏雪、林俊一、薛敦耀、董雨铮、向智鹏、蒋文浩、黄玙凡，10位同学获得统计与大数据研究院研究生学业奖学金一等奖（年级前30%）！</p>
   </article>
@@ -298,10 +302,6 @@ Hi，大家好，我是孟澄，目前在中国人民大学（RUC）统计与大
     <div class="news-meta"><span class="news-date">2026年8月</span><span class="news-tag news-tag--papers">论文成果</span></div>
     <p><strong>大模型解码的集成剪枝工作被 EMNLP 2026 主会接受。</strong> 祝贺薛敦耀、杜承朔、王政博等的论文《Beyond Truncation: Rethinking LLM Decoding as Ensemble Pruning》被自然语言处理顶会 EMNLP 2026 主会接收！本届共收到 17,669 篇投稿，其中 2,719 篇进入主会，主会录用率为 15.4%。该工作也被知名 AI 公众号“机器之心”宣传报道！ <a href="https://mp.weixin.qq.com/s/ChcBYE_i2YdKuBIwpFphtA">阅读全文 →</a></p>
   </article>
-  <article class="news-card">
-    <div class="news-meta"><span class="news-date">2026年7月</span><span class="news-tag news-tag--team">团队动态</span></div>
-    <p><strong>紫禁之巅再开场：朱珺、王培泽分享两项统计方法工作。</strong> 朱珺和王培泽受邀参加【紫禁之巅】青年学者论文分享会，分别围绕“精准投影”和“数据质量上限评估”展开报告交流；两场报告录屏已上线。 <a href="https://cheng-bdal.github.io/cn/news/zijin-summit-2026-07-31/">阅读全文 →</a></p>
-  </article>
 </div>
 
 <div class="news-more">
@@ -311,6 +311,10 @@ Hi，大家好，我是孟澄，目前在中国人民大学（RUC）统计与大
 <h3 class="news-year-heading">2026</h3>
 
 <div class="news-list">
+  <article class="news-card">
+    <div class="news-meta"><span class="news-date">2026年7月</span><span class="news-tag news-tag--team">团队动态</span></div>
+    <p><strong>紫禁之巅再开场：朱珺、王培泽分享两项统计方法工作。</strong> 朱珺和王培泽受邀参加【紫禁之巅】青年学者论文分享会，分别围绕“精准投影”和“数据质量上限评估”展开报告交流；两场报告录屏已上线。 <a href="https://cheng-bdal.github.io/cn/news/zijin-summit-2026-07-31/">阅读全文 →</a></p>
+  </article>
   <article class="news-card">
     <div class="news-meta"><span class="news-date">2026年7月</span><span class="news-tag news-tag--team">团队动态</span></div>
     <p><strong>贵阳会场：李梦雨参与的合作工作亮相大会 keynote。</strong> 李梦雨赴贵阳参加第四届统计与数据科学联合会议，并参与刘军教授大会报告相关合作工作；会场上，她也与 BDAL 毕业生、波士顿大学助理教授成慧敏老师相聚交流。 <a href="https://cheng-bdal.github.io/cn/news/jcsds-guiyang-2026/">阅读全文 →</a></p>
