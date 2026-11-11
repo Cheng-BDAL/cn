@@ -284,7 +284,7 @@ Hi，大家好，我是孟澄，目前在中国人民大学（RUC）统计与大
 <div class="news-list">
   <article class="news-card">
     <div class="news-meta"><span class="news-date">2026年11月</span><span class="news-tag news-tag--papers">论文成果</span></div>
-    <p><strong>李梦雨的序贯蒙特卡洛重采样论文被 JASA 接收！</strong> 祝贺梦雨！这项与孟澄、刘军合作的研究，用最优传输在重采样时生成新粒子，让粒子数量有限时也能保留更多样的样本。 <a href="https://arxiv.org/abs/2610.17924">查看论文 →</a></p>
+    <p><strong>李梦雨的序贯蒙特卡洛重采样论文被 JASA 接收！</strong> 祝贺梦雨！这项与孟澄、刘军合作的研究，用最优传输在重采样时生成新粒子，让粒子数量有限时也能保留更多样的样本。 <a href="https://arxiv.org/abs/2610.17924">阅读全文 →</a></p>
   </article>
   <article class="news-card">
     <div class="news-meta"><span class="news-date">2026年10月</span><span class="news-tag news-tag--awards">学生荣誉</span></div>
