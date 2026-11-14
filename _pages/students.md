@@ -338,7 +338,7 @@ author_profile: true  # 可选，视需要是否显示作者信息
   </tr>
   <tr>
     <td><img loading="lazy" src="https://cheng-bdal.github.io/images/team-optimized/黄玙凡.webp" alt="Yufan Huang"><br><strong class="student-name">黄玙凡</strong><br>2026级硕士<br>中国人民大学，数学学院本科<br><span class="student-email">huangyf0710 at ruc dot edu dot cn</span></td>
-    <td><span class="student-portrait--yeheng-tang"><img loading="lazy" src="https://cheng-bdal.github.io/images/team-optimized/yeheng-tang.webp" alt="Yeheng Tang"></span><br><strong class="student-name">汤业恒</strong><br>2026级硕士<br>联合指导：杨松山副教授<br>西安交通大学，经济与金融学院<br><span class="student-email">2026104378 at ruc dot edu dot cn</span></td>
+    <td><span class="student-portrait--yeheng-tang"><img loading="lazy" src="https://cheng-bdal.github.io/images/team-optimized/yeheng-tang.webp" alt="Yeheng Tang"></span><br><strong class="student-name">汤业恒</strong><br>2026级硕士<br>联合指导：杨松山副教授<br>西安交通大学，经济与金融学院本科<br><span class="student-email">2026104378 at ruc dot edu dot cn</span></td>
     <td><img loading="lazy" src="https://cheng-bdal.github.io/images/team-optimized/蒋璇.webp" alt="Xuan Jiang"><br><strong class="student-name">蒋璇</strong><br>2024级本科（北邮数学学院）<br>联合指导：张静怡研究员<br><span class="student-email">2024212523 at bupt dot cn</span></td>
   </tr>
   <tr>
